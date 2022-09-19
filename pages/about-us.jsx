@@ -6,14 +6,12 @@ import Link from 'next/link'
 import TeamExperts from '../components/Testimonials/TeamExperts'
 import { socialData } from '../components/dummyData'
 import CourseFeatures from '../components/Testimonials/CourseFeatures'
+import Seo from '../components/common/Seo'
 
 const index = () => {
     return (
         <Layout>
-
-            <Head>
-                <title>About Us | NetworkersHome</title>
-            </Head>
+            <Seo />
             <div className="container pt-4 pb-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
                 <div className="grid grid-cols-2 gap-6">
                     {['about-1.webp', 'about-2.webp', 'about-3.webp', 'about-4.webp'].map(img => (
