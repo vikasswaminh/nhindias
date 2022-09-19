@@ -11,7 +11,12 @@ import Seo from '../components/common/Seo'
 const index = () => {
     return (
         <Layout>
-            <Seo />
+            <Seo
+                title={'About Networkershome | About Us'}
+                desc={`All about Networkershome and its story.`}
+                og_img='https://www.networkershome.com/_next/image?url=%2Fassets%2Fimages%2Fabout-2.webp&w=1920&q=75'
+                keywords="Networkers Home about us, about networkershome, about ccie, networkershome story"
+            />
             <div className="container pt-4 pb-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
                 <div className="grid grid-cols-2 gap-6">
                     {['about-1.webp', 'about-2.webp', 'about-3.webp', 'about-4.webp'].map(img => (
