@@ -80,7 +80,7 @@ const index = () => {
             <div className="container py-12">
                 <Syllabus slicingIndex={1 + (syllabusData.length / 2)} title={'CCNA Course Syllabus'} data={syllabusData} />
             </div>
-            <img src="/assets/images/course-banner.jpg" alt="" className="w-full h-full" />
+            <img alt='image' src="/assets/images/course-banner.jpg" alt="" className="w-full h-full" />
             <CourseFeatures noBG={true} />
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
@@ -89,7 +89,7 @@ const index = () => {
                         <p className="text-white text-base lg:text-lg">
                             Checkout full syllabus for relevant courses
                         </p>
-                    </div>
+                    </div >
                     <div className="flex flex-col space-y-4">
                         <a href='https://uploads-ssl.webflow.com/62a3260623ec5b668eeb0d5d/62ac3c289988300eb63458e1_CCNA.pdf' className="bg-[#fff] mt-4 md:mt-0 font-semibold py-3 px-6 border-2 border-white rounded-lg">Download</a>
                         <Link href='/networkers-home-contact-us'>
@@ -100,14 +100,14 @@ const index = () => {
                             </a>
                         </Link>
                     </div>
-                </div>
-            </div>
+                </div >
+            </div >
             <PlacementRecords />
             <CustomerReviews />
             <TeamExperts />
             <ContactusTestimonial />
             <ArticlesAndCourses />
-        </Layout>
+        </Layout >
     )
 }
 

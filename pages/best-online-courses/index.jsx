@@ -14,7 +14,7 @@ const index = () => {
 
             <div className="flex my-12 container  flex-col space-y-12">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase text-center">BEST IT CERTIFICATIONS LIST 2022</h1>
-                <img src="/assets/images/people4.jpeg" alt="" className="w-full h-full max-h-[40rem] object-cover" />
+                <img alt='image' src="/assets/images/people4.jpeg" alt="" className="w-full h-full max-h-[40rem] object-cover" />
 
             </div>
             <div className="themeBg py-12 mt-12">
@@ -43,7 +43,7 @@ const index = () => {
                                 Oracle Certified Professional Cloud Service Provider (OCP) SaaS Applications
                             </p>
                         </div>
-                        <img src="/assets/images/cloud-certificates.jpeg" className="w-full h-full object-cover" />
+                        <img alt='image' src="/assets/images/cloud-certificates.jpeg" className="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
@@ -53,9 +53,9 @@ const index = () => {
                     <p>
                         The top IT networking certifications 2022 are available to help you with your career. These are the best and most relevant certifications for those in the IT industry.Top 10 IT networking certifications:1. Cisco CCNA Routing and Switching2. Microsoft MCSA Windows Server 20163. Linux Professional Institute LPIC-1 Certification4. CompTIA A+ Certification5. CompTIA Network+ Certification6. Juniper Networks Certified Associate (JNCIA) JNCIS-ENT Certification7. Juniper Networks Certified Associate (JNCIA) JNCIS-SEC Certification8. Microsoft MCSA Windows Server 2012 R2 or higher, or MCSA Office 365 Administration 2016 or higher.
                     </p>
-                </div>
+                </div >
                 <div className="grid items-center grid-cols-1 gap-8 lg:grid-cols-2">
-                    <img src="/assets/images/tut1.jpeg" alt="" className="w-full h-full" />
+                    <img alt='image' src="/assets/images/tut1.jpeg" alt="" className="w-full h-full" />
                     <div className="flex flex-col space-y-4">
                         <h3 className='text-2xl lg:text-4xl font-bold'>Top Programming courses</h3>
                         <p className='text-lg md:text-xl'>
@@ -67,8 +67,8 @@ const index = () => {
                             C++ Programming Language<br />
                             Advanced JavaScript<br />
                         </p>
-                    </div>
-                </div>
+                    </div >
+                </div >
                 <div className="flex flex-col space-y-4">
                     <h3 className='text-2xl lg:text-4xl font-bold'>Best Cyber security course list 2022</h3>
                     <p className='text-lg md:text-xl'>
@@ -83,10 +83,10 @@ const index = () => {
                     </p>
 
                 </div>
-            </div>
+            </div >
             <ArticlesAndCourses />
             <ContactusTestimonial />
-        </Layout>
+        </Layout >
     )
 }
 

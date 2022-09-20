@@ -19,7 +19,7 @@ const ReviewCard = ({ rating, message, name }) => {
       className='bg-white w-full space-y-6 border border-gray-100 rounded-lg p-4 shadow-lg transition-all ease-in-out duration-150 flex flex-col max-w-screen '>
       <div className="flex space-x-4 items-center">
         <div className="w-14 h-14 rounded-full bg-gray-200">
-          <img src='/assets/images/reviewDp.png' />
+          <img alt='image' src=' /assets/images/reviewDp.png' />
         </div>
         <div className='flex flex-col space-y-2'>
           <h3 className='text-lg'>{name}</h3>

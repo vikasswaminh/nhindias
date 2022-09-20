@@ -69,7 +69,7 @@ const HomeSlider = () => {
                             key={i}
                         >
                             <SwiperSlide className='max-w-[40rem] rounded-3xl mt-6 mb-16 max-h-[24rem] h-full flex items-center overflow-hidden'>
-                                <img className='hover:scale-105 transition-all max-w-full object-cover duration-500' src={img} alt='image' />
+                                <img alt='image' className=' hover:scale-105 transition-all max-w-full object-cover duration-500' src={img} alt='image' />
                             </SwiperSlide>
                         </div>
                     ))}

@@ -73,7 +73,7 @@ const JobItem = ({ item }) => {
                 </div>
             </div>
             <div className="border flex flex-col mx-auto md:hidden max-w-[25rem] rounded overflow-hidden shadow-lg">
-                <img className="w-full" src={imageUrl} alt="Sunset in the mountains" />
+                <img alt='image' className="w-full" src={imageUrl} alt="Sunset in the mountains" />
                 <div className="px-2 py-4">
                     <div className="font-bold text-xl mb-2">{title} | {vacancyType}</div>
                     <p className="text-gray-700 text-base">
@@ -97,7 +97,8 @@ const JobItem = ({ item }) => {
                                 <FiUserCheck className='text-lg font-bold' /> <span>{experience}</span>
                             </div>
                         </div>
-                        {isHot &&
+                        {
+                            isHot &&
                             <div className="flex mr-6 mb-2 space-x-2  text-lg items-center">
                                 <div className="flex font-bold text-lg items-center space-x-2">
                                     <FaHotjar /> <span>Hot Job</span>
@@ -110,14 +111,14 @@ const JobItem = ({ item }) => {
                             </div>
                         </div>
 
-                    </div>
-                </div>
+                    </div >
+                </div >
                 <Link href='mailto:preeti@networkershome.com?subject=For%20Job@NH'>
                     <a tar className="max-w-[10rem] mb-4 ml-4">
                         <Button text={'Send CV'} />
                     </a>
                 </Link>
-            </div>
+            </div >
         </>
     )
 }
