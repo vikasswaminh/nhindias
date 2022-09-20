@@ -9,6 +9,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     'CCNA - 200 - 301',
@@ -24,11 +25,11 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>FortiGate Firewall Course | NetworkersHome</title>
-                <meta content="Master security techniques and implement them to protect data and information with our FortiGate Firewall course. Register for this course and pursue a career at one of the world’s renowned firewall providers!" name="description" />
-                <meta name="keywords" content="FortiGate Firewall (10), FortiGate Firewall expert (1)" />
-            </Head>
+            <Seo
+                title="FortiGate Firewall Course | NetworkersHome"
+                desc="Master security techniques and implement them to protect data and information with our FortiGate Firewall course. Register for this course and pursue a career at one of the world’s renowned firewall providers!"
+                keywords='FortiGate Firewall (10), FortiGate Firewall expert (1)'
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>FortiGate Firewall Course</h1>
@@ -61,7 +62,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h2>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             By the end of the course, you will acquire a solid understanding of how to deploy and maintain primary and advanced Network Security Solutions. The course also demonstrates how to allow users to connect to a network in a secure way remotely. The objectives that will be achieved by the end of this are as follows:

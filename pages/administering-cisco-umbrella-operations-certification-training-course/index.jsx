@@ -9,6 +9,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     `ISE Administrators`,
@@ -48,11 +49,11 @@ const sideList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Administering Cisco Umbrella Operations v2.0 Certification Training Course | NetworkersHome</title>
-                <meta name="description" content="Register for the Administering Cisco Umbrella Operations v2.0 training course at Networkers Home without further ado. Explore the features of the world’s leading security solutions provider and become a security solutions expert!" />
-                <meta content="Administering Cisco Umbrella Operations v2.0 training (7),Cisco Umbrella (9), Cisco Umbrella Operations (2)" name="keywords" />
-            </Head>
+            <Seo
+                title="Administering Cisco Umbrella Operations v2.0 Certification Training Course | NetworkersHome"
+                desc="Register for the Administering Cisco Umbrella Operations v2.0 training course at Networkers Home without further ado. Explore the features of the world’s leading security solutions provider and become a security solutions expert!"
+                keywords={'Administering Cisco Umbrella Operations v2.0 training, Cisco Umbrella, Cisco Umbrella Operations'}
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-5 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-3 flex flex-col space-y-5">
                     <h1 className='text-2xl lg:text-4xl font-bold'>Administering Cisco Umbrella Operations v2.0 Certification Training Course</h1>
@@ -85,7 +86,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1 lg:col-span-2  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h3 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h3>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             Networkers Home offers Advanced Level Cisco Certification for Engineers, alongside extensive and engaging resource material. With our thorough and expertly crafted course on Administering Cisco Umbrella Operations v2.0 Training, you will be a pro before you know it! The course will help you achieve the following objectives and prepare you for the professional world.

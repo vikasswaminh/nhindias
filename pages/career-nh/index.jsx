@@ -4,16 +4,16 @@ import React from 'react'
 import Videos from '../../components/Pages/career/Videos'
 import JobsSection from '../../components/Pages/career/JobsSection'
 import Image from 'next/image'
+import Seo from '../../components/common/Seo'
 
 const index = () => {
     return (
         <div>
             <Layout>
-                <Head>
-                    <title>Jobs @NETWORKERS HOME | NetworkersHome</title>
-                    <meta content="Best CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC " name="description" />
-                </Head>
-
+                <Seo
+                    title="Jobs @NETWORKERS HOME | NetworkersHome"
+                    desc="Best CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC"
+                />
                 <div className="flex flex-col space-y-12 pt-12">
                     <div className="container grid grid-cols-1 gap-6 lg:grid-cols-2">
                         <div className="w-full h-full relative overflow-hidden rounded-xl  aspect-square max-w-[40rem] mx-auto">
@@ -22,9 +22,9 @@ const index = () => {
                         </div>
                         <div className="flex my-auto flex-col space-y-6 max-w-[40rem] mx-auto">
                             <div className="flex flex-col space-y-3">
-                                <h2 className="text-3xl font-bold lg:text-4xl">
+                                <h1 className="text-3xl font-bold lg:text-4xl">
                                     NH Group
-                                </h2>
+                                </h1>
                                 <div className="h-1 w-20 bg-themeColor">
 
                                 </div>

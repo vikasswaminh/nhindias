@@ -9,6 +9,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     'CCNA - 200 - 301',
@@ -24,11 +25,11 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>AWS Associate Training Course | NetworkersHome</title>
-                <meta content="Become an AWS Solutions Architect by taking our AWS Associate Training course and taking your architecture skills to another level! Enroll now!" name="description" />
-                <meta name="keywords" content=": Amazon Web Services (4), AWS Solutions Architects (2), AWS Associate (4), AWS Solutions Architect-Associate Exam (1)" />
-            </Head>
+            <Seo
+                title="AWS Associate Training Course | NetworkersHome"
+                desc="Become an AWS Solutions Architect by taking our AWS Associate Training course and taking your architecture skills to another level! Enroll now!"
+                keywords={'Amazon Web Services (4), AWS Solutions Architects (2), AWS Associate (4), AWS Solutions Architect-Associate Exam (1)'}
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>AWS Associate Training Course</h1>
@@ -66,7 +67,7 @@ const index = () => {
 
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h3 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h3>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             With an in-depth insight into the AWS Associate world, our AWS Associate Training course aims to attain the following with the completion of the course:

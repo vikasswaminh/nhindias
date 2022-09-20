@@ -7,6 +7,7 @@ import CustomerReviews from '../../components/Testimonials/CustomerReviews'
 import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
+import Seo from '../../components/common/Seo'
 
 
 const descList = [
@@ -21,10 +22,10 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Engineer starter program | NetworkersHome</title>
-                <meta content=" Best Engineer starter program in the world " name="description" />
-            </Head>
+            <Seo
+                title="Engineer starter program | NetworkersHome"
+                desc="Best Engineer starter program in the world"
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-extrabold'>Engineer starter program</h1>
@@ -55,13 +56,13 @@ const index = () => {
 
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h2>
                     <div className="flex flex-col space-y-2">
-                        <h1 className='text-base  lg:text-lg'>
+                        <h3 className='text-base  lg:text-lg'>
                             There are many benefits to getting IT certification training, including the potential for higher pay,
                             increased job satisfaction, and improved career prospects. If {`you're`} thinking of pursuing an IT career,
                             certification training can give you the skills and knowledge you need to succeed.
-                        </h1>
+                        </h3>
                         <div className='flex flex-col space-y-2'>
                             <li className='text-base lg:text-lg'>
                                 Life time recorded videos.

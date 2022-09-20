@@ -7,14 +7,15 @@ import ContactusTestimonial from '../../components/Testimonials/ContactusTestimo
 import ArticlesAndCourses from '../../components/Testimonials/ArticlesAndCourses'
 import { coursePageGridData } from '../../components/dummyData'
 import Head from 'next/head'
+import Seo from '../../components/common/Seo'
 
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Best Networking IT Courses and training. Learn cloud, cyber security and Networking skills</title>
-        <meta content=" Best IT Certifications Training Online and recorded videos,Course fee,duration, syllabus and lab practice  " name="description" />
-            </Head>
+            <Seo
+                title="Best Networking IT Courses and training. Learn cloud, cyber security and Networking skills"
+                desc="Best IT Certifications Training Online and recorded videos, Course fee, duration, syllabus and lab practice"
+            />
             <CoursesGrid courses={coursePageGridData} />
             <Testimonials courses={coursePageProgramsData} />
             <ContactusTestimonial />

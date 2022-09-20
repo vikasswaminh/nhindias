@@ -45,7 +45,7 @@ const NavDrawer = ({ open, setOpen }) => {
                                         {route?.submenu?.map((route, i) => (
                                             <Link key={i} href={route.slug}>
                                                 <a className='flex py-2 items-center  space-x-2'>
-                                                    <HiChevronRight /> <h1 className=' font-semibold'>{route.heading}</h1>
+                                                    <HiChevronRight /> <h3 className=' font-semibold'>{route.heading}</h3>
                                                 </a>
                                             </Link>
                                         ))}

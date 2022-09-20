@@ -7,15 +7,16 @@ import CustomerReviews from '../../components/Testimonials/CustomerReviews'
 import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
+import Seo from '../../components/common/Seo'
 
 
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Cisco CCNA+CCNP Combo Training with placement | NetworkersHome</title>
-                <meta content="Best CCNA and CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC " name="description" />
-            </Head>
+            <Seo
+                title="Cisco CCNA+CCNP Combo Training with placement | NetworkersHome"
+                desc="Best CCNA and CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC."
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>Cisco CCNA+CCNP Combo</h1>
@@ -36,18 +37,18 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Features</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Features</h2>
                     <div className="flex flex-col space-y-2">
-                        <h1 className='text-lg  lg:text-xl'>
+                        <h3 className='text-lg  lg:text-xl'>
                             Candidate should have good English communication skills in order to seek placement although multiple placement sessions are organized . Minimum graduate candidates can apply for admission .We donot offer placement for undergraduates at this time.The Program is a 100% placement Program which means you will have access to unlimited placement opportunities every month to appear in multiple interviews with multiple companies. Addon Modules
-                        </h1>
+                        </h3>
                     </div>
                 </div>
             </div>
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h1>
+                        <h3 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h3>
                         <p className="text-white text-base lg:text-lg">
                             Checkout full syllabus for relevant courses
                         </p>

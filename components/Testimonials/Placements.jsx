@@ -9,8 +9,8 @@ const Placements = () => {
       <div
         className="flex flex-col space-y-6 justify-center lg:justify-left text-center lg:text-left">
         <div className="flex flex-col  space-y-3">
-          <h1 className='text-3xl md:text-4xl font-lato lg:text-5xl font-bold'>Unlimited Learning</h1>
-          <h1 className='text-3xl md:text-4xl font-lato lg:text-5xl font-bold'>Unbeatable Placements</h1>
+          <h3 className='text-3xl md:text-4xl font-lato lg:text-5xl font-bold'>Unlimited Learning</h3>
+          <h3 className='text-3xl md:text-4xl font-lato lg:text-5xl font-bold'>Unbeatable Placements</h3>
           <div className="h-1 mx-auto lg:mx-0 bg-themeColor w-[8rem]"></div>
 
         </div>
@@ -31,7 +31,9 @@ const Placements = () => {
 
       <div
       >
-        <img alt='img' src={'/assets/images/placement.png'} className='w-full h-full object-cover' />
+        <picture>
+          <img alt='image' src={'/assets/images/placement.png'} className='w-full h-full object-cover' />
+        </picture>
       </div>
 
     </div>

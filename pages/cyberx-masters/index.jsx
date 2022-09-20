@@ -8,6 +8,7 @@ import CustomerReviews from '../../components/Testimonials/CustomerReviews'
 import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import { RiStarSFill } from 'react-icons/ri'
 import Link from 'next/link'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     'CCNA - 200 - 301',
@@ -22,10 +23,10 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title> CEH| Pen Testing Course with placement  | NetworkersHome</title>
-                <meta content="Cyber security training with placement, 100 placement program " name="description" />
-            </Head>
+            <Seo
+                title="CEH | Pen Testing Course with placement  | NetworkersHome"
+                desc="Cyber security training with placement, 100 placement program"
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>Cyberx Masters</h1>
@@ -58,7 +59,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Features</h1>
+                    <h3 className='text-2xl lg:text-4xl font-bold mb-4'>Course Features</h3>
                     <div className="flex flex-col space-y-2">
                         <li className='text-base lg:text-lg'>
                             Get your hands on world-class cyber security training by Certified Ethical Hackers
@@ -75,7 +76,7 @@ const index = () => {
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h1>
+                        <h3 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h3>
                         <p className="text-white text-base lg:text-lg">
                             Checkout full syllabus for relevant courses
                         </p>

@@ -9,6 +9,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     'CCNA - 200 - 301',
@@ -24,11 +25,12 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Certified Ethical Hacker v11 Certification Training | NetworkersHome</title>
-                <meta content="Are you someone looking for a course to refine your Ethical Hacking skills or just a beginner who wants to learn Ethical Hacking techniques? Our Certified Ethical Hacker (CEH) v11 Training course has been redesigned, now better than ever. Register now and start your journey to becoming Certified Ethical Hacker!" name="description" />
-                <meta name="keywords" content="CEH Ethical Hacker (10),CEH Ethical Hacker Training (3), CEH v11 Training (1), CEH v11 test (1), CEH certification (1)" />
-            </Head>
+            <Seo
+                title="Certified Ethical Hacker v11 Certification Training | NetworkersHome"
+                desc="Are you someone looking for a course to refine your Ethical Hacking skills or just a beginner who wants to learn Ethical Hacking techniques? Our Certified Ethical Hacker (CEH) v11 Training course has been redesigned, now better than ever. Register now and start your journey to becoming Certified Ethical Hacker!"
+                keywords={'CEH Ethical Hacker (10),CEH Ethical Hacker Training (3), CEH v11 Training (1), CEH v11 test (1), CEH certification (1)'}
+            />
+
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>Certified Ethical Hacker v11 Certification Training Course</h1>
@@ -57,7 +59,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h2>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             With an in-depth insight into the Ethical Hacking world, our <span className='font-bold'>CEH Ethical Hacker</span> v11 Training course aims to attain the following with the completion of the course:

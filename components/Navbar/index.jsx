@@ -102,7 +102,7 @@ const Index = () => {
                                                     className={`p-4 h-fit bg-white hover:bg-gray-50 cursor-pointer border-b`}>
                                                     <Link href={slug}>
                                                         <a>
-                                                            <h1 className='text-base font-semibold'>{heading}</h1>
+                                                            <h3 className='text-base font-semibold'>{heading}</h3>
                                                             <p className='text-xs md:text-sm'>{description}</p>
                                                         </a>
                                                     </Link>

@@ -10,6 +10,7 @@ import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import Link from 'next/link'
 import TeamExperts from '../../components/Testimonials/TeamExperts'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     'Network fundamentals',
@@ -23,10 +24,10 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>CCNA Course Details | Training Duration, Online, Fee Structure, Career Options, Syllabus, and Salary in Bangalore india</title>
-                <meta content="Best CCNA Course training in Bangalore. Know CCNA Certification Course Duration, scope, job options" name="description" />
-            </Head>
+            <Seo
+                title="CCNA Course Details | Training Duration, Online, Fee Structure, Career Options, Syllabus, and Salary in Bangalore india"
+                desc="Best CCNA Course training in Bangalore. Know CCNA Certification Course Duration, scope, job options."
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>CCNA Course 200-301</h1>
@@ -45,7 +46,7 @@ const index = () => {
                             CCNA 200-301 Training in both online and classroom mode.  The CCNA certification is valid for three years.. Upon completing the course, you will receive a certificate of completion, ensuring you have the skills needed to become a CCNA and start your career in IT networking! We offer CCNA course in online and classroom format. Programs comes with lifetime video library access as well as free exam prep software. The market for IT professionals is booming, and the demand for Cisco Certified Networking Professionals is especially high.
                         </p>
                     </div>
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>CCNA Course Topics </h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>CCNA Course Topics </h2>
                     <div className="flex flex-col space-y-1">
                         {descList.slice(0, 6).map(item => (
                             <li className='text-lg lg:text-xl flex-1  font-semibold' key={item}>{item}</li>
@@ -54,12 +55,12 @@ const index = () => {
                 </div>
 
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-xl lg:text-2xl font-bold mb-4'>Benefits of CCNA certification</h1>
+                    <h3 className='text-xl lg:text-2xl font-bold mb-4'>Benefits of CCNA certification</h3>
                     <div className="flex flex-col space-y-2">
-                        <h1 className='text-base  lg:text-lg'>
+                        <h3 className='text-base  lg:text-lg'>
                             There are many benefits to obtaining a CCNA certification, including increased job security, opportunities for advancement, and higher salaries. <br />
                             Perhaps the most important benefit of CCNA certification is the ability to demonstrate to employers that you have the skills and knowledge necessary to perform complex networking tasks. With the ever-increasing reliance on networked systems, organizations are looking for employees who can keep their networks running smoothly. A CCNA certification gives you the credibility you need to stand out from the crowd and show employers that you are qualified for the job.
-                        </h1>
+                        </h3>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
                             Comprehensive, end-to-end coverage of all aspects of CCNA IT certification
                         </li>
@@ -79,16 +80,18 @@ const index = () => {
             <div className="container py-12">
                 <Syllabus slicingIndex={1 + (syllabusData.length / 2)} title={'CCNA Course Syllabus'} data={syllabusData} />
             </div>
-            <img src="/assets/images/course-banner.jpg" alt="" className="w-full h-full" />
+            <picture>
+                <img alt='image' src="/assets/images/course-banner.jpg" className="w-full h-full" />
+            </picture>
             <CourseFeatures noBG={true} />
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h1>
+                        <h3 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h3>
                         <p className="text-white text-base lg:text-lg">
                             Checkout full syllabus for relevant courses
                         </p>
-                    </div>
+                    </div >
                     <div className="flex flex-col space-y-4">
                         <a href='https://uploads-ssl.webflow.com/62a3260623ec5b668eeb0d5d/62ac3c289988300eb63458e1_CCNA.pdf' className="bg-[#fff] mt-4 md:mt-0 font-semibold py-3 px-6 border-2 border-white rounded-lg">Download</a>
                         <Link href='/networkers-home-contact-us'>
@@ -99,14 +102,14 @@ const index = () => {
                             </a>
                         </Link>
                     </div>
-                </div>
-            </div>
+                </div >
+            </div >
             <PlacementRecords />
             <CustomerReviews />
             <TeamExperts />
             <ContactusTestimonial />
             <ArticlesAndCourses />
-        </Layout>
+        </Layout >
     )
 }
 

@@ -8,6 +8,7 @@ import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     `Identify standard TCP / IP, network application, and endpoint assaults`,
@@ -64,11 +65,11 @@ const sideList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Implementing and Operating Cisco Security Core Technologies (SCOR) | NetworkersHome</title>
-                <meta name="description" content=": Register for Implementing and Operating Cisco Security Core Technologies (SCOR) course on Networkers Home and take the initial step towards Advanced Level Cisco Certifications!" />
-                <meta content="Cisco CCNP Security (1), CCIE Security (1) " name="keywords" />
-            </Head>
+            <Seo
+                title="Implementing and Operating Cisco Security Core Technologies (SCOR) | NetworkersHome"
+                desc="Register for Implementing and Operating Cisco Security Core Technologies (SCOR) course on Networkers Home and take the initial step towards Advanced Level Cisco Certifications!"
+                keywords={'Cisco CCNP Security (1), CCIE Security (1)'}
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-5 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-3 flex flex-col space-y-5">
                     <h1 className='text-2xl lg:text-4xl font-bold'>Implementing and Operating Cisco Security Core Technologies (SCOR) Course</h1>
@@ -100,7 +101,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1 lg:col-span-2  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h2>
                     <div className="flex flex-col space-y-2">
                         <p className="text-base lg:text-lg">
                             Furthermore, you will learn how to configure and implement:

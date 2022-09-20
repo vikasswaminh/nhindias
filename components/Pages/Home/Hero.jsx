@@ -12,16 +12,16 @@ const Hero = () => {
     return (
         <div className='min-h-screen  flex flex-col space-y-12'>
             <div className="flex flex-col container items-center space-y-6">
-                <h1
-                    className='text-lg md:text-xl font-semibold'>100% Placement programs</h1>
+                <h3
+                    className='text-lg md:text-xl font-semibold'>100% Placement programs</h3>
                 <h1
                     className='text-3xl font-lato font-extrabold text-center max-w-[55rem] md:text-5xl lg:text-7xl'>
                     CCIE, Cloud and Cyber Security Programs
                 </h1>
-                <h1
+                <h2
                     className='text-xl md:text-2xl max-w-[50rem] font-semibold text-center'>
                     Lifetime access to Videos. CCIE Certified instructors. 100% Placement programs
-                </h1>
+                </h2>
                 <Link
                     href='/networkers-home-contact-us'>
                     <a
@@ -69,7 +69,9 @@ const HomeSlider = () => {
                             key={i}
                         >
                             <SwiperSlide className='max-w-[40rem] rounded-3xl mt-6 mb-16 max-h-[24rem] h-full flex items-center overflow-hidden'>
-                                <img className='hover:scale-105 transition-all max-w-full object-cover duration-500' src={img} alt='image' />
+                                <picture>
+                                    <img className=' hover:scale-105 transition-all max-w-full object-cover duration-500' src={img} alt='image' />
+                                </picture>
                             </SwiperSlide>
                         </div>
                     ))}

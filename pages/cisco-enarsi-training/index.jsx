@@ -8,6 +8,7 @@ import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     `Learn how to configure, maintain, and troubleshoot a business network.`,
@@ -21,11 +22,11 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Implementing Cisco Enterprise Advanced Routing and Services (ENARSI) | NetworkersHome</title>
-                <meta name="description" content="Explore the ever-evolving world of Microsoft Azure by joining Networkers Home's Implementing Cisco Enterprise Advanced Routing and Services (ENARSI) Course!" />
-                <meta content="Microsoft Azure (3), Azure 204 Exam (1), AZ-204 Developing Solutions for Microsoft Azure Exam (1), Microsoft Azure Solutions (1)" name="keywords" />
-            </Head>
+            <Seo
+                title="Implementing Cisco Enterprise Advanced Routing and Services (ENARSI) | NetworkersHome"
+                desc="Explore the ever-evolving world of Microsoft Azure by joining Networkers Home's Implementing Cisco Enterprise Advanced Routing and Services (ENARSI) Course"
+                keywords={'Microsoft Azure (3), Azure 204 Exam (1), AZ-204 Developing Solutions for Microsoft Azure Exam (1), Microsoft Azure Solutions (1)'}
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-5 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-3 flex flex-col space-y-5">
                     <h1 className='text-2xl lg:text-4xl font-bold'>Implementing Cisco Enterprise Advanced Routing and Services (ENARSI) Course</h1>
@@ -55,7 +56,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1 lg:col-span-2  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h2>
                     <div className="flex flex-col space-y-2">
                         <p className="text-base lg:text-lg">
                             This course will enable students to achieve the following goals:

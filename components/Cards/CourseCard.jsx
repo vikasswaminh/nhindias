@@ -11,10 +11,10 @@ const CourseCard = ({ title, desc, link, projects, img, i }) => {
         data-aos-duration="800"
         className={``}>
         <div className='flex flex-col bg-white max-w-screen p-4 md:p-8 rounded-2xl min-h-full items-start hover:shadow-CourseCard  justify-center space-y-4 md:space-y-6 border transition-all ease-out duration-200'>
-          <h1 className="font-bold text-2xl md:text-3xl  lg:text-4xl">
+          <h3 className="font-bold text-2xl md:text-3xl  lg:text-4xl">
             {title}
-          </h1>
-          <h3 className="font-medium text-gray-500">{desc}</h3>
+          </h3>
+          <p className="font-medium text-gray-500">{desc}</p>
           {projects ? (
             <ul className="flex flex-col space-y-2 items-start text-left">
               {projects.map((project, i) => (
@@ -25,7 +25,9 @@ const CourseCard = ({ title, desc, link, projects, img, i }) => {
             </ul>
           ) : img && (
             <div>
-              <img src={img} className='rounded-xl' />
+              <picture>
+                <img src={img} className='rounded-xl' alt='img' />
+              </picture>
             </div>
           )}
         </div>

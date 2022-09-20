@@ -8,6 +8,7 @@ import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     `Operate and troubleshoot the Cisco ACI Fabric`,
@@ -35,11 +36,12 @@ const sideList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Cisco ACI Troubleshooting Training | NetworkersHome</title>
-                <meta name="description" content="Register now and learn the latest Cisco ACI troubleshooting techniques with our Cisco ACI Troubleshooting Training course!" />
-                <meta content="Cisco ACI (5), Cisco Application Centric Infrastructure (ACI) (1), ACI infrastructure (1)" name="keywords" />
-            </Head>
+            <Seo
+                title="Cisco ACI Troubleshooting Training | NetworkersHome"
+                desc="Register now and learn the latest Cisco ACI troubleshooting techniques with our Cisco ACI Troubleshooting Training course!"
+                keywords={'Cisco ACI (5), Cisco Application Centric Infrastructure (ACI) (1), ACI infrastructure (1)'}
+            />
+
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-5 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-3 flex flex-col space-y-5">
                     <h1 className='text-2xl lg:text-4xl font-bold'>Cisco ACI Troubleshooting Training (ACITS) Course</h1>
@@ -76,7 +78,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1 lg:col-span-2  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h3 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h3>
                     <div className="flex flex-col space-y-2">
                         <p className="text-base lg:text-lg">
                             The prime objective of this course is to upskill individuals with effective ACI troubleshooting techniques and deliver them to their customers. Consequently, they can provide ACI Support in the future on their own. This course teaches you to troubleshoot the ACI infrastructure efficiently. With the completion of the <span className='font-bold'>Cisco ACI Troubleshooting Training</span> course, you will be able to:
