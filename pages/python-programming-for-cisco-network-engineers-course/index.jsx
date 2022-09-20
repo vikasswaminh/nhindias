@@ -77,7 +77,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1 lg:col-span-2  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h2>
                     <div className="flex flex-col space-y-2">
                         <p className="text-base lg:text-lg">
                             With the help of the <span className='font-bold'>Python Programming for Cisco Network Engineers (PCNE)</span> course, you will build a strong concept on the fundamentals of Cisco platforms, automation, and applications. You will be able to use the following skills and knowledge to implement apps to meet corporate needs by the conclusion of the course.

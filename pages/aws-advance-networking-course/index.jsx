@@ -8,15 +8,16 @@ import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>AWS Advance Networking | NetworkersHome</title>
-                <meta content="Sign up for the AWS Advance Networking course now and grab the opportunity to work as a network expert at one of the world's biggest competitors in cloud technology, Amazon Web Services (AWS)!" name="description" />
-                <meta name="keywords" content="Amazon Web Service (1), AWS Networking (1), Advanced Networking (2), Advanced Networking Expert (1), AWS Network (1)" />
-            </Head>
+            <Seo
+                title="AWS Advance Networking | NetworkersHome"
+                desc="Sign up for the AWS Advance Networking course now and grab the opportunity to work as a network expert at one of the world's biggest competitors in cloud technology, Amazon Web Services (AWS)!"
+                keywords={'Amazon Web Service, AWS Networking, Advanced Networking, Advanced Networking Expert, AWS Network'}
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>AWS Advance Networking Course</h1>
@@ -47,7 +48,7 @@ const index = () => {
                 </div>
 
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h3 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h3>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             Below are some objectives that will be achieved with this course and will help you become a distinguished and promising Networking specialist.

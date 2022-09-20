@@ -9,6 +9,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     `Demonstrate the hierarchical network design model and architecture using access, distribution, and core layers`,
@@ -36,11 +37,12 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR) | NetworkersHome</title>
-                <meta name="description" content="Take the first step towards ENCOR Certification by registering for our CCNP Implementing Cisco Enterprise Network Core Technologies (ENCOR) v1.2 course, and learn advanced enterprise network skills!" />
-                <meta content="Cisco Enterprise Network Core Technologies (ENCOR) " name="keywords" />
-            </Head>
+            <Seo
+                title="Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR) | NetworkersHome"
+                desc="Take the first step towards ENCOR Certification by registering for our CCNP Implementing Cisco Enterprise Network Core Technologies (ENCOR) v1.2 course, and learn advanced enterprise network skills!"
+                keywords={'Cisco Enterprise Network Core Technologies (ENCOR) '}
+            />
+
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-5 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-3 flex flex-col space-y-5">
                     <h1 className='text-2xl lg:text-4xl font-bold'>CCNP Cisco Enterprise ENCOR 350-401 Certification Training Course</h1>
@@ -72,7 +74,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1 lg:col-span-2  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h3 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h3>
                     <div className="flex flex-col space-y-2">
                         <p className="text-base lg:text-lg">
                             The CCNP ENCOR v1.2 course opens a gateway to new opportunities and certifications, including the <span className='font-bold'>Cisco Enterprise Network Core Technologies (ENCOR)</span> exam. By the end of the course, students will be able to accomplish the following.

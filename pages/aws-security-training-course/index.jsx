@@ -6,17 +6,19 @@ import PlacementRecords from '../../components/Testimonials/PlacementRecords'
 import CustomerReviews from '../../components/Testimonials/CustomerReviews'
 import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import { RiStarSFill } from 'react-icons/ri'
-import Head from 'next/head'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>AWS Security Training | NetworkersHome</title>
-                <meta content="Network and security experts are in high demand, and there is no better time to upgrade your security skills than now. Our AWS Security Training course teaches the latest AWS tools and security protocols." name="description" />
-                <meta name="keywords" content="Amazon Web Services (AWS) (), AWS Security professional (1), AWS Security (1)" />
-            </Head>
+            <Seo
+                title="AWS Security Training | NetworkersHome"
+                desc="Network and security experts are in high demand, and there is no better time to upgrade your security skills than now. Our AWS Security Training course teaches the latest AWS tools and security protocols."
+                keywords={'Amazon Web Services (AWS) (), AWS Security professional (1), AWS Security (1)'}
+            />
+
+
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>AWS Security Training Course</h1>
@@ -51,7 +53,7 @@ const index = () => {
 
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h3 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h3>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             The objectives that will be achieved by the end of this course are as follows:

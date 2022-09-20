@@ -22,7 +22,7 @@ const ReviewCard = ({ rating, message, name }) => {
           <img src='/assets/images/reviewDp.png' />
         </div>
         <div className='flex flex-col space-y-2'>
-          <h1 className='text-lg'>{name}</h1>
+          <h3 className='text-lg'>{name}</h3>
           <div className='flex items-center'>
             {noOfStars(rating).map((num, i) => (
               <RiStarSFill key={num} className='text-yellow-500 text-xl' />

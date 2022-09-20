@@ -8,6 +8,7 @@ import CustomerReviews from '../../components/Testimonials/CustomerReviews'
 import { RiStarSFill } from 'react-icons/ri'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     'CCNA',
@@ -25,10 +26,13 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>CCIE Enterprise infrastructure Training | NetworkersHome</title>
-                <meta content="CCIE Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC " name="description" />
-            </Head>
+            <Seo
+                title="CCIE Enterprise infrastructure Training | NetworkersHome"
+                desc="CCIE Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC "
+
+            />
+
+
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>CCIE Enterprise infrastructure Training</h1>
@@ -59,11 +63,11 @@ const index = () => {
 
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Features</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Features</h2>
                     <div className="flex flex-col space-y-2">
-                        <h1 className='text-base  lg:text-lg'>
+                        <h3 className='text-base  lg:text-lg'>
                             Candidate should have good English communication skills in order to seek placement although multiple placement sessions are organized . Minimum graduate candidates can apply for admission .We donot offer placement for undergraduates at this time.The Program is a 100% placement Program which means you will have access to unlimited placement opportunities every month to appear in multiple interviews with multiple companies. Addon Modules
-                        </h1>
+                        </h3>
                         <div className="flex pt-4 flex-col space-y-1">
                             {descList.slice(6, 12).map(item => (
                                 <li className='text-lg lg:text-xl flex-1  font-bold' key={item}>{item}</li>
@@ -78,7 +82,7 @@ const index = () => {
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h1>
+                        <h3 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h3>
                         <p className="text-white text-base lg:text-lg">
                             Checkout full syllabus for relevant courses
                         </p>

@@ -9,6 +9,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     'CCNA - 200 - 301',
@@ -24,11 +25,11 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>F5 LTM v13 Training Course | NetworkersHome</title>
-                <meta content="Learn more about the popular F5 LTM platform with our F5 LTM v13 Training course and become an expert in designing and configuring F5 tools and features!" name="description" />
-                <meta name="keywords" content="F5 LTM (5), F5 LTM expert (2), BIG-IP F5 LTM technology (4), Local Traffic Manager (LTM) (2)" />
-            </Head>
+            <Seo
+                title="F5 LTM v13 Training Course | NetworkersHome"
+                desc="Learn more about the popular F5 LTM platform with our F5 LTM v13 Training course and become an expert in designing and configuring F5 tools and features!"
+                keywords='F5 LTM (5), F5 LTM expert (2), BIG-IP F5 LTM technology (4), Local Traffic Manager (LTM) (2)'
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>F5 LTM v13 Training Course</h1>
@@ -60,7 +61,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h2>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             After finishing our <span className='font-bold'>F5 LTM Training</span>   course, you will have the skills required to administer and configure F5 LTM Networks and execute the following:

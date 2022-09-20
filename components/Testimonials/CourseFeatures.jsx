@@ -19,7 +19,7 @@ const CourseFeatures = ({ noBG }) => {
               <SectionTitle leftOnly text={`Unique features to give you CCIE Training Experience`} />
             </div>
             <div className="hidden lg:flex">
-              <h1 className='font-bold text-3xl font-lato lg:text-4xl'>Unique features to give you CCIE Training Experience</h1>
+              <h3 className='font-bold text-3xl font-lato lg:text-4xl'>Unique features to give you CCIE Training Experience</h3>
             </div>
             <div className="h-1 bg-themeColor w-[8rem]"></div>
 

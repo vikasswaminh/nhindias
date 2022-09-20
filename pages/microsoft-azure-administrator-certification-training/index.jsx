@@ -9,6 +9,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     `Azure subscriptions`,
@@ -35,11 +36,12 @@ const sideList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>AZ-104 Microsoft Azure Administrator Certification Training  | NetworkersHome</title>
-                <meta name="description" content="Grab the opportunity to work at one of the world’s prominent cloud platforms by enrolling in Networkers Home’s AZ-104 Microsoft Azure Administrator Certification Training course!" />
-                <meta content="Microsoft Azure Certifications (), AZ-104 Azure Administrator test (1), Microsoft Azure (2), AZ-104 Microsoft Azure Administrator Exam (1)" name="keywords" />
-            </Head>
+            <Seo
+                title="AZ-104 Microsoft Azure Administrator Certification Training  | NetworkersHome"
+                desc="Grab the opportunity to work at one of the world’s prominent cloud platforms by enrolling in Networkers Home’s AZ-104 Microsoft Azure Administrator Certification Training course!"
+                keywords='Microsoft Azure Certifications (), AZ-104 Azure Administrator test (1), Microsoft Azure (2), AZ-104 Microsoft Azure Administrator Exam (1)'
+            />
+
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-5 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-3 flex flex-col space-y-5">
                     <h1 className='text-2xl lg:text-4xl font-bold'>AZ-104: Microsoft Azure Administrator Certification Training Course</h1>
@@ -74,7 +76,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1 lg:col-span-2  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h2>
                     <div className="flex flex-col space-y-2">
                         <p className="text-base lg:text-lg">
                             Individuals will achieve the following objectives with the completion of <span className='font-bold'>AZ-104 Microsoft Azure Administrator Certification Training</span>.

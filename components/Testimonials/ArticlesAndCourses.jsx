@@ -13,8 +13,8 @@ const ArticlesAndCourses = () => {
         <div className='w-full flex flex-col space-y-10 pt-12 themeBg'>
           <div className='flex w-full items-center pb-2 container flex-col md:flex-row justify-between gap-7'>
             <div className='flex  flex-col max-w-[35rem]'>
-              <h1 className='font-bold font-lato text-center md:text-left text-3xl md:text-4xl lg:text-5xl'>Discover our latest</h1>
-              <h1 className='font-bold mt-2 font-lato text-center md:text-left text-3xl md:text-4xl lg:text-5xl'>articles and insights.</h1>
+              <h3 className='font-bold font-lato text-center md:text-left text-3xl md:text-4xl lg:text-5xl'>Discover our latest</h3>
+              <h3 className='font-bold mt-2 font-lato text-center md:text-left text-3xl md:text-4xl lg:text-5xl'>articles and insights.</h3>
             </div>
             <div className='mx-auto md:mx-0'>
               <Button text='Get Started' />

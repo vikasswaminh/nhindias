@@ -9,6 +9,7 @@ import Head from 'next/head'
 import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 
 const index = () => {
@@ -18,10 +19,10 @@ const index = () => {
     ]
     return (
         <Layout>
-            <Head>
-                <title>CCNP Enterprise Trainining Online and Classroom Bangalore | NetworkersHome</title>
-                <meta content="Best CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC " name="description" />
-            </Head>
+            <Seo
+                title="CCNP Enterprise Trainining Online and Classroom Bangalore | NetworkersHome"
+                desc="Best CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC"
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <div className="w-full col-span-1 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>CCNP Enterprise infrastructure</h1>
@@ -50,14 +51,14 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-xl font-semibold lg:text-2xl mb-4'>CCNP Enterprise infra Course prerequisite</h1>
+                    <h2 className='text-xl font-semibold lg:text-2xl mb-4'>CCNP Enterprise infra Course prerequisite</h2>
                     <div className="flex flex-col space-y-2">
-                        <h1 className='text-base  lg:text-lg'>
+                        <h3 className='text-base  lg:text-lg'>
                             For CCNP Certification offered by Cisco, there are no prerequisites for both training and certification.
-                        </h1>
-                        <h1 className='text-base  lg:text-lg'>
+                        </h3>
+                        <h3 className='text-base  lg:text-lg'>
                             Generally, if you are a fresher candidate then make it sure that you begin with R&S( Enterprise now) track after which you may move ahead in the career ladder with some other track.
-                        </h1>
+                        </h3>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
                             Comprehensive, end-to-end coverage of all aspects of CCNP Enterprise IT certification
                         </li>
@@ -76,7 +77,7 @@ const index = () => {
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h1>
+                        <h3 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h3>
                         <p className="text-white text-base lg:text-lg">
                             Checkout full syllabus for relevant courses
                         </p>

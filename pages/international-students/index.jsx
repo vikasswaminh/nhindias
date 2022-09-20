@@ -4,16 +4,16 @@ import React from 'react'
 import { AiFillCaretRight } from 'react-icons/ai'
 import Videos from '../../components/Pages/career/Videos'
 import Image from 'next/image'
+import Seo from '../../components/common/Seo'
 
 const index = () => {
     return (
         <div>
             <Layout>
-                <Head>
-                    <title>International students @HOME NETWORKERS | NetworkersHome</title>
-                    <meta content="Best CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC " name="description" />
-                </Head>
-
+                <Seo
+                    title="International students @HOME NETWORKERS | NetworkersHome"
+                    desc="Best CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC"
+                />
                 <div className="flex flex-col  space-y-12 pt-12">
                     <div className="grid grid-cols-1 pb-8 container lg:grid-cols-2 gap-8">
                         <div className="aspect-square max-w-[40rem] mx-auto relative w-full h-full overflow-hidden rounded-xl">

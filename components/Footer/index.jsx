@@ -21,7 +21,7 @@ const index = () => {
                 </div>
                 <div className="flex flex-col space-y-6">
                     <div className="flex flex-col space-y-2">
-                        <h1 className='text-lg md:text-xl lg:text-xl'>Quick Links</h1>
+                        <h3 className='text-lg md:text-xl lg:text-xl'>Quick Links</h3>
                         <div className='h-1 bg-themeColor w-[4rem]'></div>
                     </div>
                     <ul className='space-y-4'>
@@ -34,7 +34,7 @@ const index = () => {
                 </div>
                 <div className="flex flex-col space-y-6">
                     <div className="flex flex-col space-y-2">
-                        <h1 className='text-lg md:text-xl lg:text-xl'>Social Links</h1>
+                        <h3 className='text-lg md:text-xl lg:text-xl'>Social Links</h3>
                         <div className='h-1 bg-themeColor w-[4rem]'></div>
                     </div>
                     <div className="flex space-x-4 items-center">

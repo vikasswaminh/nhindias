@@ -76,7 +76,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1 lg:col-span-2  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h2>
                     <div className="flex flex-col space-y-2">
                         <p className="text-base lg:text-lg">
                             With the conclusion of the <span className='font-bold'>AZ-500 Microsoft Azure Security Technologies Certification Training</span> course, individuals will accomplish the following goals.

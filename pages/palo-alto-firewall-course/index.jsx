@@ -66,7 +66,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h2>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             Below are some objectives that will be achieved with this course and will help you become a distinguished Palo Alto Firewall expert.

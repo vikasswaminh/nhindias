@@ -8,14 +8,16 @@ import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>AWS Professional Training | NetworkersHome</title>
-                <meta content=": Do you wish to become a professional solutions architect at the world’s top-tier cloud companies? Enroll in our AWS Professional Training course and take the first step towards a promising career!" name="description" />
-                <meta name="keywords" content="Amazon Web Services (AWS) (2), AWS Solutions Architect- Professional (3), AWS Solutions Architect – Associate (1)" />
-            </Head>
+            <Seo
+                title="AWS Professional Training  | NetworkersHome"
+                desc="Do you wish to become a professional solutions architect at the world’s top-tier cloud companies? Enroll in our AWS Professional Training course and take the first step towards a promising career!"
+                keywords={'Amazon Web Services (AWS) (2), AWS Solutions Architect- Professional (3), AWS Solutions Architect – Associate (1)'}
+            />
+
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>AWS Professional Training Course</h1>
@@ -47,7 +49,7 @@ const index = () => {
 
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
+                    <h3 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h3>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             In this course, you will study advanced AWS design features and AWS cross-account access. You will also learn various connectivity and integration techniques, including directory and data management, statistics, and other AWS core features. After finishing our <span className='font-bold'>AWS Professional Training</span> course, you will have the skills required to design and implement advanced AWS architectures and execute the following:
