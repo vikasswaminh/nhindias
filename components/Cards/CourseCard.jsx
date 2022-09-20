@@ -25,7 +25,7 @@ const CourseCard = ({ title, desc, link, projects, img, i }) => {
             </ul>
           ) : img && (
             <div>
-              <img src={img} className='rounded-xl' />
+              <img src={img} className='rounded-xl' alt='img' />
             </div>
           )}
         </div>

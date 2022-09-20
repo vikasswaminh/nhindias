@@ -31,7 +31,7 @@ const Placements = () => {
 
       <div
       >
-        <img alt='image' alt=' img' src={'/assets/images/placement.png'} className='w-full h-full object-cover' />
+        <img alt='image' src={'/assets/images/placement.png'} className='w-full h-full object-cover' />
       </div>
 
     </div>

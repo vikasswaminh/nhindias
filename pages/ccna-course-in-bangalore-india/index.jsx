@@ -80,7 +80,7 @@ const index = () => {
             <div className="container py-12">
                 <Syllabus slicingIndex={1 + (syllabusData.length / 2)} title={'CCNA Course Syllabus'} data={syllabusData} />
             </div>
-            <img alt='image' src="/assets/images/course-banner.jpg" alt="" className="w-full h-full" />
+            <img alt='image' src="/assets/images/course-banner.jpg" className="w-full h-full" />
             <CourseFeatures noBG={true} />
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
