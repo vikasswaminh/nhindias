@@ -14,7 +14,9 @@ const index = () => {
 
             <div className="flex my-12 container  flex-col space-y-12">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase text-center">BEST IT CERTIFICATIONS LIST 2022</h1>
-                <img alt='image' src="/assets/images/people4.jpeg" className="w-full h-full max-h-[40rem] object-cover" />
+                <picture>
+                    <img alt='image' src="/assets/images/people4.jpeg" className="w-full h-full max-h-[40rem] object-cover" />
+                </picture>
 
             </div>
             <div className="themeBg py-12 mt-12">
@@ -43,7 +45,9 @@ const index = () => {
                                 Oracle Certified Professional Cloud Service Provider (OCP) SaaS Applications
                             </p>
                         </div>
-                        <img alt='image' src="/assets/images/cloud-certificates.jpeg" className="w-full h-full object-cover" />
+                        <picture>
+                            <img alt='image' src="/assets/images/cloud-certificates.jpeg" className="w-full h-full object-cover" />
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -55,7 +59,9 @@ const index = () => {
                     </p>
                 </div >
                 <div className="grid items-center grid-cols-1 gap-8 lg:grid-cols-2">
-                    <img alt='image' src="/assets/images/tut1.jpeg" className="w-full h-full" />
+                    <picture>
+                        <img alt='image' src="/assets/images/tut1.jpeg" className="w-full h-full" />
+                    </picture>
                     <div className="flex flex-col space-y-4">
                         <h3 className='text-2xl lg:text-4xl font-bold'>Top Programming courses</h3>
                         <p className='text-lg md:text-xl'>

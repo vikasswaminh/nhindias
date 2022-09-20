@@ -15,7 +15,9 @@ const Error = () => {
             />
             <div className="min-h-screen flex items-start justify-center">
                 <div className="flex flex-col">
-                    <img alt='image' src="/assets/images/404.webp" className="w-full h-full" />
+                    <picture>
+                        <img alt='image' src="/assets/images/404.webp" className="w-full h-full" />
+                    </picture>
                     <h1 className='text-4xl text-center text-themeColor font-bold md:text-6xl'>
                         Page Not Found
                     </h1>

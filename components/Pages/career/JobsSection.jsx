@@ -73,7 +73,9 @@ const JobItem = ({ item }) => {
                 </div>
             </div>
             <div className="border flex flex-col mx-auto md:hidden max-w-[25rem] rounded overflow-hidden shadow-lg">
-                <img alt='image' className="w-full" src={imageUrl} alt="Sunset in the mountains" />
+                <picture>
+                    <img alt='image' className="w-full" src={imageUrl} />
+                </picture>
                 <div className="px-2 py-4">
                     <div className="font-bold text-xl mb-2">{title} | {vacancyType}</div>
                     <p className="text-gray-700 text-base">
