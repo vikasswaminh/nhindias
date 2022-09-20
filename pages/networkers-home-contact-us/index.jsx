@@ -4,11 +4,17 @@ import ArticlesAndCourses from '../../components/Testimonials/ArticlesAndCourses
 
 import Head from 'next/head'
 import ContactForm from '../../components/Pages/ContactForm'
+import Seo from '../../components/common/Seo'
 
 const Index = () => {
 
     return (
         <Layout>
+            <Seo
+                title={'Contact Us | NetworkersHome'}
+                desc={`Contact us for any queries about anything, we'll reach you in no time.`}
+                keywords={'Contact Us, Contact networkershome, networkershome contact us'}
+            />
             <Head>
                 <title>Contact Us | NetworkersHome</title>
                 <meta content="NETWORKERS HOME contact information " name="description" />

@@ -8,6 +8,7 @@ import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     `Introduction`,
@@ -40,9 +41,11 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Python Programming for Cisco Network Engineers (PCNE)  | NetworkersHome</title>
-            </Head>
+            <Seo
+                title={'Python Programming for Cisco Network Engineers (PCNE)  | NetworkersHome'}
+                desc={`Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.`}
+                keywords={'Python Course for cisco automation, cisco automation using python, Python course networkershome, python for cisco, python programming for cisco'}
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-5 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-3 flex flex-col space-y-5">
                     <h1 className='text-2xl lg:text-4xl font-bold'>Python Programming for Cisco Network Engineers (PCNE) Course</h1>

@@ -9,6 +9,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     `Specified data classes on Azure: How to characterize them`,
@@ -36,11 +37,11 @@ const sideList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>AZ-500 Microsoft Azure Security Technologies Certification Training  | NetworkersHome</title>
-                <meta name="description" content="Acquire the required skills to obtain the Microsoft Azure Security Technologies AZ 500 Exam with Networkers Home AZ-500 Microsoft Azure Security Technologies Certification Training Course." />
-                <meta content="Microsoft Azure Security Technologies (AZ-500) certification exam (3), Microsoft Azure Security Technologies (2)" name="keywords" />
-            </Head>
+            <Seo
+                title={'AZ-500 Microsoft Azure Security Technologies Certification Training  | NetworkersHome'}
+                desc={`Acquire the required skills to obtain the Microsoft Azure Security Technologies AZ 500 Exam with Networkers Home AZ-500 Microsoft Azure Security Technologies Certification Training Course.`}
+                keywords={'Microsoft Azure Security Technologies (AZ-500) certification exam, Microsoft Azure Security Technologies'}
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-5 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-3 flex flex-col space-y-5">
                     <h1 className='text-2xl lg:text-4xl font-bold'>AZ-500: Microsoft Azure Security Technologies Certification Training Course</h1>

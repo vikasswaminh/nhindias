@@ -9,6 +9,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import Link from 'next/link'
 import Syllabus from '../../components/common/Syllabus'
+import Seo from '../../components/common/Seo'
 
 const descList = [
     'CCNA - 200 - 301',
@@ -24,11 +25,11 @@ const descList = [
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>PALO ALTO Firewall Course | NetworkersHome</title>
-                <meta content="Palo Alto Networks is a prominent name in the IT industry, and its services are acknowledged around the globe. Learn about the latest tools and features of the Palo Alto Firewall and how to execute them as a security expert. Register now!" name="description" />
-                <meta name="keywords" content="Palo Alto Firewall (9), Palo Alto Networks (2)" />
-            </Head>
+            <Seo
+                title={'PALO ALTO Firewall Course | NetworkersHome'}
+                desc={`Palo Alto Networks is a prominent name in the IT industry, and its services are acknowledged around the globe. Learn about the latest tools and features of the Palo Alto Firewall and how to execute them as a security expert. Register now!`}
+                keywords={'Palo Alto Firewall, Palo Alto Networks'}
+            />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
                     <h1 className='text-2xl lg:text-4xl font-bold'>PALO ALTO Firewall Course</h1>
