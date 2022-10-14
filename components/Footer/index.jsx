@@ -47,7 +47,6 @@ const index = () => {
                         ))}
                     </div>
                 </div>
-<script src='63491c6badd48_SeizeLead.js' type='text/javascript' charset='utf-8' async defer></script>
             </div>
         </div>
     )
