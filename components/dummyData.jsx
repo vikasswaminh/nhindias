@@ -376,6 +376,250 @@ export const coursePageProgramsData = [
 
 export const blogs = [
     {
-        displayPic: ''
+        seo: {
+            title: "How many types of Hackers are there? - Networkers Home",
+            description: 'The term ‘Hacker’ first came into the world through MIT (Massachusetts Institute of Technology), when highly skilled professionals solved different problems using programming languages and came into existence in the year 1960s.',
+            og_img: '/assets/images/blog/1.jpg',
+        },
+        slug: 'types-of-hackers',
+        category: {
+            title: "Computer Networks",
+            slug: 'computer-networks'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/1.jpg'
+            },
+            {
+                type: 'h1',
+                text: `How many types of Hackers are there?`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `The term ‘Hacker’ first came into the world through MIT(Massachusetts Institute of Technology), when highly skilled professionals solved different problems using programming languages and came into existence in the year 1960s.`
+            },
+            {
+                type: 'p',
+                text: `The first hacker’s conference took place in the year 1993 in Las Vegas, Nevada, and the conference was conducted by DEFCON.Every year in Las Vegas, Nevada, where government agents, security professionals, and black and white hat hackers from all over the world attend that conference, DEFCON is one of the most popular and largest hacker’s as well as a security consultant’s conferences.`
+            },
+            {
+                type: 'p',
+                text: `In the late 70s, hackers and cyber criminals figured out how wired technologies work and how they could be used to gain additional advantage or misuse the technology.So in 1970, the field of hacking is concerned about hacking.`
+            },
+            {
+                type: 'p',
+                text: `This is the beginning of the history of hackers.Now a days, hackers are evolving their hacking skills according to new technologies.Hackers primarily target small businesses, and a hacker attack occurs every 40 seconds.`
+            },
+            {
+                type: 'p',
+                text: `Now let’s see how many types of hackers are there and which is one is the best to choose.`
+            },
+            {
+                type: 'h2',
+                text: `Types of Hackers:`
+            },
+            {
+                type: 'p',
+                text: `Ther are different types of hackers. We will try to understand the difference between them.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `White hat hackers`,
+                    `Black hat hackers`,
+                    `Grey hat hackers`,
+                    `Red hat hackers`,
+                    `Blue hat hackers`,
+                    `Green hat hackers`,
+                    `Government sponsored hackers`,
+                ]
+            },
+
+            {
+                type: 'h3',
+                text: `White Hat Hackers :`
+            },
+            {
+                type: 'p',
+                text: `
+                White hat hackers are called ethical hackers. These types of hackers don’t have any bad intentions or harm organisation. They log into the system to test or evaluate its security measures, don’t have malicious intent, and are focused on helping the organisation improve its security measures.`
+            },
+            {
+                type: 'p',
+                text: `It will be harder for a hacker to get into a system managed by a large company than it will be for a system operated by a small business. For that reason, it’s very important for online business to make sure it takes strong preventative measures by installing quality anti-malware security, spyware removal tools, and firewall software defense.`
+            },
+            {
+                type: 'h3',
+                text: `Black Hat Hackers :`
+            },
+            {
+                type: 'p',
+                text: `Black-hat hackers are mostly criminals because they use there hacking skills to harm organisation or steal data from small or big organisations. Black hat hackers may want to spy on staff and customers.`
+            },
+            {
+                type: 'p',
+                text: `Their motives can vary from financial to political, or they can simply be showing off their skills. Since they know how serious the legal consequences are, these hackers do everything they can to remain anonymous.`
+            },
+            {
+                type: `h3`,
+                text: `Grey Hat Hackers :`
+            },
+            {
+                type: `p`,
+                text: ` A grey - hat hacker is a security expert who may sometimes violate laws but usually does not have the malicious intent of a black - hat hacker.A “grey - hat hacker” is someone who does both black - hat and white - hat activities.They usually hack a system without the owner’s permission and it takes time to find vulnerabilities in it.They often ask for a price to fix the problem.This isn’t considered a crime, but it isn’t ethical either.`
+            },
+            {
+                type: `p`,
+                text: `The term “grey - hat hacker” was first used in the late 1990s.It comes from the concepts of white hat hackers and black hat hackers. `
+            },
+            {
+                type: `h3`,
+                text: `Red Hat Hackers :`
+            },
+            {
+                type: `p`,
+                text: `The James Bonds of the virtual world are red - hat hackers.They are not opposed to taking back what the cyber attackers stole from their victims.`
+            },
+            {
+                type: `p`,
+                text: `A hacker wearing a red hat is trying to stop black hat hackers.Red - hat hackers do everything they can to stop the bad guys, including taking matters into their own hands.They have the capability to launch full- scale attacks to take down cyber attackers and destroy their resources.`
+            },
+            {
+                type: `h3`,
+                text: `Blue Hat Hackers :`
+            },
+            {
+                type: `p`,
+                text: `There are two types of definitions for “blue - hat hacker”.Let’s explore both of them`
+            },
+            {
+                type: `p`,
+                text: ` First, they are revenge seekers.These people don’t care about money or fame.They hack to take revenge against a person, employer, institution, or government.Blue - hat hackers use various cyber attacks on their enemies to cause harm to their data, websites, or devices.`
+            },
+            {
+                type: `p`,
+                text: ``
+            },
+            {
+                type: `p`,
+                text: `
+Sometimes blue - hat hackers use various hacking techniques to gain unauthorised access to their targets’ email clients or social media profiles.They have the ability to send emails and post inappropriate messages from those profiles to take revenge.`
+            },
+            {
+                type: `p`,
+                text: ` The second definitions is that they are outside security professionals.They are often invited to test the new software before it is released.Sometimes companies organise conferences for blue - hat hackers to find bugs in their online systems.Blue - hat hackers conduct various cyber - attacks test while causing no harm to the organization.`
+            },
+            {
+                type: `h3`,
+                text: `Green Hat Hackers :`
+            },
+            {
+                type: `p`,
+                text: `Green - hat hackers are the young people in the world of hacking.They are not aware of the security mechanisms and the inner working of the web, but they are keen learners and determined to elevate their position in the hacker community.`
+            },
+            {
+                type: `p`,
+                text: `They don’t want to harm you.They may or may not be aware of the inner workings of the web.That’s why sometimes they can be harmful because they are not always aware of the consequences of their actions or how to fix them.`
+            },
+            {
+                type: `h3`,
+                text: `Government Sponsored Hackers :`
+            },
+            {
+                type: `p`,
+                text: `Government hackers are allowed to find vulnerabilities in electronic products to gain remote access to information of interest.Government investigators can use this information to monitor user activity and interfere with device operation.`
+            },
+            {
+                type: `p`,
+                text: `The hackers are sponsored by the Nation/ state.`
+            },
+            {
+                type: `h3`,
+                text: `Which is the best type of hacker ?`
+            },
+            {
+                type: `p`,
+                text: `All the hackers have their own specific rules and regulations, except the black hat hackers.A person who is thinking of becoming the best hacker should choose to be an ethical hacker, i.e., a white hat.They basically don’t have any bad intentions towards harming the organization.There are numerous path to becoming an ethical hacker.`
+            },
+            {
+                type: `p`,
+                text: `Below, we will see what the certification paths are to become an ethical hacker.`
+            },
+            {
+                type: `h3`,
+                text: `Certifications for learning Ethical hacking: `
+            },
+            {
+                type: 'list',
+                items: [
+                    `CEH: Certified Ethical Hacker(Theoritical)`,
+                    `CEH Master: Practical`,
+                    `CHFI: Computer Hacking Forensic Investigator`,
+                    `CPENT: Certified Penetration Testing Professional`,
+                    `CND: Certified Network Defender`,
+                    `CTIA: Certified Threat Intelligence Analyst`,
+                    `C - CSE: Certified Cloud Security Engineer`,
+                    `CSA: Certified SOC Analyst`,
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `A Person can choose any certification as per their interest.All the certification courses mentioned above are beginner to intermediate level certification to get entry into cyber security as an ethical hacker.`,
+            },
+            {
+                type: 'h3',
+                text: `Conclusion:`,
+            },
+            {
+                type: 'p',
+                text: `In this article we have seen all the types of hackers and heard the description of each hacker.Each and every hacker has their own different roles and responsibilities.Some of them wants to save the world, but some of them wants to give harm to organizations or individual people.`,
+            },
+            {
+                type: 'p',
+                text: `The journey of learning hacking is nice to take, and you can use these skills in the right ways.This will help every one to build a secure network organization.`,
+            },
+
+
+
+
+
+
+
+        ]
     }
+]
+
+export const categories = [
+    {
+        title: "Computer Networks",
+        slug: "computer-networks",
+    },
+    {
+        title: "Placement Program",
+        slug: "computer-networks",
+    },
+    {
+        title: "CyberX Masters",
+        slug: "cyberx-masters",
+    },
+    {
+        title: "CCIE",
+        slug: "ccie",
+    },
+    {
+        title: "Placement Program",
+        slug: "computer-networks",
+    },
+    {
+        title: "CCIE",
+        slug: "blogccie",
+    },
+    {
+        title: "Placement Program",
+        slug: "computer-networks",
+    },
+
 ]
