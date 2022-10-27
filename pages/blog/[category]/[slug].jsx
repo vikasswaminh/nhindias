@@ -8,6 +8,7 @@ import { BiChevronRight } from 'react-icons/bi'
 import { BsChevronDown } from 'react-icons/bs'
 import { MdClose } from 'react-icons/md'
 import { useState } from 'react'
+import { reverseIt } from '../../../components/hooks'
 
 
 const slug = ({ data }) => {
@@ -16,12 +17,13 @@ const slug = ({ data }) => {
             <Seo
                 title={data?.seo.title || ''}
                 desc={data?.seo.desc || ''}
+                og_img={data?.seo.og_img || ''}
             />
             <div className="px-4 max-w-[90rem] w-full mx-auto py-4 no-scrollbar">
                 <BreadCrumbs data={data} />
             </div>
-            <div className="grid grid-cols-1 px-4 max-w-[90rem] w-full mx-auto lg:grid-cols-12">
-                <div className="col-span-1 flex flex-col gap-4 lg:col-span-8">
+            <div className="grid grid-cols-1 pb-20 px-4 max-w-[90rem] w-full mx-auto lg:grid-cols-12">
+                <div className="col-span-1 flex flex-col gap-6 lg:col-span-8">
                     {data?.content?.map((item, i) => (
                         <div key={i}>
                             {
@@ -36,23 +38,26 @@ const slug = ({ data }) => {
                                             <h2 className='text-xl pt-2 lg:text-2xl font-bold'>{item.text}</h2>
                                             :
                                             item.type === 'p' ?
-                                                <p className='text-base lg:text-lg '>{item.text}</p>
+                                                <p className={`text-base lg:text-lg  ${item.classes}`}>{item.text}</p>
                                                 :
-                                                item.type === 'list' ?
-                                                    <div className="flex flex-col pl-4 gap-3">
-                                                        {item.items.map((listItem, listIdx) => (
-                                                            <li key={listIdx} className='text-base italic lg:text-lg '>
-                                                                {listItem}
-                                                            </li>
-                                                        ))}
-                                                    </div>
+                                                item.type === 'df' ?
+                                                    <p className={`text-base lg:text-lg  ${item.classes}`}><b>{item.qs}</b><span>{item.text}</span></p>
                                                     :
-                                                    item.type === 'img' ?
-                                                        <div className='relative w-full aspect-video'>
-                                                            <Image src={item.src} layout='fill' objectFit='cover' alt='blog_img' />
+                                                    item.type === 'list' ?
+                                                        <div className="flex flex-col pl-4 gap-3">
+                                                            {item.items.map((listItem, listIdx) => (
+                                                                <li key={listIdx} className='text-base italic lg:text-lg '>
+                                                                    {listItem}
+                                                                </li>
+                                                            ))}
                                                         </div>
                                                         :
-                                                        ''
+                                                        item.type === 'img' ?
+                                                            <div className='relative rounded-md overflow-hidden w-full aspect-video'>
+                                                                <Image src={item.src} layout='fill' objectFit='cover' alt='blog_img' />
+                                                            </div>
+                                                            :
+                                                            ''
 
                             }
                         </div>
@@ -115,28 +120,23 @@ const RecentBlogs = () => {
                 </div>
                 {!close &&
                     <div className="flex flex-col gap-3">
-                        {[1, 2, 3, 4, 5].map(num => (
-                            <React.Fragment key={num}>
-                                {blogs.map((data, i) => (
-                                    <Link key={i} href={`/blog/[category]/[slug]`} as={`/blog/${data.category.slug}/${data.slug}`}>
-                                        <a className="grid grid-cols-8 h-[6rem] bg-white group border overflow-hidden gap-4">
-                                            <div className="aspect-video col-span-3 relative w-full h-full">
-                                                <Image src={data.content[0].src} alt='img' layout='fill' objectFit='cover' />
-                                            </div>
-                                            <div className="col-span-5 flex flex-col justify-center">
-                                                <h2 className="text-lg link-blog truncate group-hover:text-themeColor font-semibold">
-                                                    {data.content.filter(x => x.type === 'h1')[0].text}
-                                                </h2>
-                                                <p className="text-sm font-medium opacity-90">
-                                                    {truncate(data.content.filter(x => x.isDesc === true)[0].text || '', 60)}
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </Link>
-                                ))}
-                            </React.Fragment>
+                        {reverseIt(blogs).slice(0, 5).map((data, i) => (
+                            <Link key={i} href={`/blog/[category]/[slug]`} as={`/blog/${data.category.slug}/${data.slug}`}>
+                                <a className="grid grid-cols-8 h-[6rem] bg-white group border overflow-hidden gap-4">
+                                    <div className="aspect-video col-span-3 relative w-full h-full">
+                                        <Image src={data.content[0].src} alt='img' layout='fill' objectFit='cover' />
+                                    </div>
+                                    <div className="col-span-5 flex flex-col justify-center">
+                                        <h2 className="text-lg link-blog truncate group-hover:text-themeColor font-semibold">
+                                            {data.content.filter(x => x.type === 'h1')[0].text}
+                                        </h2>
+                                        <p className="text-sm font-medium opacity-90">
+                                            {truncate(data.content.filter(x => x.isDesc === true)[0].text || '', 60)}
+                                        </p>
+                                    </div>
+                                </a>
+                            </Link>
                         ))}
-
                     </div>
                 }
             </div>

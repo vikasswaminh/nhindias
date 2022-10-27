@@ -374,6 +374,37 @@ export const coursePageProgramsData = [
 
 
 
+
+
+export const categories = [
+    {
+        title: "Computer Networks",
+        slug: "computer-networks",
+    },
+    {
+        title: "Cisco",
+        slug: "cisco",
+    },
+    {
+        title: "Placement Program",
+        slug: 'placement-program'
+    }
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const blogs = [
     {
         seo: {
@@ -436,7 +467,6 @@ export const blogs = [
                     `Government sponsored hackers`,
                 ]
             },
-
             {
                 type: 'h3',
                 text: `White Hat Hackers :`
@@ -581,45 +611,312 @@ Sometimes blue - hat hackers use various hacking techniques to gain unauthorised
                 type: 'p',
                 text: `The journey of learning hacking is nice to take, and you can use these skills in the right ways.This will help every one to build a secure network organization.`,
             },
-
-
-
-
-
-
+        ]
+    },
+    {
+        seo: {
+            title: "Top 7 Reasons for Choosing NETWORKERS HOME ",
+            description: 'With the ever growing Security domain, demand for Cisco CCIE Security certification has substantially risen. The aspirants into this field, planning to build a career in the IT industry can opt for CCIE Security course at Networkers Home – India’s best CCIE training Company.',
+            og_img: '/assets/images/blog/2.avif',
+        },
+        slug: 'with-the-ever-growing-security-domain-demand-for-cisco',
+        category: {
+            title: "Cisco",
+            slug: 'cisco'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/2.avif'
+            },
+            {
+                type: 'h1',
+                text: `Top 7 Reasons for Choosing NETWORKERS HOME`
+            },
+            {
+                type: 'h3',
+                text: `Asia’s Largest Lab Facilities`
+            },
+            {
+                type: 'p',
+                classes: 'italic',
+                text: `“The goal of education is the advancement of knowledge and the dissemination of truth”- John F. Kennedy`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `Networkers Home, being the No.1 Cisco training institute in India offers the Asia’s Largest Cisco labs for its students. Being the best institute offering Cisco courses, Networkers Home provides advanced and world class lab facilities for our students worldwide.`
+            },
+            {
+                type: 'p',
+                text: `We have special lab setup for each of the courses and tracks we offer, labs at Networkers Home are undoubtedly the best and beyond comparison to any.`
+            },
+            {
+                type: 'h3',
+                text: `What makes our lab facilities the best in the industry?`
+            },
+            {
+                type: 'p',
+                text: ` Our labs are constantly updated as per the latest blueprint and checklist by Cisco, ensuring that our students get the best and latest technologies of the market.Every course at each level has a separate lab with variety of course specific devices and racks assembled.We provide our students with individual fully loaded racks with dedicated devices so that all our students can have an excellent learning experience. `
+            },
+            {
+                type: 'p',
+                text: `Each lab for each course has fully loaded racks with dedicated devices for course practice.Apart from the availability of excellent lab facilities, complete lab assistance is also provided to our students.Certified and experienced lab instructors pay individual attention to each student to make our students skilled and highly proficient. `
+            },
+            {
+                type: 'h3',
+                text: `Networkers Home provides 24x7 lab facility for our students. `
+            },
+            {
+                type: 'p',
+                text: `We offer 24x7 lab access for our students so that they can practice any time they want without thinking about the timings.  With day and night open labs, one can access labs at any time they want.`
+            },
+            {
+                type: 'p',
+                text: `We offer online and on campus rack access, so that our students can be in their houses safely in this pandemic and continue their learning. `
+            },
+            {
+                type: 'p',
+                text: `We make sure the students get deep knowledge and learning on their practical aspect of the course rather than just focusing on the theoretical part. `
+            },
+            {
+                type: 'h3',
+                text: `Labs are available even on weekends and noted regular holidays.`
+            },
+            {
+                type: 'p',
+                text: ` Students can practice in their free days, when regular classes aren’t conducted.`
+            },
+            {
+                type: 'h3',
+                text: `We regularly update our equipment and devices as per the industry requirements and standards. `
+            },
+            {
+                type: 'p',
+                text: `We do this to make sure that our students will be the right fit for our industry.`
+            },
+            {
+                type: 'p',
+                text: `Certified and experienced lab instructors are available. Individual guidance is given on each student so that our students can acquire best training experience throughout the day`
+            },
+            {
+                type: 'h3',
+                text: `6. High Speed internet facility `
+            },
+            {
+                type: 'p',
+                text: `This is present for smooth working of all the equipment and devices`
+            },
+            {
+                type: 'p',
+                text: `With our excellent practical training we transform our students into a highly skilled professional ready to achieve great success.`
+            },
 
         ]
-    }
-]
+    },
+    {
+        seo: {
+            title: "What makes NH #1 CCIE Training company in ASIA",
+            description: 'With the revolutionary changes in IT infrastructure and more businesses shifting to clouds, networks and networking professionals are facing tremendous pressure to align themselves with the technological trends of networking.',
+            og_img: '/assets/images/blog/3.avif',
+        },
+        slug: 'networkers-home-asias-1-it-training-company',
+        category: {
+            title: "Placement Program",
+            slug: 'placement-program'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/3.avif'
+            },
+            {
+                type: 'h1',
+                text: `What makes NH #1 CCIE Training company in ASIA`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: ` Welcome to Networkers Home - Asia’s largest, most awarded and a top - notch IT training institute whose rich history, proven records of success and innovative training methodologies have helped transform lives and careers of students seeking professional training and impactful results.`
+            },
+            {
+                type: 'p',
+                text: `Founded in 2006 by seasoned technical professionals - Vikas Swami(Dual CCIE# 22239) and Khawar Butt(Hexa CCIE#12353 + CCDE #20110020, augmented with vast combined experience of 36 years in IT consulting, networking and training, Networkers Home has emerged as the industry leader setting a high benchmark in IT training and development space. `
+            },
+            {
+                type: 'h3',
+                text: `Our Heritage and Vision `
+            },
+            {
+                type: 'p',
+                text: `Over the course of the past 12 years in business, having witnessed the most rapid cycles of change and technology advancement, we have been matching pace with the innovation driving technologies in offering the highly demanded and reputed IT training with brilliance and bagged 22 awards for excellence. We have been at the forefront, outpacing the competition, guiding our students to acquire the cutting-edge technical knowledge and skills.`
+            },
+            {
+                type: 'p',
+                text: `The endeavour to constantly outdo ourselves in IT training has been our style since the beginning and it still continues as we explore infinite training innovations, work with the best technology experts of the nation, striving to carve careers, opening doors to plethora opportunities in IT and networking domain.`
+            },
+            {
+                type: 'h3',
+                text: `Training Excellence- What Differentiates Us?`
+            },
+            {
+                type: 'p',
+                text: `Our Uniqueness lies in our strong proven presence at designing, developing and delivering world-class IT training in diverse trending domains like Networking, Cloud Computing, Cyber Security, Business Management and many more, and carving a technology expert out of a technology enthusiast.`
+            },
+            {
+                type: 'p',
+                text: `Consistently stepping ahead with benchmarked training excellence, Networkers Home proudly owns the world record of producing 4000+ CCIEs for which Networkers Home is rated as the World’s Best CCIE Training Institute. Our CCIE results that speak for itself has placed us at the pinnacle of offering the best-in-class Cisco training and certification courses of different levels that include:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `CCNA Tracks – Routing and Switching, Security, Data Center and Collaboration`,
+                    `CCNP Tracks - Routing and Switching, Security, Data Center and Collaboration`,
+                    `CCIE Tracks - Routing and Switching, Security, Data Center and Collaboration`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Our Flagship Offerings- Integrated 100% Job Guaranteed Courses`
+            },
+            {
+                type: 'p',
+                text: `We proudly claim to be the inventors of the integrated 100% job guaranteed CCIE program and architects of successful careers. Our well-knit technical program pedagogy laying emphasis on practical training, for the following job-oriented expert-level courses in different fields of networking, cyber security, network security and cloud computing have helped us rank #1 in the industry.`
+            },
+            {
+                type: 'p',
+                text: `Our flagship courses include:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Integrated CCIE Routing and Switching`,
+                    `Integrated CCIE Security`,
+                    `Cloud Masters`,
+                    `CYBERX Masters`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `What Makes Networkers Home Rank #1?`
+            },
+            {
+                type: 'p',
+                text: `Following reasons have helped us become a premium IT training institute:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `World’s Biggest Team Of Hexa CCIEs`,
+                    `Excellent research and training division`,
+                    `Expertly Authored Workbooks / Video Lessons`,
+                    `Technical Excellence Build Up With Extensively Designed Job - Oriented Curriculums`,
+                    `Master Classes On 200 + IT Programs Delivered By A Pool Of 50 + Certified And Experienced Instructors`,
+                    `Personality Excellence Build Up By IIM Alumni`,
+                    `Formal Recruitment Tie - Up With 125 + Top IT Companies`,
+                    `World - Class Campus Infrastructure `,
+                    `Convenient Learning Formats - Instructor - Led Online and Classroom Training at Flexible Schedules`,
+                    `24 * 7 Access To Ultra - Modern Lab `,
+                    `Hands - On Practical Lab Training on Latest Cisco And Multivendor Devices`,
+                ]
+            },
 
-export const categories = [
-    {
-        title: "Computer Networks",
-        slug: "computer-networks",
+        ]
     },
     {
-        title: "Placement Program",
-        slug: "computer-networks",
-    },
-    {
-        title: "CyberX Masters",
-        slug: "cyberx-masters",
-    },
-    {
-        title: "CCIE",
-        slug: "ccie",
-    },
-    {
-        title: "Placement Program",
-        slug: "computer-networks",
-    },
-    {
-        title: "CCIE",
-        slug: "blogccie",
-    },
-    {
-        title: "Placement Program",
-        slug: "computer-networks",
-    },
+        seo: {
+            title: "7 Networking Trends To Watch Out In 2020",
+            description: 'With the revolutionary changes in IT infrastructure and more businesses shifting to clouds, networks and networking professionals are facing tremendous pressure to align themselves with the technological trends of networking.',
+            og_img: '/assets/images/blog/4.avif',
+        },
+        slug: '7-networking-trends-to-watch-out-in-2020',
+        category: {
+            title: "Cisco",
+            slug: 'cisco'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/4.avif'
+            },
+            {
+                type: 'h1',
+                text: `7 Networking Trends To Watch Out In 2020`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: ` With the revolutionary changes in IT infrastructure and more businesses shifting to clouds, networks and networking professionals are facing tremendous pressure to align themselves with the technological trends of networking. Networking industry needs to keep pace and evolve rapidly with the changes in technology, software and hardware updates. It is certainly a gate pass for networking professionals, opening doors to new positions, better and effective ways of handling complex networks. All the migrations and IT infrastructure change implementations require the IT and networking professionals to possess expert networking skills and in-depth understanding of the advanced technologies, to ensure swift and smooth transitions.`
+            },
+            {
+                type: 'p',
+                text: `The overwhelming trends include:`
+            },
+            {
+                type: 'df',
+                qs: 'SDN: ',
+                text: `Software-defined networking (SDN) refers to an advanced architecture, deployed to ensure network agility and flexibility. It leads to an improved network control system and enables enterprises to respond quickly to the constantly changing business needs. SDN has replaced traditionally dedicated hardware with virtualized hardware and software, benefiting organizations with reduced hardware footprints and low operational costs. `
+            },
+            {
+                type: 'df',
+                qs: `SD-WAN: `,
+                text: `It is a major movement towards designing and delivering a flexible network infrastructure, ensuring effective routing and distribution of network traffic. SD-WAN’s security secret lies in the segmentation, enabling isolation of small and high priority networks to protect them against network attacks. Organizations tend to leverage a hybrid approach utilizing traditional MPLS and LTE connectivity while using SD-WAN and delivering network transport efficiencies on the go. Various SD-WAN deployment projects are expected to take place in 2019 and beyond, requiring skilled SD-WAN professional experts to deliver them with agility and accuracy.`
+            },
+            {
+                type: 'df',
+                qs: 'Multi-Cloud:',
+                text: ` With more and more organizations shifting their IT dependencies over the cloud, there is an emerging culture of using multi-cloud services. It is mainly because of tight competition in the cloud domain and constant expansion of cloud solutions and services being made available at competitive prices. This requires IT network professionals to acquire an in-depth understanding of cloud technologies, rather multi-cloud expertise can reap you even better opportunities and benefits.`
+            },
+            {
+                type: 'df',
+                qs: 'Cloud Repatriation: ',
+                text: `Where one side, the industry is experiencing rapid cloud adoption, the other side is falling back to the on-premise solutions, marking the importance of traditional data centres. The organizations are repatriating from cloud to have equilibrium and a balanced IT
+infrastructure architecture. `
+            },
+            {
+                type: 'df',
+                qs: 'Edge Computing: ',
+                text: `Edge computing aims to change the networking picture and streamlining the flow of traffic from IoT devices, processing and analyzing the collected data on the nearest device instead of sending it over long routes to cloud or data centre. Creating this mesh network including microdata centres reduces the backhaul traffic to the central data repository preventing data leakages and adding to the network security. `
+            },
+            {
+                type: 'df',
+                qs: 'IoT: ',
+                text: `Powerful IoT platform has empowered organizations with improved uptime and lowered the operational costs. Deploying robust, secure and automated IoT solutions help the organizations derive the maximum value from the data, and ensure smooth running of operations. As per the changing trends, deep IoT integration into the networks and systems, have actually led to a collection of such voluminous data, that it is imposing a challenge in building correlation and eventually lowering down the rate of decision making, thus requiring networking industry to make essential changes to counter and address them effectively.`
+            },
+            {
+                type: 'df',
+                qs: 'Intent-based Networking:  ',
+                text: `It is an innovative approach to networking, where special software helps networking professionals plan, design, configure and automatically implement the changes to the network, improving its availability and agility. The technology has its core embedded in AI and machine learning. This intelligent software works to maintain the network state as well and adopt corrective measures to avoid any deviations.`
+            },
+            {
+                type: 'h3',
+                text: `How to keep pace with the changing networking trends?`
+            },
+            {
+                type: 'p',
+                text: `You need to move with the ever-changing networking trends to accelerate your career and become recognized as an expert professional in the global arena. The top networking technologies that can help you stay ahead of the curve in 2019 include:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Network Routing and Switching`,
+                    `Network Security`,
+                    `Cloud Security`,
+                    `Network Virtualization`,
+                    `Data Center`,
+                    `IOT`,
+                    `Collaboration`,
 
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Conclusion`
+            },
+            {
+                type: 'p',
+                text: `You can certainly take a lead in networks and networking technology by acquiring proficient skills, hands-on experience and extensive knowledge of top trends. Networkers Home helps you achieve top-notch IT networking skills through all-encompassing training and certification courses. Our pool of 10+ instructors help you walk through the course and pass the relevant certification exams with striking scores. Our Cisco certification training and courses are aligned to instil a hands-on understanding of the most recent networking platforms, technologies and best practices. `
+            },
+        ]
+    },
 ]
