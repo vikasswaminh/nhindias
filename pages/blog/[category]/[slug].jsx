@@ -15,7 +15,7 @@ const slug = ({ data }) => {
     return (
         <Layout>
             <Seo
-                title={data?.seo.title || ''}
+                title={`${data?.seo.title} - Blog | Networkers Home` || ''}
                 desc={data?.seo.desc || ''}
                 og_img={data?.seo.og_img || ''}
             />
@@ -46,9 +46,19 @@ const slug = ({ data }) => {
                                                     item.type === 'list' ?
                                                         <div className="flex flex-col pl-4 gap-3">
                                                             {item.items.map((listItem, listIdx) => (
-                                                                <li key={listIdx} className='text-base italic lg:text-lg '>
-                                                                    {listItem}
-                                                                </li>
+                                                                item.style === 'line' ?
+                                                                    <li key={listIdx} className='list-none text-base font-semibold italic lg:text-lg '>
+                                                                        - {listItem}
+                                                                    </li>
+                                                                    :
+                                                                    item.style === 'numbers' ?
+                                                                        <li key={listIdx} className='text-base list-decimal font-semibold  italic lg:text-lg '>
+                                                                            {listItem}
+                                                                        </li>
+                                                                        :
+                                                                        <li key={listIdx} className='text-base italic font-semibold  lg:text-lg '>
+                                                                            {listItem}
+                                                                        </li>
                                                             ))}
                                                         </div>
                                                         :

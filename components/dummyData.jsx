@@ -408,7 +408,7 @@ export const categories = [
 export const blogs = [
     {
         seo: {
-            title: "How many types of Hackers are there? - Networkers Home",
+            title: "How many types of Hackers are there?",
             description: 'The term ‘Hacker’ first came into the world through MIT (Massachusetts Institute of Technology), when highly skilled professionals solved different problems using programming languages and came into existence in the year 1960s.',
             og_img: '/assets/images/blog/1.jpg',
         },
@@ -916,6 +916,530 @@ infrastructure architecture. `
             {
                 type: 'p',
                 text: `You can certainly take a lead in networks and networking technology by acquiring proficient skills, hands-on experience and extensive knowledge of top trends. Networkers Home helps you achieve top-notch IT networking skills through all-encompassing training and certification courses. Our pool of 10+ instructors help you walk through the course and pass the relevant certification exams with striking scores. Our Cisco certification training and courses are aligned to instil a hands-on understanding of the most recent networking platforms, technologies and best practices. `
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "CISCO Certification Charter guide",
+            description: 'Cisco training offers both basic and higher level certification. The fundamental level of certifications will assist you in obtaining an entry-level job in the IT industry.The most popular basic level of certification is CCNA, and according to level of expertise, people can do higher levels of certification too, like CCNP, CCIE, etc.',
+            og_img: '/assets/images/blog/5.jpg',
+        },
+        slug: 'cisco-certification-charter-guide',
+        category: {
+            title: "Cisco",
+            slug: 'cisco'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/5.jpg'
+            },
+            {
+                type: 'h1',
+                text: `CISCO Certification Charter guide`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `Cisco training offers both basic and higher level certification. The fundamental level of certifications will assist you in obtaining an entry-level job in the IT industry.The most popular basic level of certification is CCNA, and according to level of expertise, people can do higher levels of certification too, like CCNP, CCIE, etc.
+The basics level of certification gives an idea of routing, switching, concepts of design, security, and storage networking. In this article we will discuss all the CISCO certification courses that are available on the market, from beginner to intermediate level. We will focus on a few points for each certification, such as: what is the purpose of doing certification; what topics are covered in the certification course; the benefits of doing certification; and what kind of job you will get after doing certification.
+`
+            },
+            {
+                type: 'p',
+                text: `Let’s start with basic level of certification.`
+            },
+            {
+                type: 'h3',
+                text: `CCNA Certification 200-301`
+            },
+            {
+                type: 'p',
+                text: `CCNA stands for Cisco Certified Network Associate. People can do CCNA 200-301 training in both online and classroom mode. The certification is valid for three years. After giving the certification exam, you will receive the certificate of completion. That will ensure that you have the skills needed to start a career in the IT industry or in the networking domain.`
+            },
+            {
+                type: 'p',
+                text: `Doing CCNA certification gives you the concept of computer network, switching and routing, gives a clear understanding of using switch, routers, hubs and other cisco devices. `
+            },
+            {
+                type: 'h3',
+                text: `Benefits of CCNA Certification`
+            },
+            {
+                type: 'p',
+                text: `Lots of benefits are there to obtain a certification, it helps in to secure your job in IT industry or get entry in Networking domains. When a person become a CCNA certified, then you can try for better job or you can raise either negotiate a higher salary than other IT persons. Different types of technologies are coming every year, like SDN (Software-defined Networking) and cloud infrastructure.  `
+            },
+            {
+                type: 'h3',
+                text: `CCNA course topics`
+            },
+            {
+                type: 'list',
+                style: 'line',
+                items: [
+                    `Network Fundamentals`,
+                    ` Network Access`,
+                    ` IP connectivity`,
+                    ` IP services`,
+                    ` Network Security`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `Let’s have a look inside the CCNA course topics:`
+            },
+            {
+                type: 'df',
+                qs: 'Networking Fundamentals:',
+                text: `This topic will teach the fundamentals of Networking like LAN, WAN, MAN, OSI Layers, TCP/ IP Layers.It helps in understanding of internetworking devices used on network like nic, hubs, bridges, Switches, Routers, Brouters, Modems.Also provide the good understanding of Internet protocol, ARP protocol, ICMP protocol and many other protocols used in networking.`
+            },
+            {
+                type: 'df',
+                qs: 'Network Access:',
+                text: ` Network access technology are relevant to entry-level IT roles and networking roles. This topic has various sub categories of network access like: configuration of VLANs, configuration and diagnostics of inter-switch connectivity, configure and verify cisco discovery protocol and LLDP, Cisco wireless architecture and AP nodes, WLAN components, WLC management access connections.`
+            },
+            {
+                type: 'df',
+                text: ` IP connectivity has various topics inside, like routing table components. This routing table components topic will help you to understand the concept of how routers are forwarding decisions. Other topics within IP connectivity include how to configure and verify IPV4 and IPV6 static routing, which provides an overview of how static routers are manually added to the routing table using "ip route" or "ipv6 route." First-hop redundancy protocols (FHRP) are a class of protocols that allow multiple routers on the same subnet to behave as a single default router for the hosts in that subnet.`,
+                qs: 'IP Connectivity:'
+            },
+            {
+                type: 'df',
+                text: ` DHCP and how it helps in programmed IP setup, as well as the utilisation of upper leg tendons in sifting traffic in our organizations, and how it helps in assisting gadgets in an organisation with getting to the web. In this part, we will take a gander at other IP benefits that you want to be aware of as a CCNA. We will take a gander at high accessibility utilising HSRP, VRRP, and GLBP, NTP, and SYSLOG.`,
+                qs: 'IP Services:'
+            },
+            {
+                type: 'df',
+                text: ` In the CCNA course, there is a topic on network security, where you have to learn the basics of network security technologies and the use of Cisco devices to monitor the network security. Lots of Cisco devices or network devices are used in an organization; Cisco ASA firewall, IPS, IronPort C & S series, Junipers, PaloAlto firewalls, etc. to ensure that the network is 100% secure.`,
+                qs: `Network Security:`
+            },
+            {
+                type: 'p',
+                text: `After successfully completing the CCNA certification, you can give the certification exams for CCNP enterprise and CCIE enterprise certification. Now let’s take a look at enterprise level certification.`,
+
+            },
+            {
+                type: 'h3',
+                text: `CCNP Certification`,
+            },
+            {
+                type: 'p',
+                text: `CCNP stands for Cisco Certified Network Professional. It is an enterprise infrastructure training program. In this certification programme, Cisco introduced advanced technologies like Cisco DNA Center, Cisco SDWAN, Cisco Encore, and the ENRASI Module. So, for CCNP certification, there are two exam modules: the core exam and the concentration exam.`,
+            },
+            {
+                type: 'df',
+                text: `It focuses on your knowledge of enterprise infrastructure, including IPv4 and IPv6 architecture, virtualization, infrastructure, security, and automation. This core exam is also a qualifying exam for CCIE enterprise infrastructure and CCIE enterprise wireless certification. After passing the core exam, candidates are able to schedule and take the CCIE lab within the validity of their core exam.
+In the core exam students have to enroll in 350-401 ENCOR, which is Implementing and operating Cisco Enterpise Network Core Technologies`,
+                qs: "-Core exam: "
+            },
+            {
+                type: 'df',
+                text: `It focuses on industry-specific topics such as network-design, SD-WAN, wireless, and automation. Students can prepare for concentration exams by taking the corresponding Cisco training course.
+In the concentration exam, students have to choose any one module from a given six modules. Let’s see which of the six modules come under the concentration exam.`,
+                qs: "-Concentration exam: "
+            },
+            {
+                type: 'list',
+                style: 'numbers',
+                items: [
+                    ` Implementing Cisco Enterprise Advanced Routing and Services  300 - 410 ENARSI`,
+                    ` Implementing Cisco SD - WAN Solutions 300 - 415 ENSDWI`,
+                    ` Designing Cisco Enterprise Networks 300 - 420 ENSLD`,
+                    ` Designing Cisco Enterprise Wireless Networks 300 - 425 ENWLSD`,
+                    ` Implementing Cisco Enterprise Wireless Networks 300 - 430 ENWLSI`,
+                    ` Implementing Automation for Cisco Enterprise Solutions 300-435 ENAUTO`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `So in core exam, students have to clear the ENCOR module. ENCOR exam takes 120 minutes of exam duration, which covers six major branches, i.e. architecture virtualization, infrastructure, automation, network security. Let’s have a look inside of the ENCOR module syllabus.
+`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Examining Cisco Enterprise Network Architecture`,
+                    `Understanding Cisco Switching Paths`,
+                    `Implementing Campus LAN Connectivity`,
+                    `Building Redundant Switched Topology`,
+                    `Implementing Layer 2 Port Aggregation`,
+                    `Understanding EIGRP`,
+                    `Implementing OSPF`,
+                    `Optimizing OSPF`,
+                    `Exploring EBGP`,
+                    `Implementing Network Redundancy`,
+                    `Implementing NAT`,
+                    `Introducing Virtualization Protocols and Techniques`,
+                    `Understanding Virtual Private Networks and Interfaces`,
+                    `Understanding Wireless Principles`,
+                    `Examining Wireless Deployment Options`,
+                    `Understanding Wireless Roaming and Location Services`,
+                    `Examining Wireless AP Operation`,
+                    `Understanding Wireless Client Authentication`,
+                    `Troubleshooting Wireless Client Connectivity`,
+                    `Introducing Multicast Protocols`,
+                    `Introducing QoS`,
+                    `Implementing Network Services`,
+                    `Using Network Analysis Tools`,
+                    `Implementing Infrastructure Security`,
+                    `Implementing Secure Access Control`,
+                    `Understanding Enterprise Network Security Architecture`,
+                    `Exploring Automation and Assurance Using Cisco DNA Center`,
+                    `Examining the Cisco SD - Access Solution`,
+                    `Understanding the Working Principles of the Cisco SD - WAN Solution`,
+                    `Understanding the Basics of Python Programming`,
+                    `Introducing Network Programmability Protocols`,
+                    `Introducing APIs in Cisco DNA Center and vManage`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `In the concentration exam, most of the candidates choose the ENARSI module. ENARSI exam takes 90 minutes of exam duration, which covering four major branches, i.e. OSI model layer 3 enviornment, VPN technologies, infrastructure security and services. So let’s have a look  inside the ENARSI syllabus. `
+            },
+            {
+                type: 'list',
+                style: 'numbers',
+                items: [
+                    `Implementing EIGRP`,
+                    `Optimizing EIGRP`,
+                    `Troubleshooting EIGRP`,
+                    `Implementing OSPF`,
+                    `Optimizing OSPF`,
+                    `Troubleshooting OSPF`,
+                    `Configuring Redistribution`,
+                    `Troubleshooting Redistribution`,
+                    `Implementing Path Control`,
+                    `Implementing Internal Border Gateway Protocol(IBGP)`,
+                    `Optimizing BGP`,
+                    `Implementing MP - BGP`,
+                    `Troubleshooting BGP`,
+                    `Exploring MPLS`,
+                    `Introducing MPLS L3 VPN Architecture`,
+                    `Introducing MPLS L3 VPN Routing`,
+                    `Configuring Virtual Routing and Forwarding(VRF) - Lite`,
+                    `Implementing DMVPN`,
+                    `Implementing DHCP`,
+                    `Introducing IPv6 First Hop Security`,
+                    `Securing Cisco Routers`,
+                    `Troubleshooting Infrastructure Security and Services`,
+                    `Troubleshooting with DNA Center Assurance`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Benefits of CCNP Certification:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Experienced leaders will help to get trained.`,
+                    `Vast range of career options.`,
+                    `It helps to get up - to - date in network technologies.`,
+                    `Helps to raise salary or get promoted.`,
+
+                ]
+            },
+            {
+                type: 'h2',
+                text: `Cisco SD-WAN Certification`
+            },
+            {
+                type: 'p',
+                text: `The Cisco SD-WAN training course is designed in such a manner that students can gain the skills and knowledge necessary to implement, configure, manage, and troubleshoot Cisco SDWAN solutions. This course covers all the basics of Cisco SDWAN architecture and components, as well as provides knowledge of how to deploy Cisco SDWAN in both single-site and multi-site deployments, how to deploy initial configuration and management tasks, and how to troubleshoot common problems.`
+            },
+            {
+                type: 'h3',
+                text: `Course objectives:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Explains how to implement WAN Edge devices`,
+                    `Characterize and carry out cutting edge control approaches, like arrangements for custom topologies`,
+                    `Implement and execute an Application- Aware Routing(AAR) policy`,
+                    `Implementation of Direct Internet Access(DIA) and Cisco SD - WAN cloud entrance choices`,
+                    `Despite Cisco SD - WAN help for multicast`,
+                    `Review the device configuration setup layout and depict new highlights device configuration templetes.`,
+                    `Describe choices for giving adaptability, high accessibility and redundancy`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Prerequisites:`
+            },
+            {
+                type: 'p',
+                text: `Before enrolling for this course, candidates should have the following knowledge and skills before taking this course:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Information on Software - Defined Networking(SDN) concepts as applied to huge scope live organization network deployments`,
+                    `Solid understanding of enterprise WAN design`,
+                    `Solid understanding of routing protocol, which includes both inside and outside routing protocol operation`,
+                    `Good knowledge of IPSec i.e, IP Security and Transport layer security(TLS)`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Course Syllabus: `
+            },
+            {
+                type: 'list',
+                items: [
+                    `Cisco SD - WAN Overlay Network`,
+                    `Cisco SD - WAN Routing Options`,
+                    `Cisco SD - WAN Deployment`,
+                    `Cisco SD - WAN Migration and Interoperability`,
+                    `Cisco SD - WAN Policy Configuration`,
+                    `Cisco SD - WAN Management and Operations`,
+                    `Cisco Lab:`,
+
+                ]
+            },
+            {
+                type: 'list',
+                style: 'line',
+                items: [
+                    `vManage Dashboard Overview`,
+                    `vManage - Monitor - 1`,
+                    `vManage - Monitor - 2`,
+                    `vManage Tools`,
+                    `OMP Configuration - Edge Devices - LAB`,
+                    `OMP Configuration - vSmart Controllers - LAB`,
+                    `OMP Verification - CLI - LAB`,
+                    `OMP Verification - CLI - LAB`,
+                    `OMP Verification - vManage - LAB`,
+                    `VPN Configuration Feature Template - LAB`,
+                    `VPN Interface Configuration - LAB`,
+                    `VRRP Configuration and Verifcation`,
+                    `OSPF Configuration Feature Template - LAB`,
+                    `BGP Configuration Feature Template - LAB`,
+                    `Device Template Configuration - LAB`,
+                    `vEdge - Zero - Touch Provisioning LAB`,
+                    `vEdge on - boarding through Manual configuration - LAB`,
+                    `Configure Device using Device Template`,
+                    `Adding additional configuration to device through device template - LAB`,
+                    `OSPF Verification CLI & vManage`,
+                    `Removing perticular configuration to device through device template - LAB`,
+                    `Control Policy: Multi - Topology using Route Filtering`,
+                    `Control Policy: Multi - Topology using TLOC change`,
+                    `Control Policy - Hub - Spoke LAB`,
+                    `Control Policy - Firewall Insertion between Branches`,
+                    `App - Aware - Route - Policy - LAB`,
+                    `Control Policy - Datacenter Preferences`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Benefits of Cisco SD-WAN Certification:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Cisco SD - WAN provides a cloud - first infrastructure, which means Cisco SD - WAN has vManage console.We can use the vManage console to easily automate virtual private gateway deployment in IaaS and PaaS enviornments.`,
+                    `The Cisco SD - WAN onRamp provides automated connectivity to IaaS and PaaS cloud enviornments without performing any manual processes.Cisco SD - WAN provide instant access to cloud traffic, allowing you to control your deployment at any time.`,
+                    `Cisco SD - WAN provides end - to - end visibility into applications and infrastructure, real time information without any failure correlation.`,
+                    `It helps to change policies according to predictable performance and categorization of application quality of service(QoS).`,
+                ]
+
+            },
+            {
+                type: 'h3',
+                text: `CCIE Certification`
+            },
+            {
+                type: 'p',
+                text: `CCIE stands for Cisco Certified Internetwork Expert, it’s an expert level of certification. CCIE is designed for architects and engineers, and involves configuration, troubleshooting, and integration.
+`
+            },
+            {
+                type: 'p',
+                text: ` CCIE consists of two major courses:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `CCIE Enterprise Training Course`,
+                    `CCIE Security Training course`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `CCIE Enterprise training course`
+            },
+            {
+                type: 'p',
+                text: `CCIE applicants are recommended to have five to seven years of involvement in planning, designing, and deploying enterprise networking technologies and solutions before taking the test. So, to pass the CCIE Enterprise Infrastructure exam, candidates should have to pass two exams.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Cisco Enterprise Network Core Technologies Implementation and Operation(Encore 350 - 401)`,
+                    `(Lab exam) CCIE Enterprise Infrastructure v1.0`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `Course Syllabus:`
+            },
+            {
+                type: 'list',
+                items: [
+                    ` Network Infrastructure`,
+                    `Software Defined Infrastructure`,
+                    `Transport Technologies and Solutions `,
+                    `Infrastructure Security and Services`,
+                    `Infrastructure Automation and Programmability`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `The CCIE Enterprise Course will teach you all of the latest technologies such as Cisco DNA Center, SDWAN, and automation technologies such as python, ansible, and selenium, among others. This course covers around 6 months of training that covers multiple Cisco IT certifications.`
+            },
+            {
+                type: 'h3',
+                text: `CCIE Security Training v6.0: `
+            },
+            {
+                type: 'p',
+                text: `This course is also the same as the CCIE Enterprise training course.This course contains the following topics:
+            CCNA 200 - 301`
+            },
+            {
+                type: 'list',
+                items: [
+                    `CCNP Enterprise – Encore Module`,
+                    `CCNP Enarsi Module`,
+                    `CCNP SDWAN Module`,
+                    `CCNP Security – Cisco FTD`,
+                    `CCNP Security – Cisco WSA`,
+                    `CCNP Security – Cisco ESA`,
+                    `CCNP Security – Cisco IPS`,
+                    `CCNP Security – Cisco VPN`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `CCIE Security v6.0 course takes 6 months of training programme and covers the full lifecycle of complex security solutions and provides technologies from designing and deploying to operating and optimizing.`
+            },
+            {
+                type: 'p',
+                text: `CCIE Security practical exam gives candidates 8 hours of time to complete and requires a candidate to plan, design, deploy, execute, and optimize network security solutions to protect a given network. They have to implement programming and automate the network within the exam, as per course topics mentioned below.`
+            },
+            {
+                type: '',
+                items: [
+                    `Perimeter and Intrusion Prevention Security(20 %)`,
+                    `Secure Connectivity and Segmentation(20 %)`,
+                    `Infrastructure Security(15 %)`,
+                    `Identity and Incident Management, Information, and Access Control(25 %)`,
+                    `Advanced Threat Security and Content Security(20 %) `,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Benefits of CCIE certification:`
+            },
+            {
+                type: '',
+                items: [
+                    `Highest paid IT certification`,
+                    `Increase the salary packages`,
+                    `Career growth opportunities`,
+                    `Career support and guidance provided after completing cisco cerification`,
+                    `Trainers are Cisco certified and experienced`,
+                    `Concepts are explained through theoretically and practically practicing on the Cisco devices.`,
+                    `Lab is available for students 24* 7, also availability of trainers/ Mentor 24 * 7`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `The Cisco ISE training comes under the CCIE Enterprise training course. When candidates enrol for the CCIE certification, they will also learn the Cisco ISE training. Let’s have a look inside the Cisco ISE training.`
+            },
+            {
+                type: 'h3',
+                text: `Cisco ISE Training`
+            },
+            {
+                type: 'p',
+                text: `Cisco ISE stands for Implementating and configuring Cisco Identity Services Engine. This course provides a brief understanding of an identity and access control policy platform, and skills to implement and use of Cisco ISE, including security policy, profiling services, web authentication and guest access services, endpoint compliance services.`
+            },
+            {
+                type: 'p',
+                text: `Objectives of Cisco ISE Course:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `It describes Cisco ISE deployments, including core deployment components, and also describes how they communicate to create a firm security architecture.Describe the benefits of such a deployment and how every Cisco ISE capacity adds to these benefits.`,
+                    `Describe the process and configure the components related to 802.1X and MAC authentication bypass, identity management, and certificate services.`,
+                    `Describe how Cisco ISE policy strategy sets are utilized to carry out authentication and authorization, and how to use this ability to address the issues in your organization.`,
+                    `Describe and configure web authentication, processes, operations, and visitor services, including visitor access parts and different visitor access situations.`,
+                    `Design Cisco ISE profiling services and describe how to monitor these services to improve your situational awareness about network - associated endpoints.`,
+                    `Describe best practises for conveying this profiler’s administration in your specific environment.`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Prerequisites `
+            },
+            {
+                type: 'p',
+                text: `To take the full advantage from this course, candidate should have the following prior knowledge:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Knowledge of the Cisco IOS Programming Command Line Connection point(CLI)`,
+                    `Knowledge of Cisco AnyConnect Secure client`,
+                    `Knowledge of Microsoft Windows OS`,
+                    `Knowledge of 802.1X`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `If we have a look at the outline of this course, then it will be:`
+            },
+            {
+                type: '',
+                items: [
+                    `Cisco ISE Architecture and Deployment`,
+                    `Cisco ISE Policy Enforcement`,
+                    `Web Authentication and Guest Services`,
+                    `Cisco ISE Profiler`,
+                    `Cisco ISE BYOD`,
+                    `Cisco ISE Endpoint Compliance Services`,
+                    `Working with Network Access Devices`,
+
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Benefits of Cisco ISE training:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Increase overall efficiency`,
+                    `It helps IT professional, mostly for networking and IT teams.`,
+                    `Effortless management of network components`,
+                    `Policy making is easy and easily implement it in whole organizations.`,
+                    `Enhanced experience for guest and permanent users`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `In this article we have seen all the certifications from entry-level to experienced-level. Candidates can choose certification according to their expertise. Begineers can start with CCNA certification, and experienced people who are already working in the IT industry can choose any certification according to their experience in the field.`
             },
         ]
     },
