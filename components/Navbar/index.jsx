@@ -55,15 +55,7 @@ const Index = () => {
         <>
 
             <TopBar />
-            <motion.a
-                href='#'
-                className="fixed z-50 p-4 hover:scale-105 transition-all duration-300  text-white text-xl bg-themeColor rounded-full right-4 bottom-4"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: shouldShowActions ? 1 : 0 }}
-                transition={{ opacity: { duration: 0.2 } }}
-            >
-                <AiOutlineArrowUp />
-            </motion.a>
+
             <header
                 style={{
                     boxShadow: '0 4px 40px rgba(0,0,0,.08)'

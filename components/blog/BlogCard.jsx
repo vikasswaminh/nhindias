@@ -13,8 +13,8 @@ const BlogCard = ({ data }) => {
     return (
         <Link href={`/blog/[category]/[slug]`} as={`/blog/${data.category.slug}/${data.slug}`}>
             <a className='flex group flex-col h-fit max-w-[25rem]  overflow-hidden'>
-                <div className="relative aspect-video min-h-[250px] w-full">
-                    <Image src={data.content[0].src} layout='fill' objectFit='cover' className=' group-hover:scale-105 transition-all duration-300' alt={'image'} />
+                <div className="relative aspect-video rounded-md overflow-hidden  min-h-[250px] w-full">
+                    <Image src={data.content[0].src} layout='fill' objectFit='cover' className='rounded-md overflow-hidden  group-hover:scale-105 transition-all duration-300' alt={'image'} />
                     <Link href={`/blog/[category]`} as={`/blog/${data.category.slug}`}>
                         <a className="absolute rounded-full text-xs font-semibold py-1.5 px-3 right-2 bottom-2 bg-white opacity-90 hover:opacity-100">
                             {data.category.title}
