@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Button from '../components/common/Button'
@@ -15,9 +16,9 @@ const Error = () => {
             />
             <div className="min-h-screen flex items-start justify-center">
                 <div className="flex flex-col">
-                    <picture>
-                        <img alt='image' src="/assets/images/404.webp" className="w-full h-full" />
-                    </picture>
+                    <div className="aspect-video relative">
+                        <Image layout='fill' alt='image' src="/assets/images/404.webp" objectFit='contain' className="w-full h-full" />
+                    </div>
                     <h1 className='text-4xl text-center text-themeColor font-bold md:text-6xl'>
                         Page Not Found
                     </h1>

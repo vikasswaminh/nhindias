@@ -1,17 +1,15 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import BlogCard from '../../components/blog/BlogCard'
+import Seo from '../../components/common/Seo'
 import Layout from '../../components/Layout'
 
 const index = () => {
     return (
         <Layout>
-            <Head>
-                <title>Blog | NetworkersHome</title>
-                <meta content="Best CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC " name="description" />
-            </Head>
+            <Seo
+                title="Blog | NetworkersHome"
+            />
             <div className="w-full -mt-12 flex items-center justify-center relative min-h-[20rem] h-[40vh]">
                 <div className="absolute w-full h-full inset-0" style={{ background: 'linear-gradient(rgba(0,72,239,0.99), rgba(0,72,239,0.7))' }}></div>
                 <div className="flex flex-col space-y-8  z-20 items-center">
@@ -49,7 +47,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -60,7 +58,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -71,7 +69,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -82,7 +80,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -93,7 +91,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -104,7 +102,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -115,7 +113,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -126,7 +124,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -137,7 +135,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -148,7 +146,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -159,7 +157,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -170,7 +168,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -181,7 +179,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -192,7 +190,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -203,7 +201,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -214,7 +212,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -225,7 +223,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -236,7 +234,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -247,7 +245,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -258,7 +256,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
     {
         title: `What makes NH #1 CCIE Training company in ASIA`,
@@ -269,7 +267,7 @@ Welcome to Networkers Home - Asia's largest, most awarded and a top-notch IT tra
         date: ` Nov 06, 2020`,
         authorName: 'Test Author',
         authorImage: '/',
-        slug: '/networkers-home-asias-1-it-training-company'
+        slug: '/blog/category/networkers-home-asias-1-it-training-company'
     },
 ]
 

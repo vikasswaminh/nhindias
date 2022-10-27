@@ -10,10 +10,8 @@ const ArticlesCard = ({ linkType, image, link, type, title, desc }) => {
           ?
           <a href={link} target='_blank' rel='noreferrer' className='flex  flex-col  items-start space-y-3 w-full group h-full cursor-pointer '>
             <div className="max-w-sm lg:max-w-full bg-white rounded-lg overflow-hidden h-full shadow-sm hover:shadow-xl mt-4 mb-12 border">
-              <div className="overflow-hidden max-h-[15rem] ">
-                <picture>
-                  <img className="w-full scale-110 hover:scale-125 transition-all duration-300" src={image} alt="image" />
-                </picture>
+              <div className="overflow-hidden aspect-[1.75] min-h-[12rem] sm:min-h-[15rem] relative">
+                <Image className="w-full scale-110 hover:scale-125 transition-all duration-300" src={image} layout='fill' alt="image" />
               </div>
 
               <div className="px-6 py-4 space-y-3">
@@ -31,10 +29,8 @@ const ArticlesCard = ({ linkType, image, link, type, title, desc }) => {
           <Link href={link}>
             <a className='flex  flex-col  items-start space-y-3 w-full group h-full cursor-pointer '>
               <div className="max-w-sm lg:max-w-full bg-white rounded-lg overflow-hidden h-full shadow-sm hover:shadow-xl mt-4 mb-12 border">
-                <div className="overflow-hidden max-h-[15rem] ">
-                  <picture>
-                    <img className="w-full scale-110 hover:scale-125 transition-all duration-300" src={image} alt="image" />
-                  </picture>
+                <div className="overflow-hidden aspect-[1.75] rounded-t-xl min-h-[12rem] sm:min-h-[15rem] relative">
+                  <Image className="w-full scale-110 hover:scale-125 transition-all duration-300" src={image} layout='fill' alt="image" />
                 </div>
 
                 <div className="px-6 py-4 space-y-3">
