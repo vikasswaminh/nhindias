@@ -3,6 +3,7 @@ import Layout from '../../components/Layout'
 import ContactusTestimonial from '../../components/Testimonials/ContactusTestimonial'
 import ArticlesAndCourses from '../../components/Testimonials/ArticlesAndCourses'
 import Seo from '../../components/common/Seo'
+import Image from 'next/image'
 const index = () => {
     return (
         <Layout>
@@ -12,11 +13,11 @@ const index = () => {
             />
 
 
-            <div className="flex my-12 container  flex-col space-y-12">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase text-center">BEST IT CERTIFICATIONS LIST 2022</h1>
-                <picture>
-                    <img alt='image' src="/assets/images/people4.jpeg" className="w-full h-full max-h-[40rem] object-cover" />
-                </picture>
+            <div className="flex my-12 container  flex-col gap-4 lg:gap-12">
+                <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold uppercase text-center">BEST IT CERTIFICATIONS LIST 2022</h1>
+                <div className='w-full container relative aspect-[1.8] md:aspect-[2] rounded-sm'>
+                    <Image layout='fill' alt='image' src="/assets/images/people4.jpeg" className="w-full h-full max-h-[40rem] object-cover" />
+                </div>
 
             </div>
             <div className="themeBg py-12 mt-12">
@@ -45,9 +46,9 @@ const index = () => {
                                 Oracle Certified Professional Cloud Service Provider (OCP) SaaS Applications
                             </p>
                         </div>
-                        <picture>
-                            <img alt='image' src="/assets/images/cloud-certificates.jpeg" className="w-full h-full object-cover" />
-                        </picture>
+                        <div className='aspect-[1.6] relative w-full h-full'>
+                            <Image layout='fill' alt='image' src="/assets/images/cloud-certificates.jpeg" className="w-full h-full object-cover" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -59,9 +60,9 @@ const index = () => {
                     </p>
                 </div >
                 <div className="grid items-center grid-cols-1 gap-8 lg:grid-cols-2">
-                    <picture>
-                        <img alt='image' src="/assets/images/tut1.jpeg" className="w-full h-full" />
-                    </picture>
+                    <div className='aspect-[1.6] relative w-full h-full'>
+                        <Image layout='fill' alt='image' src="/assets/images/tut1.jpeg" className="w-full h-full object-cover" />
+                    </div>
                     <div className="flex flex-col space-y-4">
                         <h3 className='text-2xl lg:text-4xl font-bold'>Top Programming courses</h3>
                         <p className='text-lg md:text-xl'>

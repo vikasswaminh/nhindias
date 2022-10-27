@@ -37,6 +37,10 @@ export const navData = [
         label: "All Courses",
         slug: "/all-courses"
     },
+    {
+        label: "Blog",
+        slug: "/blog"
+    },
 ]
 
 export const slideData = [
@@ -366,3 +370,12 @@ export const coursePageProgramsData = [
     },
 ]
 
+
+
+
+
+export const blogs = [
+    {
+        displayPic: ''
+    }
+]

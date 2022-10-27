@@ -28,9 +28,11 @@ const ContactusTestimonial = () => {
           className="flex flex-col max-w-[40rem] mx-auto w-full space-y-3 flex-1"
         >
 
-          <div className='w-full h-full overflow-hidden rounded-xl '>
+          <div className='w-full relative h-full overflow-hidden rounded-xl '>
             <Image
               src={tut1}
+              layout='fill'
+              objectFit='cover'
               className="w-full hover:scale-105 h-full rounded-xl transition-all duration-500 object-contain"
               alt=""
             />

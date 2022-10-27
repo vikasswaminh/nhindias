@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiOutlineChevronDoubleRight } from 'react-icons/hi'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const CourseCard = ({ title, desc, link, projects, img, i }) => {
   return (
@@ -24,10 +25,8 @@ const CourseCard = ({ title, desc, link, projects, img, i }) => {
               ))}
             </ul>
           ) : img && (
-            <div>
-              <picture>
-                <img src={img} className='rounded-xl' alt='img' />
-              </picture>
+            <div className='relative w-full aspect-video rounded-xl'>
+              <Image layout='fill' src={img} className='rounded-xl' alt='img' />
             </div>
           )}
         </div>
