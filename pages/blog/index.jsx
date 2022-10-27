@@ -17,7 +17,7 @@ const index = () => {
                     <h2 className="text-4xl md:text-5xl lg:text-6xl uppercase font-bold text-white">The BLOG</h2>
                     <div className="flex items-center justify-center flex-wrap gap-4 text-white uppercase">
                         {categories.slice(0, 4).map((cat, i) => (
-                            <Link key={i} href={`/blog/category/[category]`} as={`/blog/${cat.slug}`}>
+                            <Link key={i} href={`/blog/[category]`} as={`/blog/${cat.slug}`}>
                                 <a className="font-semibold py-1 px-2 border border-white rounded-sm hover:bg-white hover:text-themeColor transition-all duration-300 text-base">{cat.title}</a></Link>
                         ))}
                     </div>
