@@ -22,7 +22,7 @@ const slug = ({ data }) => {
             <div className="px-4 max-w-[90rem] w-full mx-auto py-4 no-scrollbar">
                 <BreadCrumbs data={data} />
             </div>
-            <div className="grid grid-cols-1 pb-20 px-4 max-w-[90rem] w-full mx-auto lg:grid-cols-12">
+            <div className="grid text-[#212121] grid-cols-1 pb-20 px-4 max-w-[90rem] w-full mx-auto lg:grid-cols-12">
                 <div className="col-span-1 flex flex-col gap-6 lg:col-span-8">
                     {data?.content?.map((item, i) => (
                         <div key={i}>
@@ -35,48 +35,54 @@ const slug = ({ data }) => {
                                         <h2 className='text-2xl  pt-2 lg:text-3xl font-bold'>{item.text}</h2>
                                         :
                                         item.type === 'h3' ?
-                                            <h2 className='text-xl pt-2 lg:text-2xl font-bold'>{item.text}</h2>
+                                            <h3 className='text-xl pt-2 lg:text-2xl font-bold'>{item.text}</h3>
                                             :
-                                            item.type === 'p' ?
-                                                <p className={`text-base lg:text-lg  ${item.classes}`}>{item.text}</p>
+                                            item.type === 'h4' ?
+                                                <h4 className='text-lg pt-2 lg:text-xl font-bold'>{item.text}</h4>
                                                 :
-                                                item.type === 'df' ?
-                                                    <p className={`text-base lg:text-lg  ${item.classes}`}><b>{item.qs}</b><span>{item.text}</span></p>
+                                                item.type === 'p' ?
+                                                    <p className={`text-base lg:text-lg  ${item.classes}`}>{item.text}</p>
                                                     :
-                                                    item.type === 'list' ?
-                                                        <div className="flex flex-col pl-4 gap-3">
-                                                            {item.items.map((listItem, listIdx) => (
-                                                                item.style === 'line' ?
-                                                                    <li key={listIdx} className='list-none text-base font-medium italic lg:text-lg '>
-                                                                        - {listItem}
-                                                                    </li>
-                                                                    :
-                                                                    item.style === 'df' ?
-                                                                        <li key={listIdx} className='text-base font-medium  italic lg:text-lg '>
-                                                                            <b>{listItem.qs}</b><span>{listItem.text}</span>
+                                                    item.type === 'df' ?
+                                                        <p className={`text-base lg:text-lg  ${item.classes}`}><b>{item.qs}</b><span>{item.text}</span></p>
+                                                        :
+                                                        item.type === 'list' ?
+                                                            <div className="flex flex-col pl-4 gap-3">
+                                                                {item.items.map((listItem, listIdx) => (
+                                                                    item.style === 'line' ?
+                                                                        <li key={listIdx} className='list-none text-base font-medium italic lg:text-lg '>
+                                                                            - {listItem}
                                                                         </li>
                                                                         :
-                                                                        item.style === 'numbers' ?
-                                                                            <li key={listIdx} className='text-base list-decimal font-medium  italic lg:text-lg '>
-                                                                                {listItem}
+                                                                        item.style === 'df' ?
+                                                                            <li key={listIdx} className='text-base font-medium  italic lg:text-lg '>
+                                                                                <b>{listItem.qs}</b><span>{listItem.text}</span>
                                                                             </li>
                                                                             :
-                                                                            <li key={listIdx} className='text-base italic font-medium  lg:text-lg '>
-                                                                                {listItem}
-                                                                            </li>
-                                                            ))}
-                                                        </div>
-                                                        :
-                                                        item.type === 'img' ?
-
-                                                            <div className='relative z-40 rounded-md overflow-hidden w-full aspect-video'>
-                                                                <Image src={item.src} layout='fill' objectFit='cover' alt='blog_img' />
+                                                                            item.style === 'numbers' ?
+                                                                                <li key={listIdx} className='text-base list-decimal font-medium  italic lg:text-lg '>
+                                                                                    {listItem}
+                                                                                </li>
+                                                                                :
+                                                                                <li key={listIdx} className='text-base italic font-semibold  lg:text-lg '>
+                                                                                    {listItem}
+                                                                                </li>
+                                                                ))}
                                                             </div>
-
-
-
                                                             :
-                                                            ''
+                                                            item.type === 'img' ?
+
+                                                                <div className='relative z-40 rounded-md overflow-hidden w-full aspect-video'>
+                                                                    <Image src={item.src} layout='fill' objectFit='cover' alt='blog_img' />
+                                                                </div>
+                                                                :
+                                                                item.type === 'slug' ?
+                                                                    <Link href={item.href}>
+                                                                        <a className='underline text-themeColor font-semibold text-base'>{item.label}
+                                                                        </a>
+                                                                    </Link>
+                                                                    :
+                                                                    ''
 
                             }
                         </div>

@@ -2034,254 +2034,693 @@ To answer this question we need to first see what is CCNA certification, what ar
                 text: `In this blog we will learn about all the aspects of CCNA certification, so let’s get started with what is CCNA certification and what different types of CCNA certification are available?`
             },
             {
-                type: '',
-                text: ``
+                type: 'h3',
+                text: `CCNA Certification details`
             },
             {
-                type: '',
-                text: ``
+                type: 'p',
+                text: `CCNA stands for Cisco Certified Network Associate. People can do CCNA 200-301 training in both online and classroom mode. The certification is valid for three years and for all types of engineers can able to do this certification. After clearing the certification exam, you will receive the certificate of completion. That will ensure that you have the skills needed to start a career in the IT industry or in the networking domain.`
             },
             {
-                type: '',
-                text: ``
+                type: 'p',
+                text: `Doing CCNA certification gives you the concept of computer network, switching and routing, gives a clear understanding of using switch, routers, hubs and other cisco devices.`
             },
             {
-                type: '',
-                text: ``
+                type: 'p',
+                text: `CCNA certification is the first step to getting started in IT domain. It helps to get job as a network engineer, system engineer, technical support engineer, network administrator, senior network engineer, or network security specialist.`
             },
             {
-                type: '',
-                text: ``
+                type: 'h4',
+                text: `Different types of CCNA certification:`
             },
             {
-                type: '',
-                text: ``
+                type: 'p',
+                text: `The original focus of CCNA was on Routing and Switching, and now there are different types of CCNA courses focused on:`
             },
             {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
-            {
-                type: '',
-                text: ``
-            },
+                type: 'list',
+                items: [
+                    `CCNA Routing and Switching`,
+                    `CCNA Industrial`,
+                    `CCNA Data Center`,
+                    `CCNA Collaboration`,
+                    `CCNA Cloud`,
+                    `CCNA Cyber Operations`,
+                    `CCNA Wireless`,
+                    `CCNA Service provider`,
+                    `CCNA Security`,
 
+                ]
+            },
+            {
+                type: 'h2',
+                text: `CCNA Routing and Switching`
+            },
+            {
+                type: 'p',
+                text: `A network professional with a CCNA certification can use his knowledge about network layers 1-3 which are applicable to core routing and switching, skills needed to install, configuration, and operate a small enterprise network. The candidate can evolve into the role of a network engineer with this certification.`
+            },
+            {
+                type: 'h3',
+                text: `CCNA Industrial`
+            },
+            {
+                type: 'p',
+                text: `The certification gives candidates the skills to successfully implement and diagnose the most common industry standard protocols while using the best practices needed for today’s connected networks.`
+            },
+            {
+                type: 'h3',
+                text: `CCNA Data Center`
+            },
+            {
+                type: 'p',
+                text: `CCNA Data Center certification describe the knowledge of basic data center networking concepts, configuration and troubleshooting of data center virtualization, configuring cisco MDS switches, NPV nodes and many more.`
+            },
+            {
+                type: 'h3',
+                text: `CCNA Collaboration`
+            },
+            {
+                type: 'p',
+                text: `This certification is for network video engineers, IP telephony, and IP network engineers. It’s help students to learn and work more effectively in voice, video, data, and mobile apps.`
+            },
+            {
+                type: 'p',
+                text: `The CCNA collaboration certification also helps students to gain knowledge in installation, configure, operate and maintain Cisco’s Unified Communications solutions.`
+            },
+            {
+                type: 'h3',
+                text: `CCNA Cloud`
+            },
+            {
+                type: 'p',
+                text: `CCNA cloud certification is for individuals who wants to develop their cloud skills. It is the only certification that covers all major cloud technologies such as Application Centric Infrastructure (ACI), OpenStack, and Cloud Management System.`
+            },
+            {
+                type: 'p',
+                text: `This certification is mainly focused on helping cloud engineers, cloud administrators, and network engineers enhance their cloud skill set.`
+            },
+            {
+                type: 'h3',
+                text: `CCNA Cyber Operations`
+            },
+            {
+                type: 'p',
+                text: `This CCNA Cyber Ops certification focuses on educating applicants for associate-level roles in cyber security operations centers.`
+            },
+            {
+                type: 'p',
+                text: `It will help you understand how an enterprise network infrastructure is designed, implemented, and used. You will be familiar with key security technologies such as firewalls, Network Access Control (NAC), intrusion prevention systems (IPSs), and virtual private networks. `
+            },
+            {
+                type: 'h3',
+                text: `CCNA Wireless`
+            },
+            {
+                type: 'p',
+                text: `This certification will help you dig deep into wireless LAN technologies, Cisco Prime Infrastructure & Identity services, and Meraki cloud-managed services. The programme has basic security features, including rogue SSID broadcast control and a layer-11. It has wireless intrusion prevention systems, air quality monitoring tools, and location tracking services. `
+            },
+            {
+                type: 'p',
+                text: `The course teaches students how to set up a WLAN controller in stand-alone mode as well as in mobility group mode.`
+            },
+            {
+                type: 'h3',
+                text: `CCNA Service Provider`
+            },
+            {
+                type: 'p',
+                text: `This CCNA Service Provider certification focuses on configuring and operating the Juniper Networks M320 router. This certification also teaches the deployment of IPv46 and Ipv41 services in branch offices, including VPNs internetworking technologies such as MPLS layer and VPN Pass-through secure sockets layer/virtual private network protocols are included. `
+            },
+            {
+                type: 'p',
+                text: `The course will teach you how to make decisions when planning enterprise campus core and remote access network deployments.`
+            },
+            {
+                type: 'h3',
+                text: `CCNA Security`
+            },
+            {
+                type: 'p',
+                text: `This certification provides specialised training beyond the basics of entry-level network support. Candidates are taught how to secure router and switch networks using industry best practices.`
+            },
+            {
+                type: 'p',
+                text: `Strong security is implemented for endpoints, applications, cloud services, data center environments and more.`
+            },
+            {
+                type: 'h2',
+                text: `Benefits of doing CCNA certification:`
+            },
+            {
+                type: 'p',
+                text: `Lots of benefits are there for obtaining a certification. When a person becomes CCNA certified, they can try for a better job, or they can raise or negotiate a higher salary than other IT professionals. Different types of technologies are coming every year, like SDN (Software-defined Networking) and cloud infrastructure. `
+            },
+            {
+                type: 'list',
+                items: [
+                    `Lots of job opportunities`,
+                    `Every organisation that accepts this certific,ation`,
+                    `Help to get into other domains`,
+                    `Value for money.`,
+                    `No prerequisites, are needed to enrol in CCNA certification.`,
+                ]
+            },
+            {
+                type: 'h2',
+                text: `Disadvantages of doing CCNA certification`
+            },
+            {
+                type: 'p',
+                text: `We have seen all the types of CCNA certification and the benefits of having certification. Now let’s see what the disadvantages of CCNA certification are:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Certification costs are high`
+                ]
+            },
+            {
+                type: 'p',
+                text: `If a person wants to take the CCNA certification exam, he has to pay a large amount of $300, i.e., Rs. 22,885. This amount is just for giving the exam. The expense of this exam can be justified by the value of the exam. You can apply for a lot of job positions once you get the certification.
+`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Certification needs to be recertified`
+                ]
+            },
+            {
+                type: 'p',
+                text: `When you get the certification, it’s valid for only three years. After that, you have to recertify the certification. You must upgrade to a newer version of the certification if you want to take advantage of it.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Lots of other certifications are available in the same range`
+                ]
+            },
+            {
+                type: 'p',
+                text: `There are many certifications that are available in the same range. You don’t want to keep taking the certification exam if you don’t have experience in a specific field. It is not easy to give exams. It requires a lot of money and mental effort. It is difficult to crack the certification exams. You might need to get other levels of the certification to get an entry-level certification.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Time-consuming`
+                ]
+            },
+            {
+                type: 'p',
+                text: `Certification exams are not easy to crack. You need to study hard to pass the exam. You will need a better understanding of the network in order to understand the concepts on the exams. It takes a lot of hard work to have good knowledge. The exam process takes a long time. You have to pass the certification. It is necessary to work hard. You may want to take classes for the exam, and the classes are expensive.`
+            },
+            {
+                type: 'h3',
+                text: `Why CCNA Certification still worth it?`
+            },
+            {
+                type: 'p',
+                text: `The CCNA certification is the most valuable certification to get when entering into networking domain and it’s also an entry level certification. As I mentioned above, there are plenty of job oppotunities out there in market to get start in IT domains.`
+            },
+            {
+                type: 'p',
+                text: `The CCNA certification opens the door for other certifications like CCNP, CCIE, and many more. Most professionals want to take the higher certification, but before enrolling in the higher certification, a person should have the fundamental understanding and skills to get started. So it’s highly recommended by highly trained professionals that a person should have basic level of knowledge and skills.`
+            },
+            {
+                type: 'p',
+                text: `This certification is required for anyone who wants to work in the IT industry as a network engineer, system engineer, senior network engineer, technical support engineer, and so on. Most companies want to hire certified professionals, so they have to give minimal training to a person. It also improves your skills and knowledge while keeping you up to date on the latest technology used by businesses.`
+            },
+            {
+                type: 'p',
+                text: `So it’s better to start your carrer with a begineer level of certification.`
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "Networking Course in India",
+            description: 'In this blog we will get to know about the role of networking in IT domains and what types of courses are available in India for the networking domain.',
+            og_img: '/assets/images/blog/9.jpg',
+        },
+        slug: 'networking-course-in-india',
+        category: {
+            title: "Placement Program",
+            slug: 'placement-program'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/9.jpg'
+            },
+            {
+                type: 'h1',
+                text: `Networking Course in India`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `In this blog we will get to know about the role of networking in IT domains and what types of courses are available in India for the networking domain. Networking is a part of Information technology and is widely used in every organisation. All the Networks related certifications are provided in our organization, and networking domain is booming in the IT industry. `
+            },
+            {
+                type: 'p',
+                text: `Even the candidates do not have a background in IT or a cmoputer science degree, a true beginner can enrol in these courses. If a candidate has passed out from a different domain, like having done a bachelor’s in commerce or coming from a non-IT domain, that’s totally fine. `
+            },
+            {
+                type: 'p',
+                text: `First, let’s see what networking is? and what courses are available in our company? Last, we will take a look at other certifications available in market for networking course.`
+            },
+            {
+                type: 'p',
+                text: `Computer networking is the excahnge of data between computing devices. These networked devices are bound to rules, known as communication protocols, to transport information over physical or wireless technologies.`
+            },
+            {
+                type: 'p',
+                text: `Computer networking allows devices and endpoints to be connected to each other on a local area network or larger network. Sharing resources, use or offer services is an essential function for service providers, business and consumers. Telephone calls, text messaging, streaming videos, and the internet of things are all possible because of networking.`
+            },
+            {
+                type: 'h3',
+                text: `IT Domains to explore: Networking Courses`
+            },
+            {
+                type: 'p',
+                text: `Networking courses can be confusing to find the right one for you. We have a list of networking courses that will make it easy for you. You can enter in any domains based on your area of interest. `
+            },
+            {
+                type: 'p',
+                text: `In the technical industry, you can explore the following:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Routing and Switching`,
+                    `Cloud domain`,
+                    `Cyber Security`,
+                    `Data Center`,
+                    `Firewall`,
+                ]
+            },
+            {
+                type: 'P',
+                text: `Let’s begin with what certifications are available for the networking course.`
+            },
+            {
+                type: 'h2',
+                text: `Top Courses for Networking in India:`
+            },
+            {
+                type: 'h3',
+                text: `Cisco CCNA Certification (200-301): Beginners Level course`
+            },
+            {
+                type: 'p',
+                text: `Cisco CCNA course is totally for beginners. Candidates who want to get into the IT industry, the CCNA course is the best choice for them and its entry level certification of Networking course. They can do this course in both online and classroom mode. After passing the certification it is valid for three years.`
+            },
+            {
+                type: 'p',
+                text: `Doing CCNA certification gives you the concept of computer networks, switching and routing, and gives a clear understanding of using switches, routers, hubs, and other cisco devices.`
+            },
+            {
+                type: 'h4',
+                text: `CCNA Course topics:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Network Fundamentals`,
+                    `Network Access`,
+                    `IP Connectivity`,
+                    `IP Services`,
+                    `Network Automation `,
+                    `Infrastructure Security`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Benefits of CCNA Certification`
+            },
+            {
+                type: 'p',
+                text: `Lots of benefits are there to obtain a certification, it helps in to secure your job in IT industry or get entry in Networking domains. When a person become a CCNA certified, then you can try for better job or you can raise either negotiate a higher salary than other IT persons.`
+            },
+            {
+                type: 'h3',
+                text: `CCNP Certification: Intermediate level Course`
+            },
+            {
+                type: 'p',
+                text: `CCNP stands for Cisco Certified Network Professional. It is an enterprise infrastructure training program. In this certification programme, Cisco introduced advanced technologies like Cisco SD-WAN, Cisco Encore, and the ENARSI Module. `
+            },
+            {
+                type: 'p',
+                text: `There are no requirements for both training and certification for the CCNP certification, its an intermediate level of networking course.
+So for the CCNP certification, there are two exam modules: the core exam and the concentration exam.`
+            },
+            {
+                type: 'list',
+                style: 'df',
+                items: [
+                    {
+                        text: ' It focuses on your knowledge of enterprise, infrastructure, including IPv4 and IPv6 architecture, virtualization, infrastructure, security and automation. This core exam is also a qualifying exam for CCIE enterprise infrastructure and CCIE enterprise wireless certification. Students have to enrol in(350- 401) ENCOR, which is Implementing and operating Cisco Enterprise Network Core Technologies.',
+                        qs: 'Core Exam: '
+                    },
+                    {
+                        text: `It focuses on industry - specific topics such as network - design, SD - WAN, wireless, and automation.Students can prepare for concentration exams by taking the corresponding Cisco training course.Students have to choose any one module of exam from all the other cisco available course. In our company, we provide Cisco ENARSI course(300- 410), i.e.Cisco Enterprise Advanced Routing and Services `,
+                        qs: `Concentration Exam: `
+                    }
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Benefits of CCNP Certification:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Experienced leaders will help to get trained.`,
+                    `Vast range of career options.`,
+                    `It helps to get up - to - date in network technologies.`,
+                    `Helps to raise salary or get promoted.`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Cisco SD-WAN Certification: Fundamental Networking Course`
+            },
+            {
+                type: 'p',
+                text: `The Cisco SD-WAN (300-415 ENSDWI) training course is designed in such a manner that students can gain the skills and knowledge necessary to implement, configure, manage, and troubleshoot Cisco SDWAN solutions. `
+            },
+            {
+                type: 'p',
+                text: `This certification is also the fundamental level of certification in networking courses, so before taking this course, students’ prior knowledge of networking helps to gain knowledge.`
+            },
+            {
+                type: 'p',
+                text: `This course covers all the basics of Cisco SDWAN architecture and components, as well as provides knowledge of how to deploy Cisco SDWAN in both single-site and multi-site deployments, how to deploy initial configuration and management tasks, and how to troubleshoot common problems.`
+            },
+            {
+                type: 'h4',
+                text: `Course Syllabus:`
+            },
+            {
+                type: '',
+                items: [
+                    `Cisco SD - WAN Overlay Network`,
+                    `Cisco SD - WAN Routing Options`,
+                    `Cisco SD - WAN Deployment`,
+                    `Cisco SD - WAN Migration and Interoperability`,
+                    `Cisco SD - WAN Policy Configuration`,
+                    `Cisco SD - WAN Management and Operations`,
+                    `Cisco Labs`,
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Benefits of Cisco SD-WAN Certification:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Cisco SD-WAN provides a cloud-first infrastructure, which means Cisco SD-WAN has vManage console. We can use the vManage console to easily automate virtual private gateway deployment in IaaS and PaaS enviornments.`,
+                    `The Cisco SD-WAN onRamp provides automated connectivity to IaaS and PaaS cloud enviornments without performing any manual processes. Cisco SD-WAN provide instant access to cloud traffic, allowing you to control your deployment at any time.`,
+                    `Cisco SD-WAN provides end-to-end visibility into applications and infrastructure, real time information without any failure correlation.`,
+                    ` It helps to change policies according to predictable performance and categorization of application quality of service(QoS).`
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Advanced Networking course: CCIE Certification`
+            },
+            {
+                type: 'p',
+                text: `CCIE stands for Cisco Certified Internetwork Expert, it’s an expert level of certification. CCIE is designed for architects and engineers, and involves configuration, troubleshooting, and integration. `
+            },
+            {
+                type: 'p',
+                text: `CCIE consists of two major courses:`
+            },
+            {
+                type: '',
+                items: [
+                    `CCIE Enterprise Training Course`,
+                    `CCIE Security Training course`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `CCIE Enterprise training course:`
+            },
+            {
+                type: 'p',
+                text: `CCIE applicants are recommended to have five to seven years of involvement in planning, designing, and deploying enterprise networking technologies and solutions before taking the test. So, to pass the CCIE Enterprise Infrastructure exam, candidates should have to pass two exams.`
+            },
+            {
+                type: 'list',
+                items: [
+                    ` Cisco Enterprise Network Core Technologies Implementation and Operation(Encore 350 - 401)`,
+                    `(Lab exam) CCIE Enterprise Infrastructure v1.0`
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Course Syllabus:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Network Infrastructure`,
+                    `Software Defined Infrastructure`,
+                    `Transport Technologies and Solutions `,
+                    `Infrastructure Security and Services`,
+                    `Infrastructure Automation and Programmability`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `CCIE course covers around 6 months of training that covers multiple Cisco IT certifications.`
+            },
+            {
+                type: 'h3',
+                text: `Advanced Security Networking Course: CCIE Security v6.0`
+            },
+            {
+                type: 'p',
+                text: `This is the most advanced course in Cyber Security, CCIE security practical exam gives candidates 8 hours of time to complete and requires a candidate to plan, design, deploy, execute, and optimize network security solutions to protect a given network. `
+            },
+            {
+                type: 'p',
+                text: `They have to implement programming and automate the network within the exam, as per course topics mentioned below.`
+            },
+            {
+                type: '',
+                items: [
+                    `Perimeter and Intrusion Prevention Security(20 %)`,
+                    `Secure Connectivity and Segmentation(20 %)`,
+                    `Infrastructure Security(15 %)`,
+                    `Identity and Incident Management, Information, and Access Control(25 %)`,
+                    `Advanced Threat Security and Content Security(20 %) `,
+                ]
+            },
+            {
+                type: 'p',
+                text: `Benefits of CCIE certification:`
+            },
+            {
+                type: '',
+                items: [
+                    `Highest paid IT certification`,
+                    `Increase the salary packages`,
+                    `Career growth opportunities`,
+                    `Career support and guidance provided after completing cisco cerification`,
+                    `Trainers are Cisco certified and experienced`,
+                    `Concepts are explained through theoretically and practically practicing on the Cisco devices.`,
+                    `Lab is available for students 24* 7, also availability of trainers/ Mentor 24 * 7`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Most popular Security Networking course: CEH v11  `
+            },
+            {
+                type: 'p',
+                text: `CEH stands for Certified Ethical hacking, it is the entry-level certification which covers the both networking and security domains knowledge`
+            },
+            {
+                type: 'p',
+                text: `IT departments across the globe have made CEH Ethical Hacker Certification a must, as it has become a popular cybersecurity course for professionals. The course was designed to consider industrial and professional requirements`
+            },
+            {
+                type: 'p',
+                text: `The new module pays more attention to the internet of things and cloud concepts and more in malware analysis. You will learn how to use the most recent hacking tools and strategies in this course. The most recent hacking tools, methods, and procedures utilized by cybercriminals and cyber security experts will be provided by the CEH v11.`
+            },
+            {
+                type: 'p',
+                text: `CEH course covers the following topics below:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Introduction to Ethics and Ethical hacking`,
+                    `Networking concepts & design`,
+                    `Cryptography`,
+                    `Hacking testing Methodology`,
+                    `Web Application testing`,
+                    `Software Security`,
+                    `Malware Operations`,
+                    `Wireless Networking`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `One of the best networking course for beginners is the Certified Ethical Hacking certification. The Certified Ethical Hacking course fills you all the skills you need to get a job in IT domain.`
+            },
+            {
+                type: 'h3',
+                text: `Firewall Networking Course: Palo Alto Certified Network Security Engineer (PCNSE)`
+            },
+            {
+                type: 'p',
+                text: `Many skilled workers are pursing a career at Palo Alto Firewall. This course will teach you how to use the Palo Alto Firewall to protect and enhance cloud infrastructures. `
+            },
+            {
+                type: 'p',
+                text: `This course will provide the knowledge and skills to install, manage, and configure Palo Alto firewalls. You will learn how to protect your organization’s cloud infrastructure from cyber-attacks. We will dive into Palo Alto netowrks policies and configuration so that you can see how they work together. `
+            },
+            {
+                type: 'p',
+                text: `You will learn how to use key features if the Palo Alto Firewall to their fullest and understand their benefits and drawbacks. The outcomes will allow you to set up a Palo Alto Firewall.`
+            },
+            {
+                type: 'p',
+                text: `Networkers Home offers professional level of certification in Palo Alto Firewall, only the minimum requirement for enrol this course is CCNP certification.`
+            },
+            {
+                type: 'p',
+                text: `Major topics covered in this course:`
+            },
+            {
+                type: '',
+                items: [
+                    `Network Security`,
+                    `Firewall Technology`,
+                    `Virtualization Technology`,
+                    `Configuration & Troubleshooting of Palo Alto firewall`,
+                    `DNS & DHCP Theory / Lab`,
+                    `Cryptography and Hashing concepts`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Another Firewall Networking Course: FortiGate Firewall v6.4 NSE4`
+            },
+            {
+                type: 'p',
+                text: `This course will help you to understand how to use and manage FortiGate tools and features, as well as basic understanding of network security concepts. You will learn how to create a FortiGate firewall from scratch with our course.`
+            },
+            {
+                type: 'p',
+                text: `Networkers Home will help you achieve excellence in various network security- centered courses with the help of advanced level certifications. One of our best-improvised course modules the FotiGate Firewall course. `
+            },
+            {
+                type: 'p',
+                text: `People who are beginners to network security and want to improve their skills can sign up for this course.`
+            },
+            {
+                type: 'h4',
+                text: `Topics covered in this course:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Network Security `,
+                    `Malware Analysis`,
+                    `Firewall Concept`,
+                    `DNS & DHCP Lab`,
+                    `Antivirus`,
+                    `NAT Policy`,
+                    `VPN Concepts`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `Individuals must have minimum CCNP certification to take this course. It is recommended that you have a good understanding of network and security protocols.`
+            },
+            {
+                type: 'h3',
+                text: `IT Networking beginner course: Juniper Routing and Switching`
+            },
+            {
+                type: 'p',
+                text: `In this certification Juniper providing four level of certifications,Associate level, Specialist level, Professional level, Expert level. `
+            },
+            {
+                type: 'list',
+                items: [
+                    `Associate Level: JNCIA - Junos(JN0 - 104)`,
+                    `Specialist Level: JNCIS - SP(JN0 - 363)`,
+                    `Professional Level: JNCIP - SP(JN0 - 663)`,
+                    `Expert Level: JNCIE - SP(JN0 - 961)`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `Students or working professional are able to take any Juniper certification in India through Pearson VUE.`
+            },
+            {
+                type: 'p',
+                text: `Associate level of certification, Networking professionals with beginner-intermediate knowledge of networking can benefit from the JNCIA-Junos certification.`
+            },
+            {
+                type: 'h3',
+                text: `Another IT Networking Beginner course: Comptia Network+ `
+            },
+            {
+                type: 'p',
+                text: `The career development of IT professionals in network administration can be advanced with flexible training options. `
+            },
+            {
+                type: 'p',
+                text: `Candidates for the CompTIA Network+ are prepared to support networks on any platform. The skills that network professionals need are covered in the only certification that covers them. The hands-on skills and precise knowledge needed in today’s networking enviornments are not covered by other certifications.`
+            },
+            {
+                type: 'p',
+                text: `Major topics in this course covers:`
+            },
+            {
+                type: '',
+                items: [
+                    `Basics Ports and Protocols`,
+                    `OSI Layers overview`,
+                    `Networking Technology`,
+                    `Cloud`,
+                    `Network design`,
+                    `Network Security`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Conclusions:`
+            },
+            {
+                type: 'p',
+                text: `The above mentioned Networking courses have been designed for you. We have seen all the major certifications, from entry-level to experienced-level. Candidates can choose a certification according to their expertise. Beginners can start with the CCNA certification, and experienced people who are already working in the IT industry can choose any certification.`
+            },
+            {
+                type: 'p',
+                text: `All those basic to advanced level certification exams that were mentioned above. All certifications are provided in Networkers Home. So if anyone wants to enrol in those certifications, he/she can check out the Networkers Home website.`
+            },
+            {
+                type: 'slug',
+                href: '/',
+                label: 'www.networkershome.com'
+            }
         ]
     },
 ]
