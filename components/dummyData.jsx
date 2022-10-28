@@ -388,8 +388,11 @@ export const categories = [
     {
         title: "Placement Program",
         slug: 'placement-program'
+    },
+    {
+        title: "Cloud Computing",
+        slug: 'cloud-computing'
     }
-
 ]
 
 
@@ -1440,6 +1443,245 @@ In the concentration exam, students have to choose any one module from a given s
             {
                 type: 'p',
                 text: `In this article we have seen all the certifications from entry-level to experienced-level. Candidates can choose certification according to their expertise. Begineers can start with CCNA certification, and experienced people who are already working in the IT industry can choose any certification according to their experience in the field.`
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "Is google cloud certification worth it?",
+            description: 'On a daily basis, we all hear the word “google” Our lives are more connected to the internet than to any other thing at the moment.',
+            og_img: '/assets/images/blog/6.jpg',
+        },
+        slug: 'is-google-cloud-certification-worth-it',
+        category: {
+            title: "Cloud Computing",
+            slug: 'cloud-computing'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/6.jpg'
+            },
+            {
+                type: 'h1',
+                text: `Is google cloud certification worth it?`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `On a daily basis, we all hear the word “google” Our lives are more connected to the internet than to any other thing at the moment. There are many opportunities that are open to the public. The role of professional architect is one of those. Whether it is worth it or not, we will read about it in this post.`
+            },
+            {
+                type: 'p',
+                text: `Before dive into google cloud certification worth it or not, first let’s check what is cloud computing and what are the benefits of it?`
+            },
+            {
+                type: 'h3',
+                text: `Cloud computing, In Simple word what is Cloud and why we need it?`
+            },
+            {
+                type: 'p',
+                text: `The name “Cloud” came from a network design that a network engineer used to represent the location of various network devices. This network design looks like a cloud. `
+            },
+            {
+                type: 'p',
+                text: `The idea of network-based cloud computing was first introduced in the 1960s, but it came into existence in 2006 when Google CEO Eric Schmidt introduced this term to an industry conference. After that, AWS and Google introduced their cloud platform app engine in 2008.`
+            },
+            {
+                type: 'p',
+                text: `An organisation’s data is more valuable than any other thing, so they have to build their own data storage. Data storage has become a priority in all fields due to the increase in computer and mobile users. Large and small-scale businesses spend a lot of money to maintain their data.`
+            },
+            {
+                type: 'p',
+                text: `It’s not easy for all businesses to afford the high cost of IT infrastructure. Cloud computing is a cheaper solution for them. It is possible that its efficiency in storing data, computation, and less maintenance cost has attracted even bigger businesses. On an in-house IT server, you have to pay a lot of attention to make sure that the system runs smoothly.`
+            },
+            {
+                type: 'p',
+                text: `Whenever a technical glitch comes, you are completely responsible, and it will require a lot of time and money for repair. In cloud computing, the service provider takes full responsibility for the technical problems.`
+            },
+            {
+                type: 'p',
+                text: `Hardware and software demand is decreased by cloud computing. The cloud computing system interface software is the only thing that a user needs to run, and the cloud network takes care of the rest. Cloud computing requires strong IT support and a storage hub.`
+            },
+            {
+                type: 'p',
+                text: `Our data is stored on a cloud server while we access e-mail. The infrastructure behind the cloud is not visible. As far as user-friendliness and functionality are concerned, it is less important that the cloud services are on front-end and back-end technologies. Individual users can connect to the cloud system from their own devices.`
+            },
+            {
+                type: 'h3',
+                text: `Types of clouds:`
+            },
+            {
+                type: 'list',
+                style: 'df',
+                items: [
+                    {
+                        qs: 'Private cloud : ',
+                        text: `Its use for intra-business interactions. Where the computing resources are operated by the same organization.`
+                    },
+                    {
+                        qs: 'Community cloud : ',
+                        text: `computing resources are used for a community and organizations.`
+                    },
+                    {
+                        qs: 'Public cloud : ',
+                        text: `It’s usually for business to consumer.The computing resource is operated by government, education institute or business organization.`
+                    },
+                    {
+                        qs: 'Hybrid cloud: ',
+                        text: `It’s a combination of business to business or business to consumer.`
+                    },
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Benefits of using cloud computing :`
+            },
+            {
+                type: 'p',
+                text: `Cloud computing has made it possible to run IT operations without much in-house resources. Many organisations are adopting cloud services because of the potential for cost savings. Cloud computing allows you to use services as per your requirements and pay for what you use. `
+            },
+            {
+                type: 'p',
+                text: `Cloud computing has made it possible to run IT operations without much in-house resources.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Less Maintenance`,
+                    `Rapid software updates`,
+                    `Backup and restore`,
+                    `Performance `,
+                    `Storage capacity increased`,
+                    `Data security`,
+                    `Performance increase`,
+                    `Value for money`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `There are numerous certifications available in the cloud industry that can assist a candidate to increase their competitiveness at work. Such certificates are available in a variety of fields, including cloud computing. As we previously mentioned, one such position is Google Professional Cloud Architect. Here, we’ll learn more about it and the specifics of the exam required to earn this certification.`
+            },
+            {
+                type: 'h3',
+                text: `What is Google Professional Cloud Architect Certification?`
+            },
+            {
+                type: 'p',
+                text: `Everyone will be able to understand that this certification is provided by “Google.”  This suggests that network architects have a reputation for being extremely knowledgeable about a broad range of Google products and technologies. They are proficient in all the tools and technology that Google provides.`
+            },
+            {
+                type: 'p',
+                text: `The cloud architect should be knowledgeable about cloud design, development, and implementation. A Google Certified Cloud Architect not only has a thorough understanding of all of Google’s cloud technologies, but they also know how to identify and record the business goals of an organisation and apply the appropriate solutions to every requirement.`
+            },
+            {
+                type: 'p',
+                text: `You might be wondering about what a “cloud architect” is and what its roles and responsibilities are.`
+            },
+            {
+                type: 'p',
+                text: `A cloud architect is in charge of transforming a project’s technical specifications into the architecture and design  that will serve as the end product’s compass and of bridging the gap between complex business challenges and cloud solutions. `
+            },
+            {
+                type: 'p',
+                text: `In general, a cloud architect’s skill set varies by organisation, however some common ones include:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Thorough knowledge of networking`,
+                    `Operating system expertise`,
+                    `Awareness of available data storage alternatives`,
+                    `Software skills`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Certification details:`
+            },
+            {
+                type: 'list',
+                style: 'df',
+                items: [
+                    {
+                        text: `Google Cloud Professional Architect Certified`,
+                        qs: `Name of certification: `
+                    },
+                    {
+                        text: `2hrs`,
+                        qs: `Exam time: `
+                    },
+                    {
+                        qs: `Exam Cost: `,
+                        text: `$200 (excluding Tax)`
+                    },
+                    {
+                        text: `MCQ Multiple choice questions`,
+                        qs: `Exam Type: `
+                    },
+                    {
+                        text: `English, Japanese`,
+                        qs: `Exam Language: `
+                    },
+                    {
+                        text: `50`,
+                        qs: `Number of questions: `
+                    },
+                    {
+                        text: `70% or more than 70%`,
+                        qs: `Passing score: `
+                    },
+                    {
+                        text: `None`,
+                        qs: `Prerequisites: `
+                    },
+                    {
+                        text: `2 years`,
+                        qs: `Certification validation: `
+                    },
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Course topics:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Designing and planning cloud solution architecture`,
+                    `Infrastructure management and provisioning for cloud solutions`,
+                    `Designing for security and compliance`,
+                    `Evaluating and enhancing business and technological processes`,
+                    `Manage implementation`,
+                    `Ensuring solution and operations reliability`,
+
+                ]
+            },
+            {
+                type: 'h2',
+                text: `Is Google Cloud Certification worth it?`
+            },
+            {
+                type: 'p',
+                text: `We will now address the actual question that we addressed after learning everything we need to know about the certification and exam.`
+            },
+            {
+                type: 'p',
+                text: ` There are numerous opportunites for cloud architect, and the Google cloud architect is well worth the investment for as many administrators and network architects as possible.It turns out to be a superb certification for almost all IT professionals who are eager to advance their careers and are closer to accomplishing this goal.`
+            },
+            {
+                type: 'p',
+                text: `The Google cloud platform service is used worldwide, and top MNCs companies are also using their services.like Verizon, Twitch Interactive, CenturyLink, LinkedIn Corp, Facebook, Intel, Yahoo, Marriott International, SAP, and many more.`
+            },
+            {
+                type: 'p',
+                text: `Google is achieving considerable gains by winning relationships with big businesses like Sabre, even if this is not comparable to AWS and Azure revenues, which do several times that each and every quarter.GCP comes after AWS and Azure, but still, its revenues are much higher than theirs.`
+            },
+            {
+                type: 'p',
+                text: `Another benefit of this certification is that it increases a candidate’s attractiveness to employers.They are some of the most skilled and adaptable architects of cloud solutions in business.`
             },
         ]
     },

@@ -47,25 +47,34 @@ const slug = ({ data }) => {
                                                         <div className="flex flex-col pl-4 gap-3">
                                                             {item.items.map((listItem, listIdx) => (
                                                                 item.style === 'line' ?
-                                                                    <li key={listIdx} className='list-none text-base font-semibold italic lg:text-lg '>
+                                                                    <li key={listIdx} className='list-none text-base font-medium italic lg:text-lg '>
                                                                         - {listItem}
                                                                     </li>
                                                                     :
-                                                                    item.style === 'numbers' ?
-                                                                        <li key={listIdx} className='text-base list-decimal font-semibold  italic lg:text-lg '>
-                                                                            {listItem}
+                                                                    item.style === 'df' ?
+                                                                        <li key={listIdx} className='text-base font-medium  italic lg:text-lg '>
+                                                                            <b>{listItem.qs}</b><span>{listItem.text}</span>
                                                                         </li>
                                                                         :
-                                                                        <li key={listIdx} className='text-base italic font-semibold  lg:text-lg '>
-                                                                            {listItem}
-                                                                        </li>
+                                                                        item.style === 'numbers' ?
+                                                                            <li key={listIdx} className='text-base list-decimal font-medium  italic lg:text-lg '>
+                                                                                {listItem}
+                                                                            </li>
+                                                                            :
+                                                                            <li key={listIdx} className='text-base italic font-medium  lg:text-lg '>
+                                                                                {listItem}
+                                                                            </li>
                                                             ))}
                                                         </div>
                                                         :
                                                         item.type === 'img' ?
-                                                            <div className='relative rounded-md overflow-hidden w-full aspect-video'>
+
+                                                            <div className='relative z-40 rounded-md overflow-hidden w-full aspect-video'>
                                                                 <Image src={item.src} layout='fill' objectFit='cover' alt='blog_img' />
                                                             </div>
+
+
+
                                                             :
                                                             ''
 
@@ -88,6 +97,7 @@ const slug = ({ data }) => {
         </Layout>
     )
 }
+
 
 const BreadCrumbs = ({ data }) => {
     return (
