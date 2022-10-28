@@ -21,7 +21,7 @@ const BlogCard = ({ data }) => {
                         </a>
                     </Link>
                 </div>
-                <div className="py-4 flex flex-col space-y-2">
+                <div className="py-4 flex flex-col gap-4">
                     {/* <div className="flex items-center space-x-4">
                         <div className="flex items-center space-x-2">
                             <BiTimeFive className='text-themeColor' />
@@ -33,13 +33,13 @@ const BlogCard = ({ data }) => {
                         </div>
 
                     </div> */}
-                    <h2 className="text-2xl link-blog group-hover:text-themeColor font-semibold">
-                        {truncate(data.content.filter(x => x.type === 'h1')[0].text || '', 60)}
+                    <h2 className="text-2xl link-blog group-hover:text-themeColor truncate font-semibold">
+                        {data.content.filter(x => x.type === 'h1')[0].text}
                     </h2>
                     <p className="text-base font-medium opacity-90">
-                        {truncate(data.content.filter(x => x.isDesc === true)[0].text || '', 150)}
+                        {truncate(data.content.filter(x => x.isDesc === true)[0].text || '', 140)}
                     </p>
-                    <div className="border-t flex gap-2 hover:text-themeColor hover:gap-4 transition-all duration-300 items-center pt-2">
+                    <div className="flex gap-2 font-bold text-themeColor hover:gap-4 transition-all duration-300 items-center pt-2">
                         <span>Read Article</span>
                         <BsArrowRight />
                     </div>
