@@ -13,22 +13,22 @@ export const navData = [
         submenu: [
             {
                 heading: 'Cyberx Masters',
-                slug: 'cyberx-masters',
+                slug: '/cyberx-masters',
                 description: '100% Placement Program in Cyber Security'
             },
             {
                 heading: 'Cloud Masters',
-                slug: 'cloud-masters',
+                slug: '/cloud-masters',
                 description: '100% Placement program in Multicloud and Cloud security'
             },
             {
                 heading: 'CCIE Enterprise',
-                slug: 'ccie-enterprise-infra-training',
+                slug: '/ccie-enterprise-infra-training',
                 description: 'Most demanded Networking certification- 100 % Placement'
             },
             {
                 heading: 'CCIE Security',
-                slug: 'ccie-security-training-course',
+                slug: '/ccie-security-training-course',
                 description: 'Most demanded Networking certification- 100% Placement'
             },
         ]
@@ -1683,6 +1683,605 @@ In the concentration exam, students have to choose any one module from a given s
                 type: 'p',
                 text: `Another benefit of this certification is that it increases a candidate’s attractiveness to employers.They are some of the most skilled and adaptable architects of cloud solutions in business.`
             },
+        ]
+    },
+    {
+        seo: {
+            title: "100% Job Guarantee Courses",
+            description: 'This blog focus on step-by-step guide, to start your career in IT domains through 100% job guarantee courses available in online.',
+            og_img: '/assets/images/blog/7.jpg',
+        },
+        slug: 'job-guarantee-courses',
+        category: {
+            title: "Placement Program",
+            slug: 'placement-program'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/7.jpg'
+            },
+            {
+                type: 'h1',
+                text: `100% Job Guarantee Courses`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `This blog focus on step-by-step guide, to start your career in IT domains through 100% job guarantee courses available in online.`
+            },
+            {
+                type: 'p',
+                text: `Just imagine a candidate had all the required knowledge to clear the technical certification exam, but don’t have a proper guidance on how to get a 100% job gurantee. Some of the major questions of the technical students who wish to get a job in the IT industry are explained by us.`,
+            },
+            {
+                type: 'p',
+                text: `You are at the right place if you are looking for the 100% job guarantee course. Networkers Home has more than 15 years of experience in IT domains and helps students by providing a step-by-step guide to start your carrer in IT domains.`,
+            },
+            {
+                type: 'p',
+                text: `Lifetime access to recorded video. Live technology and real-time scenarios have been designed for our courses. We offer online, classroom, and corporate training for more than 100+ IT certificaitons.`,
+            },
+            {
+                type: 'p',
+                text: `Begineers have many questions in their mind, at below we have answered few of the top asked questions about how to start career in IT domains:`,
+            },
+            {
+                type: 'h3',
+                text: `What are the different domains in IT industry?`,
+            },
+            {
+                type: 'p',
+                text: `There are lots of short-term courses that are available for students to get started in their career in the IT industry. Most of the course also give the assurance of a 100% job guarantee after completing the course. `,
+            },
+            {
+                type: 'p',
+                text: `At Networkers Home, we have courses for beginners, intermediates, and experienced. Below there is a list of different domains you can choose and get any certification according to your experience.`,
+            },
+            {
+                type: 'list',
+                items: [
+                    `Networking Courses`,
+                    `Cyber Security Courses`,
+                    `Cloud Architect Courses`,
+                    `Firewall Courses`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `These courses are used for job placement. We have also made combo courses to get you a job even if you are fresher. These job-oriented courses give a 100% job guarantee as they fill up with all the needed skills by the top MNCs companies.`,
+            },
+            {
+                type: 'p',
+                text: `If you want to be the best in the industry, you should have all the in-demand technical skills.`,
+            },
+            {
+                type: 'h3',
+                text: `If you want to be the best in the industry, you should have all the in-demand technical skills.`,
+            },
+            {
+                type: 'p',
+                text: `There are lots of IT certifications out there in market, but only a few certifications give the assurance of  a 100% job guarantee after completing the certification.`,
+            },
+            {
+                type: 'p',
+                text: `In the IT industry, most of the courses are from networking backgrounds, cloud computing, and cyber security. Those domains are in high demand now a days, also be in demand for the next 10-20 years. So we will talk about one-by-one domains and we will see what the certifications are available for each domain.`,
+            },
+            {
+                type: 'p',
+                text: `First start with networking domains. In these domains, different certifications are available. Like:`,
+            },
+            {
+                type: 'list',
+                items: [
+                    `CCNA Certification`,
+                    `CCNP Enterprise Certification`,
+                    `Cisco SDWAN Certification`,
+                    `CCNA + CCNP Combo Certification`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `There are several job opportunities or different positions available for networking domain:`,
+            },
+            {
+                type: 'list',
+                items: [
+                    `Network Engineer`,
+                    `System Engineer`,
+                    `Networks Admin`,
+                    `Technical Support Engineers`,
+                    `Network Security Engineer / Specialist`,
+                    `Information Technology Manager`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `Next, let’s see what the certifications are available for cloud domain:`,
+            },
+            {
+                type: 'list',
+                items: [
+                    `AWS Associate`,
+                    `AWS Professional`,
+                    `AWS Security`,
+                    `AWS Advance Networking`,
+                    `Microsoft Azure Administrator Certification`,
+                    `Microsoft Azure Security Technologies`,
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `Job Opportunities or available positions available for cloud AWS or Azure Certified:`,
+            },
+            {
+                type: 'list',
+                items: [
+                    `Cloud Architect`,
+                    `Cloud Developer`,
+                    `Cloud System Admin`,
+                    `Cloud Devops Engineer`,
+                    `Cloud Network Engineer`,
+                    `Cloud Data Architect`,
+                    `Cloud Consultant`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `At last, Cyber Security is the most demand branch of IT Industry. Most of the passed out candidates and degree-pursuing candidates want to get a 100% job guarantee course. `,
+            },
+            {
+                type: 'p',
+                text: `The best courses for entry-level cyber security jobs are:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `CEH Certification`,
+                    `CCIE Security`,
+                    `PenTesting Certification`,
+                    `CHFI Certification`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `The above four certifications are the best courses available on the market. These certification will provide a basic understanding of ethical hacking, malware analysis, web application security, firewall certification, and python network automation.`,
+            },
+            {
+                type: 'p',
+                text: `Let’s see what the career options are available for Cyber Security certification:`,
+            },
+            {
+                type: 'list',
+                items: [
+                    `Penetration Tester`,
+                    `Vulnerability Assessment`,
+                    `Security Researcher`,
+                    `Bug Bounty Hunter`,
+                    `Security Engineer`,
+                    `Cyber Security Consultant`,
+                    `Network Security Engineer`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Which domains has the highest salary?`,
+            },
+            {
+                type: 'p',
+                text: `When a candidate is looking for job-oriented courses, it’s hard to select the best course which will help them get their first job after completing certification. We provide 100% job guarantee courses that will help students start their career in networking, cloud computing, cyber security, Firewall and many more.`,
+            },
+            {
+                type: 'p',
+                text: `When a person starts his career in IT domains, he/she can start his career with a minimum of 4 lakhs to 7 lakhs as per the skills and knowledge the person possesses.`,
+            },
+            {
+                type: 'p',
+                text: `Below I have mentioned a few of the certifications which provide the best salary:`,
+            },
+            {
+                type: 'list',
+                items: [
+                    `AWS Cloud Certification`,
+                    `CCIE Certification`,
+                    `Azure Cloud Certification`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Which course is best to get a job?`,
+            },
+            {
+                type: 'p',
+                text: `The best courses to get a job with a 100% job guarantee are Cisco certifications and AWS or Azure cloud certifications. The best certifications are mentioned below :`,
+            },
+            {
+                type: 'list',
+                items: [
+                    `CCNA Certification`,
+                    `CCNP Certification`,
+                    `CCIE Certification`,
+                    `AWS Certifications`,
+                    `Azure Certifications`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `We are providing training for all the certifications that are mentioned above with 15+ years of hand-on experience in the technical domain. We also provide assistance for job placement and help them improve their communication skills.`,
+            },
+            {
+                type: 'h3',
+                text: `Which course to choose as a fresher?`,
+            },
+            {
+                type: 'p',
+                text: `Most of the Cisco courses, cloud courses and cyber security courses are for freshers. People can start their career by slecting any one of the courses, and they will get assistance from our top trainers, who provide them with a 100% job assurance.`,
+            },
+            {
+                type: 'p',
+                text: `Cisco courses like CCNA and CCIE are the best courses to start a career in the IT industry.`,
+            },
+            {
+                type: 'p',
+                text: `Cloud courses like AWS Associate and Microsoft Azure Administrator Certification are the best courses for cloud domains to start a career in cloud computing.`,
+            },
+            {
+                type: 'p',
+                text: `Cyber Security Courses like: CEH Certification, CCIE Security Certification. CEH is an entry-level certification in Cyber Security and CCIE certification is an advanced level of certification, but there are no prerequisities to get entry into CCIE certification.`,
+            },
+            {
+                type: 'h3',
+                text: `What are the courses we provide with 100% job placements?`,
+            },
+            {
+                type: 'p',
+                text: `We offer a wide range of IT courses. All of the courses we offer are 100% job guranteed. The courses we provide are:`,
+            },
+            {
+                type: 'list',
+                items: [
+                    `CCIE Enterprise infrastructure training`,
+                    `Cyberx Masters Course`,
+                    `Cloud Masters Course`,
+                    `CCIE Security Course`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `Let’s see an overview of all these courses one-by-one.`,
+            },
+            {
+                type: 'h3',
+                text: `CCIE Enterprise infrastructure training course:`,
+            },
+            {
+                type: 'p',
+                text: `The CCIE stands for Cisco Certified Infrastructure Expert Enterprise. It’s a Cisco certification. This certification has modules of CCNA, CCNP – SDWAN, CCNP Enarsi and also add-on modules like F5 LTM, Palo Alto Firewall, Cisco DNAC + Cisco ISE, and Python automation.`,
+            },
+            {
+                type: 'p',
+                text: `The duration of the CCIE Enterprise certification is a 6 months training course that will provide 100% job placement at Networkers Home.`,
+            },
+            {
+                type: 'h3',
+                text: ` Cyberx Masters Course:`,
+            },
+            {
+                type: 'p',
+                text: `This course is also for the 6 month duration of the cyber security programme and is specially designed for fresh graduates. This course covers modules like CCNA, Certified Ethical Hacker (CEH),CHFI,  PenTesting, Bug Bounty Hunting, Palo Alto Firewall, Fortigate, and Python Network Automation.`,
+            },
+            {
+                type: 'p',
+                text: `This course also helps candidates to get 100% job placement at Networkers Home, and helps candidates to get better positions with better salaries.`,
+            },
+            {
+                type: 'h3',
+                text: `Cloud Masters Course:`,
+            },
+            {
+                type: 'p',
+                text: `This cloud masters course is a unique course that we have created with a combination of cloud technologies and cloud security practices. This course covered the modules of CCNA-CCNP Enterprise, AWS Associate, AWS Advanced Security, Cloud Security projects, Palo Alto Firewall, Cloud Routing protocols, CEH, CHFI, and 3 optional advanced projects.`,
+            },
+            {
+                type: 'p',
+                text: `In this course, the most demanding three cloud technologies will be taught to you, i.e., AWS, Azure and Google Cloud domain.`,
+            },
+            {
+                type: 'h3',
+                text: `CCIE Security Course:`,
+            },
+            {
+                type: 'p',
+                text: `This course duration is 6 months and this course covers the 15 IT certifications. Most of the Cisco certifications are covered while enrolling for this certification and also save lakhs of rupees for students. This course covered everything from CCNA to CCNP security, CCNP SDWAN, Cisco FTD and many more. `,
+            },
+            {
+                type: 'p',
+                text: `At Networkers Home, we have 100% job guarantee courses that are available with top brand placements. Our placement teams are have more than 14 years of placement records, with successful placing candidates in top MNCs companies in India.`,
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "Is a CCNA Certification Worth  it?",
+            description: 'Most people have the same question: is CCNA certification really worth it in 2022 or upcomming years. To answer this question we need to first see what is CCNA certification, what are the benefits of doing CCNA certification? What are the disadvantages of doing the CCNA certification? And why CCNA certification still worth it?',
+            og_img: '/assets/images/blog/8.jpg',
+        },
+        slug: 'is-a-ccna-certification-worth-it',
+        category: {
+            title: "Placement Program",
+            slug: 'placement-program'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/8.jpg'
+            },
+            {
+                type: 'h1',
+                text: `Is a CCNA Certification Worth  it?`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `Most people have the same question: is CCNA certification really worth it in 2022 or upcomming years.
+To answer this question we need to first see what is CCNA certification, what are the benefits of doing CCNA certification? What are the disadvantages of doing the CCNA certification? And why CCNA certification still worth it?`
+            },
+            {
+                type: 'p',
+                text: `In this blog we will learn about all the aspects of CCNA certification, so let’s get started with what is CCNA certification and what different types of CCNA certification are available?`
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+            {
+                type: '',
+                text: ``
+            },
+
         ]
     },
 ]
