@@ -25,7 +25,7 @@ const index = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex pt-6 lg:pt-12 container z-20 justify-center">
+            <div className="flex py-6 lg:py-12  container z-20 justify-center">
                 <div className="min-h-screen w-fit grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                     {reverseIt(blogs).map((data, i) => (
                         <BlogCard key={i} data={data} />

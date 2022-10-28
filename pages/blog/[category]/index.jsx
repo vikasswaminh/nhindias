@@ -26,7 +26,7 @@ const index = ({ data, filteredBlogs }) => {
                 </div>
             </div>
             {filteredBlogs.length > 0 ?
-                <div className="flex container pt-6 lg:pt-12 justify-center">
+                <div className="flex container py-6 lg:py-12 justify-center">
                     <div className="min-h-screen w-fit grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                         {reverseIt(filteredBlogs).map((data, i) => (
                             <BlogCard key={i} data={data} />
