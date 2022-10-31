@@ -11,11 +11,12 @@ import Link from 'next/link'
 import Seo from '../../components/common/Seo'
 
 const descList = [
-    'CCNA - CCNP Enterprise',
+    'CCNA ',
     'AWS Assocaite',
-    'Palo Alto Firewall',
+    'MS Azure',
+    'Linux Fundamentals and Core',
     'CEH',
-    'CHFI',
+    'Google cloud Professional',
     'AWS Advanced Security',
     'Cloud Security projects',
     'Cloud Routing protocols advanced Project',
