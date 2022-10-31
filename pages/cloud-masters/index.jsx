@@ -18,7 +18,7 @@ const descList = [
     'CEH',
     'Google cloud Professional',
     'AWS Advanced Security',
-    'Cloud Security projects',
+    'AWS Devops/ MS Azure Devops',
     'Cloud Routing protocols advanced Project',
     '3 Optional advanced Projects',
 ]
