@@ -13,11 +13,11 @@ import Seo from '../../components/common/Seo'
 const descList = [
     'CCNA - 200 - 301',
     'CEH(Certified ethical hacker)',
-    'Palo Alto Firewall',
-    'Fortigate',
+    'Linux Fundamentals and Core',
+    'Python Scripting',
     'PEN Testing- LTP',
     'Bug Bounty Hunting',
-    'Python Network Automation',
+    'Real World Projects -2 ',
 
 ]
 const index = () => {
