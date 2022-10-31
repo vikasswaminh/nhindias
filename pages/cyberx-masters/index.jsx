@@ -24,7 +24,7 @@ const index = () => {
     return (
         <Layout>
             <Seo
-                title="CEH | Pen Testing Course with placement  | NetworkersHome"
+                title="Cyber security Course with placement CEH  | NetworkersHome"
                 desc="Cyber security training with placement, 100 placement program"
             />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
