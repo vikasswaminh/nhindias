@@ -27,7 +27,7 @@ const Index = () => {
                     </p>
                     <div className="flex">
                         <a href="tel:+919611027980" className="py-3 bg-themeDark text-white text-base lg:text-lg truncate font-semibold px-4">India: +919611027980</a>
-                        <a href="tel:+971526142450" className="py-3 bg-themeColor text-white text-base lg:text-lg truncate font-semibold px-4">India: +971526142450</a>
+                        <a href="tel:+971526142450" className="py-3 bg-themeColor text-white text-base lg:text-lg truncate font-semibold px-4">Dubai: +971526142450</a>
                     </div>
                 </div>
                 <ContactForm />
