@@ -23,7 +23,10 @@ const Index = () => {
                 <div className="flex flex-col space-y-6">
                     <h1 className='text-3xl lg:text-5xl pb-2 font-bold'>Contact us</h1>
                     <p className="text-lg lg:text-xl">
-                        Head Office: L-149, Sector 6, HSR Layout, Bangalore-560102
+                        India Head Office: L-149, 1st,2nd,3rd Sector Floor 6, HSR Layout, Bangalore-560102
+                    </p>
+    <p className="text-lg lg:text-xl">
+                        Dubai Head Office: Building B, Al Saaha Offices, Souk Al Bahar Old Town Island، Burj Khalifa District - United Arab Emirates
                     </p>
                     <div className="flex">
                         <a href="tel:+919611027980" className="py-3 bg-themeDark text-white text-base lg:text-lg truncate font-semibold px-4">India: +919611027980</a>
