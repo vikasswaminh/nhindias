@@ -26,8 +26,8 @@ const index = () => {
     return (
         <Layout>
             <Seo
-                title="CCIE Security V6 Training Online and classroom | NetworkersHome"
-                desc="Best CCIE Security V6 Training, Highest CCIE results in the world."
+                title="CCIE Security Training in Bangalore and  Online| Best CCIE Security training"
+                desc="CCIE Security V6 Training, we have produced highest CCIE Security results in the world"
             />
 
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
