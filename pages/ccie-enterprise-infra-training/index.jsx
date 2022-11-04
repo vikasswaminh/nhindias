@@ -27,8 +27,8 @@ const index = () => {
     return (
         <Layout>
             <Seo
-                title="CCIE Enterprise infrastructure Training | NetworkersHome"
-                desc="CCIE Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC "
+                title="CCIE Training In Bangalore | CCIE Enterprise infrastructure"
+                desc="CCIE Enterprise Training Online and classroom in Bangalore, CCNP Encor and CCNP Enarsi with SDWAN and DNAC "
 
             />
 
@@ -45,13 +45,13 @@ const index = () => {
                             ))}
                         </div>
                         <div className="text-xl font-semibold lg:text-2xl">
-                            CCIE Enterprise Course description
+                            CCIE Enterprise Training program
                         </div>
                         <p className="text-base lg:text-lg">
-                            The Cisco Certified Internetwork Expert Enterprise (CCIE Enterprise) is a Cisco certification for network engineers who have demonstrated their skills in enterprise networking solutions. Our CCIE Enterprise integrated is 6 month training course that covers multiple Cisco IT Certifications for fresher engineers. We also offer not CCIE Enterprise rack rentals as we have highest number of CCIE Enterprise pods available for exam prep.
+                            CCIE Enterprise  is a Cisco certification for network engineers who have demonstrated their skills in enterprise networking solutions. Our CCIE Enterprise integrated is 6 month training course that covers multiple Cisco IT Certifications for fresher engineers. We also offer not CCIE Enterprise rack rentals as we have highest number of CCIE Enterprise pods available for exam prep.
                         </p>
                         <p className="text-base lg:text-lg">
-                            Its 100% placement program which means we ensure 100% placement for each candidate opting for this program. Learn modern technologies like Cisco DNA Center, SDWAN and Automation technologies like ansible and python etc. Modules included
+                            CCIE Enterprise training is  100% placement program which means we ensure 100% placement for each candidate opting for this program. Learn modern technologies like Cisco DNA Center, SDWAN and Automation technologies like ansible and python etc. Modules included
                         </p>
                     </div>
 
@@ -77,7 +77,7 @@ const index = () => {
                 </div>
             </div>
             <div className="container py-12">
-                <Syllabus data={syllabusData} title='Course Syllabus' />
+                <Syllabus data={syllabusData} title='CCIE Training Syllabus' />
             </div>
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
