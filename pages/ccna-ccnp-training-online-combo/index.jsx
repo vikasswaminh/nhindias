@@ -14,7 +14,7 @@ const index = () => {
     return (
         <Layout>
             <Seo
-                title="Cisco CCNA+CCNP Combo Training with placement | NetworkersHome"
+                title=" CCNA and CCNP Training in Bangalore and Online | NetworkersHome"
                 desc="Best CCNA and CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC."
             />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
