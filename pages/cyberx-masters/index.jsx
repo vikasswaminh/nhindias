@@ -14,8 +14,9 @@ const descList = [
     'CCNA - 200 - 301',
     'CEH(Certified ethical hacker)',
     'Linux Fundamentals and Core',
+    'Fortigate Firewall',
     'Python Scripting',
-    'PEN Testing- LTP',
+    'PEN Testing- LPT',
     'Bug Bounty Hunting',
     'Real World Projects -2 ',
 
