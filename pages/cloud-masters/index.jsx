@@ -16,7 +16,7 @@ const descList = [
     'MS Azure',
     'Linux Fundamentals and Core',
     'CEH',
-    'Google cloud Professional',
+    'Introduction to Cloud security',
     'AWS Advanced Security',
     'AWS Devops/ MS Azure Devops',
     'Cloud Routing protocols advanced Project',
