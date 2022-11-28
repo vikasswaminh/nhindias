@@ -18,7 +18,7 @@ const descList = [
     'CEH',
     'Introduction to Cloud security',
     'AWS Advanced Security',
-    'AWS Devops/ MS Azure Devops',
+    'AWS Devops',
     'Cloud Routing protocols advanced Project',
     '3 Optional advanced Projects',
 ]
