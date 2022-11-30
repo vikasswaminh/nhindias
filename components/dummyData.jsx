@@ -2723,4 +2723,579 @@ So for the CCNP certification, there are two exam modules: the core exam and the
             }
         ]
     },
+    {
+        seo: {
+            title: "Azure Certification Path in 2023 Is So Famous, But Why?",
+            description: 'The deployment of computing resources as a service, or “cloud computing,” means that the cloud provider, rather than the end user, owns and manages the resources.',
+            og_img: '/assets/images/blog/9.jpg',
+        },
+        slug: 'azure-certification-path-in-2023-is-so-famous',
+        category: {
+            title: "Cloud Computing",
+            slug: 'cloud-computing'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/10.avif'
+            },
+            {
+                type: 'h1',
+                text: `Azure Certification Path in 2023 Is So Famous, But Why?`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `The deployment of computing resources as a service, or “cloud computing,” means that the cloud provider, rather than the end user, owns and manages the resources. These resources could be anything from web-based software programmers (like Tik Tok, Netflix, Prime, etc.) to third-party data storage for pictures and other digital media (like iCloud or Dropbox) or third-party servers used to support the cloud computing infrastructure of a company, a research project, or a personal undertaking. `
+            },
+            {
+                type: 'p',
+                text: `The world is moving to the cloud every day, which is causing a new rise in technology. As a result, cloud computing is on track to become a $1 billion industry with thousands of new job opportunities.`
+            },
+            {
+                type: 'p',
+                text: `Around the world, many businesses provide cloud certification training courses, but only Microsoft Azure meets the needs of the technology. Let’s learn more about the area in depth.`
+            },
+            {
+                type: 'p',
+                text: `Topics covered in this blog are:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Things you need to know before beginning your Microsoft Azure Certification path`,
+                    `Description of Azure Certification and Why Get Certified in Azure?`,
+                    `What are the various levels of Azure certification?`,
+                    `Gaining an Azure certification has benefits`,
+                    `What qualifications are needed to earn a Microsoft Azure Certification?`,
+                    `What positions are available for a Microsoft Azure Certified?`,
+                    `Why should I acquire a certification in Microsoft Azure?`,
+                    `Conclusion`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Things you need to know before beginning your Microsoft Azure Certification path`
+            },
+            {
+                type: 'p',
+                text: `Azure is the most widely used cloud computing platform in the world and the industry leader. Most organisations and enterprises, whether small or large, are transferring their operations to the cloud in order to remain competitive as the demand for cloud-based solutions grows daily. Additionally, it directly affects the need for cloud-based experts. Microsoft certifications are valuable, and the majority of businesses prefer it if an applicant has one on their resume.`
+            },
+            {
+                type: 'p',
+                text: `You can prove and certify your understanding of specialised cloud roles through Azure Certifications. Even yet, you might not be sure which Azure certification best suits your needs because there are so many of them available. Because of this, we’re here with a new blog article that explains all you need to know about the Azure Certification Path so you can pick the certification that suits your requirements.`
+            },
+            {
+                type: 'h3',
+                text: `Description of Azure Certification and Why Get Certified in Azure?`
+            },
+            {
+                type: 'p',
+                text: `The Azure cloud platform is made up of more than 200 products and cloud services that can be used to develop new solutions, address current problems, and predict the future. You can design, run, manage apps across several clouds, on-premises, and at the edge using your choice of tools and frameworks.`
+            },
+            {
+                type: 'p',
+                text: `Nobody can contradict the recent rapid expansion of cloud computing. One of the top cloud service providers is Microsoft Azure.`
+            },
+            {
+                type: 'p',
+                text: `Its high-quality products and service options make it a good option for businesses. Popular companies like eBay, Samsung, and BMW are among Microsoft Azure’s top clients. They provide examples of Azure’s features and functionalities.`
+            },
+            {
+                type: 'h3',
+                text: `What are the various levels of Azure certification? `
+            },
+            {
+                type: 'p',
+                text: `A job in the cloud computing sector requires having Azure certifications. Microsoft now offers 13 Azure certifications divided into Fundamental, Associate, and Expert levels. These tests are meant to verify your Azure cloud skills and solely concentrate on acquiring knowledge and skills relevant to career roles on the present market.`
+            },
+            {
+                type: 'h4',
+                text: `Fundamental Level:`
+            },
+            {
+                type: 'p',
+                text: `The Fundamentals Certification is intended for those who have just begun to learn about cloud concepts. With these certificates, individuals with non-technical backgrounds can begin their cloud career.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Azure AI Fundamentals[AI-900]`,
+                    `Azure Fundamentals[AZ-900]`,
+                    `Azure Data Fundamentals[DP-900]`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Associate Level:`
+            },
+            {
+                type: 'p',
+                text: `You can add these qualifications to your CV if you are already familiar with Azure.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Azure Administrator [AZ-104]`,
+                    `Azure Developer [AZ-204]`,
+                    `Azure Security Engineer [AZ-500]`,
+                    `Developing and Implementation of a Microsoft Azure AI Solution [AI-102]`,
+                    `Azure Data Scientist [DP-100]`,
+                    `Data Engineering on Microsoft [DP-203]`,
+                    `Azure Database Administrator [DP-300]`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Expert Level:`
+            },
+            {
+                type: 'p',
+                text: `You can obtain an expert certification if you have past experience, a solid comprehension of the subject, and associate-level knowledge of Azure.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Azure Solutions Architect[AZ - 303 / AZ - 304]`,
+                    `Azure DevOps Engineer[AZ - 400]`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Gaining an Azure Certification has benefits`
+            },
+            {
+                type: 'p',
+                text: `The ability to progress professionally, entry into a variety of career alternatives, the chance to earn a higher pay, and improved security options for your organisation are just a few advantages of earning an Azure certification.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Career advancement`,
+                    `Flexible career possibilities`,
+                    `Increased income potential`,
+                    `Improved skill set`,
+                    `Increased security`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `What qualifications are needed to earn a Microsoft Azure Certification?`
+            },
+            {
+                type: 'p',
+                text: `As we have mentioned above, Microsoft Azure certifications are divided into three levels.So we will discuss qualifications for each level, and some of the qualifications are common for all levels.`
+            },
+            {
+                type: 'h4',
+                text: `Common prerequisites for all levels:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Bachelor Degree with a minimum of 50% in graduation`,
+                    `Awareness of virtualization`,
+                    `A working knowledge of Microsoft`,
+                    `Fundamental understanding of cloud computing`,
+                    `Communication skills`,
+                    `Excellent management abilities`,
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Prior qualifications for Fundamental level certification:`
+            },
+            {
+                type: 'p',
+                text: `It is advised to become familiar with the ideas behind networking, storage, computation, application development, and application support. Getting the Azure Fundamentals certification can help you brush up on the basics for other Azure role-based or specialty certifications, but none of them mandate it.`
+            },
+            {
+                type: 'h4',
+                text: `Qualifications needed for associate level certification:`
+            },
+            {
+                type: 'p',
+                text: `Different types of certification are available for associate level certification, so the prerequisites for each certification are different. We will discuss each associate-level certification one-by-one.`
+            },
+            {
+                type: 'h4',
+                text: `Prerequisites for Azure Administrator [AZ-104]:`
+            },
+            {
+                type: 'p',
+                items: [
+                    `Basics of Microsoft Azure: Describe cloud concepts`,
+                    `Demonstrate the architecture and services of Azure in Azure Fundamentals.`,
+                    `Describe the management and governance of Azure in Azure Fundamentals.`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Prerequisites for Azure Developer [AZ-204]:`
+            },
+            {
+                type: 'p',
+                items: [
+                    `Candidates should have between one and two years of professional development experience, as well as Microsoft Azure knowledge. They should be capable of writing programmes in the languages that Azure supports, as well as using other tools like Azure CLI and Azure PowerShell.`,
+                    `Cloud developers who take part in all stages of development, from requirements creation and design to programming, deployment, and maintenance, are eligible to take this test. To execute solutions, they collaborate with cloud DBAs, cloud administrators, and clients.`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Prerequisites for Azure Security Engineer [AZ-500]:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Candidates for this certification should have hands- on expertise managing hybrid and Azure setups.Candidates should be familiar with Azure services, cloud computing, security operations procedures, and infrastructure as code.`,
+                    `The Azure Security Engineer Associate certification requires candidates to have in-depth knowledge of establishing Azure security controls that secure identity, accessibility, information, applications, and networks in cloud and as a part of an end- to - end architecture, hybrid environments.`
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Prerequisites for Designing and Implementing a Microsoft Azure AI Solution [AI-102]:`
+            },
+            {
+                type: 'p',
+                items: [
+                    `Candidates for this test should be fluent in C# or Python and be able to create conversational AI, knowledge mining, and computer vision applications on Azure using REST- based APIs and SDKs.`,
+                    `Additionally, they need to be aware of the components that make up the Azure AI portfolio and the various possibilities for data storage.Additionally, candidates must comprehend `
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Prerequisites for Azure Data Scientist [DP-100]:`
+            },
+            {
+                type: 'list',
+                items: [
+                    ` No prior certification is required for candidates to be eligible to sit for the DP- 100 exam.`,
+                    `A candidate for this certification should be knowledgeable with data science and have experience using MLflow and Azure Machine Learning.`,
+                    `In order to implement and run machine learning workloads on Azure, candidates for the Azure Data Scientist Associate certification should have subject- matter knowledge in data science and machine learning.`
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Prerequisites for Data Engineering on Microsoft [DP-203]:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `In addition to having a solid grasp of processing and data architectural patterns, candidates for this exam should be well- versed in data processing languages like SQL, Python, or Scala.`,
+                    `The ability to integrate, process, and consolidate data from multiple structured and unstructured data systems into a format suitable for constructing analytics solutions is a prerequisite for candidates for this test.`
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Prerequisites for Azure Database Administrator [DP-300]:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `The construction of database systems that are intended to handle numerous workloads using Azure SQL database services should be the area of competence of candidates for this test.`,
+                    `The knowledge and practical experience required for this test are for Azure SQL Edge, SQL database, Azure SQL Managed Instance, and SQL Server on Azure Virtual Machines (Windows and Linux).`
+                ]
+            },
+
+
+            {
+                type: 'h3',
+                text: `What positions are available for a Microsoft Azure Certified?`
+            },
+            {
+                type: 'p',
+                text: `The top jobs for Microsoft Azure-certified professionals are listed below. After taking the certification exams, candidates can start their career in cloud computing.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Azure Cloud Architect`,
+                    `Cloud Administrator`,
+                    `Cloud Developer`,
+                    `Cloud Sales and Purchase Manager`,
+                    `Cloud DevOps Engineer`,
+                    `Azure Big Data Specialist`,
+                    `Azure Networking Specialist`,
+                    `Cloud Account Manager`,
+                    `Azure Cloud Operator`,
+                ]
+            },
+
+            {
+                type: 'h3',
+                text: `Why should I acquire a certification in Microsoft Azure?`
+            },
+            {
+                type: 'p',
+                text: `There are several reasons to earn a Microsoft Azure Certification. But these are the top reasons, in order:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Flexible Employment`,
+                    `Attractive earnings`,
+                    `Advanced Security Factor`,
+                    `Business Agreement Asset`,
+                    `Improved DevOps Skills`,
+                    `Combination of Improved Artificial Intelligence and Architectural Obligation`,
+                    `Techniques for Integrating Learning`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Conclusion`
+            },
+            {
+                type: 'p',
+                text: `The Cloud is expanding quickly, so anyone looking for a job in the field needs to get ready to face the obstacles that lie ahead. Therefore, Microsoft Azure offers a variety of cloud certifications for a variety of cloud roles.`
+            },
+            {
+                type: 'p',
+                text: `Enroll today to become competent. Please keep in mind that we are always here to assist you with any questions. Best of luck!`
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "Want to be a winner, change your bug bounty concepts Philosophy now!",
+            description: 'Many businesses across all sectors make significant investments in cybersecurity, including by launching bug bounty programmes to accelerate the discovery of vulnerabilities in their systems.',
+            og_img: '/assets/images/blog/11.png',
+        },
+        slug: 'want-to-be-a-winner-change-your-bug-bounty-concepts-philosophy-now',
+        category: {
+            title: "Cloud Computing",
+            slug: 'cloud-computing'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/11.png',
+            },
+            {
+                type: 'h1',
+                text: `Want to be a winner, change your bug bounty concepts Philosophy now!`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `Many businesses across all sectors make significant investments in cybersecurity, including by launching bug bounty programmes to accelerate the discovery of vulnerabilities in their systems.`
+            },
+            {
+                type: 'p',
+                text: `In bug bounty programs, anyone from around the world who already has skills and knowledge as a security researcher, penetration tester, or white hat hackers is welcome to legally perform testing on web applications, android applications, or iOS applications and find flaws or different vulnerabilities within a scope target.`
+            },
+            {
+                type: 'p',
+                text: `Let’s check out in this blog what skills are required to become a good bug bounty hunter and how you can master those skills. Each has its own set of methodologies and techniques; you must determine which one is best for you or create your own.`
+            },
+            {
+                type: 'p',
+                text: `Before getting started with bug bounty, learn the below-mentioned topics and try to practise while learning:`
+            },
+            {
+                type: 'list',
+                items: [`Windows and Linux fundamentals`]
+            },
+            {
+                type: 'p',
+                text: `Learn the fundamentals of Windows, group and policies, active directory, the basics of PowerShell, Windows services, and vulnerabilities. In terms of linux, fundamentals such as linux basic terminal commands, linux direcrory structure, managing linux users and groups, managing and monitoring linux services and processes, and familiarity with the enviornment must be learned. Linux is a necessary skill for someone wishing to work in the field of cyber security.
+                `
+            },
+            {
+                type: 'list',
+                items: [`Basics of web application`]
+            },
+
+            {
+                type: 'p',
+                text: `Here, we have to learn all the concepts of web applications like understanding of URL, role of client and server, request and response header working, catching service and catche, owasp top ten vulnerabilities of web application.`
+            },
+            {
+                type: 'list',
+                items: [`Programming language`]
+            },
+
+            {
+                type: 'p',
+                text: `Programming language are essential to getting started in bug bounty, programs. Every web app or android application is build with the help of one or more programming languages. Every programming languages has the same basics step, the only difference is how they are presented.`
+            },
+            {
+                type: 'p',
+                text: `Best programming language to get started is python, learn the basic syntax, working of loop, working of if-else, list, tupples, dictionaries, basics of functions, files I/O, exception heading, socket programming, and many more.`
+            },
+            {
+                type: 'list',
+                items: [`Networking concepts should be clear`]
+            },
+            {
+                type: 'p',
+                text: `Networking concepts are essential to learn not only for bug bounties; this will also help in other domains of cyber security. In networking, learn the 3-way handshake, TCP headers and UDP headers, secure socket layer, OSI model architecture, network topologies, TCP/IP protocol, subnetting, tunneling, protocol services, and port numbers, as well as network security vulnerabilities.
+`
+            },
+            {
+                type: 'list',
+                items: [`Basics of server`]
+            },
+            {
+                type: 'p',
+                text: `The concept of server should be clear; this concept will also be useful for software developer and other cyber security domains. To understand what a server is, what types of server exist, how servers work, and how passwords are stored in servers.`
+            },
+            {
+                type: 'p',
+                text: `After we have learned all of the fundamental concepts, we must practise them at an online practise platform or a buggy web application. In addition, we’ll look at what hacking steps are required to find bugs in any web application.`
+            },
+            {
+                type: 'p',
+                text: `There are five steps of hacking, let’s see what are those:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Reconnaissance`,
+                    `Scanning`,
+                    `Ganning access`, `Maintaining access`,
+                    `Clearing tracks`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `The most important steps are the first two steps, i.e., reconnaissance and scanning. Most tools are used at this stage to find the loophole in any application or network. `
+            },
+            {
+                type: 'p',
+                text: `While doing reconnaissance, it’s divided into two parts: active recon and passive recon. In active recon we interact with the target network (hosts, employees, etc) and we can used tools like port scanning, vuln scans, web app scanning. We use publicly available information in passive recon by using tools like whois, OSINT, and search engine dorks.`
+            },
+            {
+                type: 'p',
+                text: `To find subdomains of the traget website, we can use tools like sublist3r, Amass, subfinder, dirbuster, etc. There are many tools for different purposes. For network scanning there are several tools like Zenmap, Nmap, Ettercap, Metasploit, and many more.`
+            },
+            {
+                type: 'p',
+                text: `The most important tools for every beginner need to learn are:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Nmap`,
+                    `Metasploit`,
+                    `Amass`,
+                    `Burpsuite / OWASP Zap`,
+                    `Wappalyzer`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `We now need to put everything we’ve learned into practice, so here are some vulnerable platforms where we can do so:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `bWAPP(Buggy Web Application platform)`,
+                    `OverTheWire(This platform will help to clear the linux commands)`,
+                    `WebGoat`,
+                    `Hackthissite`,
+                    `TryHackMe`,
+                    `HackTheBox`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `All of the vulnerable platforms mentioned above are free to use, there are more free platforms available like portswigger academy and CTF (Capture the flag) platforms (PicoCTF, CTFtime, Hacker101 CTF, etc).`
+            },
+            {
+                type: 'p',
+                text: `When you feel confident after solving all the CTF challenges and all the OWASP top 10 vulnerabilities. Then you’re ready to begin your bug bounty campaign. 
+`
+            },
+            {
+                type: 'p',
+                text: `In bug bounty, there are different platforms available to get started, like HackerOne, BugCrowd, Open Bug Bounty, and Integriti. These are the individual platforms for bug bounty, but some of the companies are running their own bug bounty platforms, such as Facebook, Google, Github, etc. Also, when you become a professional in bug bounty some of the private programmes are also available at BugCrowd and HackerOne. It totally depends on your previous reports of the POC (proof of concept).`
+            },
+            {
+                type: 'p',
+                text: `While choosing the target at the bug bounty platform, we must look for a target that is not very popular. It will help with better reconnaissance at the target application. Try to do more as much reconnaissance as possible, and the first step to doing reconnaissance is to start with passive recon after that, find all the subdomains of the target application with the help of different tools and filter them with Http and Https (using the Httpx tool). `
+            },
+            {
+                type: 'p',
+                text: `After doing a perfect recon, you will get lots of information about the target application, such as:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `	List of all live subdomains`,
+                    `List of different IPs and open ports`,
+                    `Sensitive data exposed on github`,
+                    `Hidden endpoints`,
+                    `Juicy directories with sensitive information`,
+                    `Publicly exposed secrets`,
+                    `Hidden parameters`,
+                    `Low hanging vulnerabilities such as Rxss, open redirect, SQLi`,
+                    `Scope from 1x to 1000x`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `Better recon will help to increase the attack surface, which means more vulnerabilities. Finding untouched endpoints will help to get fewer duplicates. Recon will help you increase your attack surface and may allow you to find vulnerabilities, but the ultimate goal is to dig your target the deepest.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion:
+`
+            },
+            {
+                type: 'p',
+                text: `Beginner in web application or android penetration testing should first learn the fundamentals before practicipating in bug bounty programs. Without learning all the basic, it’s a waste of time to directly enter bug bounty programmes. 
+`
+            },
+            {
+                type: 'p',
+                text: `Those who are professional in pentration testing or vulnerability assessment can start doing bug bounties because they are already working as testing engineers. Also, some of the professionals recommend starting with building the application because, once you are familiar with the building of application, it will not take much time to find their vulnerabilities.
+`
+            },
+            {
+                type: 'p',
+                text: `Bug bounty are simply a programme that allows you to find vulnerabilities in target application by putting your skills and knowledge to use.
+`
+            },
+            {
+                type: 'p',
+                text: `Keep learning and keep exploring!
+`
+            },
+        ]
+    }
 ]
+let temp =
+{
+    seo: {
+        title: "Networking Course in India",
+        description: 'In this blog we will get to know about the role of networking in IT domains and what types of courses are available in India for the networking domain.',
+        og_img: '/assets/images/blog/9.jpg',
+    },
+    slug: 'networking-course-in-india',
+    category: {
+        title: "Placement Program",
+        slug: 'placement-program'
+    },
+    content: [
+        {
+            type: 'img',
+            src: '/assets/images/blog/9.jpg'
+        },
+        {
+            type: 'h1',
+            text: `Networking Course in India`
+        },
+        {
+            type: 'p',
+            isDesc: true,
+            text: `In this blog we will get to know about the role of networking in IT domains and what types of courses are available in India for the networking domain. Networking is a part of Information technology and is widely used in every organisation. All the Networks related certifications are provided in our organization, and networking domain is booming in the IT industry. `
+        },
+    ]
+}

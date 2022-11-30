@@ -15,9 +15,9 @@ const slug = ({ data }) => {
     return (
         <Layout>
             <Seo
-                title={`${data?.seo.title} - Blog | Networkers Home` || ''}
-                desc={data?.seo.desc || ''}
-                og_img={data?.seo.og_img || ''}
+                title={`${data?.seo.title} - Blog | Networkers Home`}
+                desc={data?.seo.desc}
+                og_img={data?.seo.og_img}
             />
             <div className="px-4 max-w-[90rem] w-full mx-auto py-4 no-scrollbar">
                 <BreadCrumbs data={data} />
