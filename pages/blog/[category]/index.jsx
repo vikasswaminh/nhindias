@@ -16,7 +16,7 @@ const index = ({ data, filteredBlogs }) => {
                 <div className="absolute w-full h-full inset-0 bg-[#0E4581]"></div>
 
                 <div className="flex flex-col space-y-8  z-20 items-center">
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl uppercase font-bold text-white">{data.title}</h2>
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl uppercase font-bold text-white">{data.title}</h2>
                     <div className="flex items-center justify-center flex-wrap gap-4 text-white uppercase">
                         {categories.slice(0, 4).map((cat, i) => (
                             <Link key={i} href={`/blog/[category]`} as={`/blog/${cat.slug}`}>

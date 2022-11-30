@@ -71,8 +71,7 @@ const slug = ({ data }) => {
                                                             </div>
                                                             :
                                                             item.type === 'img' ?
-
-                                                                <div className='relative z-40 rounded-md overflow-hidden w-full aspect-video'>
+                                                                <div className='relative bg-gray-100 z-40 rounded-md overflow-hidden w-full aspect-video'>
                                                                     <Image src={item.src} layout='fill' objectFit='cover' alt='blog_img' />
                                                                 </div>
                                                                 :
@@ -173,8 +172,12 @@ const RecentBlogs = () => {
 
 
 export async function getStaticPaths() {
+    let paths = []
+    blogs.forEach((item) => {
+        paths.push({ params: { category: item.category.slug, slug: item.slug } })
+    })
     return {
-        paths: [],
+        paths,
         fallback: 'blocking'
     }
 }
