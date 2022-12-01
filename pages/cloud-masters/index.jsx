@@ -12,7 +12,7 @@ import Seo from '../../components/common/Seo'
 
 const descList = [
     'CCNA ',
-    'AWS Assocaite',
+    'AWS Associate',
     'MS Azure',
     'Linux Fundamentals and Core',
     'CEH',
