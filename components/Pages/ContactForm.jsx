@@ -3,6 +3,7 @@ import { BsPerson, BsTelephone } from 'react-icons/bs'
 import { HiOutlineMailOpen } from 'react-icons/hi'
 import { useForm, ValidationError } from '@formspree/react';
 import Button from '../common/Button';
+import Link from 'next/link';
 
 const ContactForm = () => {
     const [state, handleSubmit] = useForm("mbjpalad");
@@ -119,7 +120,9 @@ const ContactForm = () => {
                                 id='check'
 
                             />
-                            <label htmlFor='check' className='text-base cursor-pointer'>I agree with <span className='text-themeColor'>Terms of Use</span> and  <span className='text-themeColor'>Privacy Policy.</span></label>
+                            <label htmlFor='check' className='text-base cursor-pointer'>I agree with <Link href='/terms-of-use'><a className='text-themeColor underline'>Terms of Use</a></Link> and
+                                <Link href='/privacy-policy'><a className='text-themeColor underline'> Privacy Policy</a></Link>.
+                            </label>
                         </div>
                         <button disabled={state.submitting} className="w-[12rem]"> <Button text={state.submitting ? 'Just a moment...' : 'Submit'} /></button>
                     </div>

@@ -3269,33 +3269,892 @@ So for the CCNP certification, there are two exam modules: the core exam and the
 `
             },
         ]
+    },
+    {
+        seo: {
+            title: "The most innovative things happening with cloud computing",
+            description: 'Cloud computing is rapidly advancing, and new technologies are being added to the cloud every year. This is the technology that allows data and programmes to be stored over the Internet without the need for a physical hard drive.',
+            og_img: '/assets/images/blog/12.webp',
+        },
+        slug: 'most-innovative-things-happening-with-cloud-computing',
+        category: {
+            title: "Cloud Computing",
+            slug: 'cloud-computing'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/12.webp'
+            },
+            {
+                type: 'h1',
+                text: `The most innovative things happening with cloud computing`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `Cloud computing is rapidly advancing, and new technologies are being added to the cloud every year. This is the technology that allows data and programmes to be stored over the Internet without the need for a physical hard drive. `
+            },
+            {
+                type: 'p',
+                text: `Cloud computing is the delivery of computer services over the Internet (“The cloud”), including storages, databases, servers, networking, software, analytics. It aims to provide rapid innovation, flexible resources, and scale economies. Most of the time, you only pay for the cloud services that you actually use. This reduces operational costs, improves infrastructure management, and enables you to scale as your business’s needs change.`
+            },
+            {
+                type: 'p',
+                text: `Before we look at the new cloud computing technologies, let’s look at why cloud computing is important for any organization.`
+            },
+            {
+                type: 'h3',
+                text: `Why cloud computing is important for any organization?
+`
+            },
+            {
+                type: 'p',
+                text: `Cloud computing has numerous advantages for a business or organization; the cloud market is expected to be worth $550 billion by 2023. At below we have mentioned the popular key advantages of cloud in business. `
+            },
+            {
+                type: 'list',
+                items: [
+                    `Minimum Cost`,
+                    `Increased storage`,
+                    `Highly Automated`,
+                    `Flexibility`,
+                    `More mobility`,
+                    `Data security and recovery`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `These are the reasons why your business or organization should consider to adapt cloud computing. Data backups and communications tools are only a couple of the IT services and applications that businesses can access through the cloud.`
+            },
+            {
+                type: 'p',
+                text: `Every technology comes with some risk of security, but the advantages of the cloud may be worth the difficulties. You may reduce risks and take advantage of the advantages that cloud-based IT services can offer if take the correct actions and collaborate with the right partners.`
+            },
+            {
+                type: 'h3',
+                text: `What are the new cloud computing technologies are comes in last couple of years?`
+            },
+            {
+                type: 'p',
+                text: `One significant advancement in the process that has fundamentally altered how business operate is cloud computing. And throughout the years, we have seen a number of new technologies emerge that are supported by cloud computing.`
+            },
+            {
+                type: 'p',
+                text: `The development of technology has been centred on cloud computing options and efficient cloud technology use. These innovations are altering the entire computing industry in the process, not just the cloud comuting environment.`
+            },
+            {
+                type: 'h3',
+                text: `Here are 5 cutting-edge cloud computing technologies:`
+            },
+            {
+                type: 'h4',
+                text: `1. Cloud-Native Applications`
+            },
+            {
+                type: 'p',
+                text: `Cloud native technology helps organizations to create and deploy scalable applications on public, private, and hybrid clouds. The term “cloud native” describes the idea of creating and executing programmes that make use of the distributed computing capabilities provided by the cloud delivery model. Apps that are cloud native are created to take advantages of the size, elasticity, robustness, and customization the cloud offers.`
+            },
+            {
+                type: 'p',
+                text: `Modern application development is made possible by cloud native services, which utilise tools like Kubernetes, Docker, serverless functions, APIs, and kafka. These tools and services are made available by market-leading cloud providers so that developers can create apps more quickly and reduce operational responsibilities. `
+            },
+            {
+                type: 'p',
+                text: `Cloud native services, which offer a complete, standards-based platform, can be used to build, deploy, and mange cloud native applications like microservices and serverless operations.`
+            },
+            {
+                type: 'h4',
+                text: `2. Grid Computing`
+            },
+            {
+                type: 'p',
+                text: `Grid computing is used by organisations to perform heavy task that are difficult to handle on a single computer. To complete complicated tasks, several computers on a network communicate under a common protocol and operate as a single virtual supercomputer.`
+            },
+            {
+                type: 'p',
+                text: `To solve a complex task, organisations use specialised software on every computer. These software programmes are connected to the grid network and help to cordinates with each other and manage all the tasks.`
+            },
+            {
+                type: 'p',
+                text: `Each computing task is divided into manageable pieces in grid computing and distributed among computing nodes for quick completion. A difficult task is completed in less time since each fragment is processed in parallel. Grid computing examples such as Weather modeling applications, Data-oriented applications, Commercial applications, and many more. `
+            },
+            {
+                type: 'h4',
+                text: `3. Utility Computing`
+            },
+            {
+                type: 'p',
+                text: `Utility computing is important to business models and provides a special service provider for customers who want to pay for IT services on a per-usage basis. The shared pool utility is utilised in business utility computing. With this strategy, the business may serve a large number of people while avoiding needless redundancy by centralising its processing power and resources.`
+            },
+            {
+                type: 'p',
+                text: `As a result of the massive amounts of data being distributed over numerous servers or backend systems, utility computing helps eliminate data redundancy. However, the client has 24/7 access to the information from any location.`
+            },
+            {
+                type: 'p',
+                text: `The cost of utility computing depends on how the organisation uses it and the services it requests. Instead of offering a set rate, the business bills the customer according to the services they use. The client should expect to pay more as they use the services more frequently. Few businesses choose to package their services at a discount.`
+            },
+            {
+                type: 'h4',
+                text: `4. Integrated Blockchain Technology`
+            },
+            {
+                type: 'p',
+                text: `Blockchains are increasingly acknowledged as the “fifth evolution” of cloud computing and the Internet’s missing trust layer. This is one of the reasons why there is so much interest in this subject. `
+            },
+            {
+                type: 'p',
+                text: `As a peer-to-peer system, a blockchain does not have a central organisation controlling the flow of data. Blockchains have the potential to increase data trust. It’s nearly impossible to remove or modify data after it has been added to a blockchain database. This power has never before been possible.
+`
+            },
+            {
+                type: 'p',
+                text: `Perfect recordkeeping is a fascinating new capability made possible by blockchains. They are useful for establishing a precise timeline of who did what and when. Numerous sectors of the economy and regulatory organisations invest numerous hours in analysing this issue. Records that are kept using blockchain technology will lessen some of the burdens associated with trying to understand the past.
+`
+            },
+            {
+                type: 'h4',
+                text: `5. Containers`
+            },
+            {
+                type: 'p',
+                text: `Software management and deployment in the cloud frequently use containers. Applications are separated from the actual environment in which they are running using containers. A containers runs all the dependencies associated with a software component in isolation and bundles them all.`
+            },
+            {
+                type: 'p',
+                text: `Using containers to run an instance of an application is a frequent pattern in the cloud. A single microservice or a backend application like a database or middleware component can serve as this. Multiple apps can operate on the same cloud VM thanks to containers, which also prevent issues with one container from impacting other containers or the VM as a whole.`
+            },
+            {
+                type: 'p',
+                text: `Running containers on upper edge of compute resources, that are technically virtual computers, is the most typical situation in the cloud. With the advent of the “container instances” model, cloud providers are now enabling the direct execution of containers on their servers without the use of virtual machines as a middleman.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion`
+            },
+            {
+                type: 'p',
+                text: `We have seen in this blog the important technologies that are involving every year and assisting organisations in reducing heavy tasks and managing complex tasks in a simple manner.`
+            },
+            {
+                type: 'p',
+                text: `There are also other technologies that were developed through cloud computing technology, such as DevOps, multi-cloud to omni-cloud, quantum computing, service-oriented architecture, artificial intelligence, and many more. The future of cloud computing for businesses and the importance of cloud computing service providers are both highlighted by these exciting new technologies.
+`
+            },
+
+        ]
+    },
+    {
+        seo: {
+            title: "Cybersecurity? It’s Easy, If You Do It Smartly",
+            description: 'In today’s world of continuous online and digital presence, the concept of “cybersecurity” is a popular issue. The need for high-quality, reasonably-priced, and practical education has never been more pressing as the cyber industry continues to grow and more jobs become available, as demand for certain skills increases, and as compliance frameworks become more and more critical. ',
+            og_img: '/assets/images/blog/13.webp'
+        },
+        slug: 'cypersecurity-is-easy',
+        category: {
+            title: "Cloud Computing",
+            slug: 'cloud-computing'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/13.webp'
+            },
+            {
+                type: 'h1',
+                text: `	Cybersecurity? It’s Easy, If You Do It Smartly`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+
+                text: `In today’s world of continuous online and digital presence, the concept of “cybersecurity” is a popular issue. The need for high-quality, reasonably-priced, and practical education has never been more pressing as the cyber industry continues to grow and more jobs become available, as demand for certain skills increases, and as compliance frameworks become more and more critical. `
+            },
+            {
+                type: 'p',
+                text: `The cybersecurity domain is a vast field. Lots of different roles and responsibilities fall under this domain. The first thing I could advise is choosing a focus before you attempt to learn cybersecurity. If I don’t know anything about cybersecurity, how can I choose it? This could sound counter productive. You can choose a focus by concentrating on either your present skill set or your areas of interest.`
+            },
+            {
+                type: 'p',
+                text: `In this blog, we will see what easy ways there are to start a career in cybersecurity. What different types of job profiles are available that you can pick according to your area of interest, and what topics do you need to learn?`
+            },
+            {
+                type: 'p',
+                text: `First you need to choose the area of interest in cyber security, below we have mentioned the different paths of cybersecurity:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Penetration testing / Vulnerability Assessment`,
+                    `Forensic Investigator`,
+                    `Network Security `,
+                    `Security Auditor`,
+                    `Cryptographic Engineer`,
+                    `Threat Intelligence`,
+                    `IAM Security engineer`,
+                    `Cybersecurity Researcher`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `The above-mentioned paths of cybersecurity are the initial paths to get started, and for beginners, they have to choose any one of them. When someone starts down one of the paths, after gainning experience, they have to learn more things and need to keep updated.`
+            },
+            {
+                type: 'p',
+                text: `For an example, if someone has interest in penetration testing, they have to choose between web application security and android application security. Once they mastered any one topic, they can easily transition to another. `
+            },
+            {
+                type: 'p',
+                text: `After choosing any one path in cybersecurity, there are a few topics that are common to every field of cybersecurity. Let’s figure out what the topics are that are common to every field of cybersecurity.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Windows and Linux fundamentals`,
+                    `Networking`,
+                    `Client and Servers working`,
+                    `Programming languages(such as: C++, Java or Python)`,
+                    `Working knowledge of computers`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `These are topics that are very essential to learn before getting into the cybersecurity domain. Once you’ve mastered these topics, you’ve completed half of your work. You can now choose which domain of cybersecurity you are interested in after successfully completing all of the topics.  `
+            },
+            {
+                type: 'p',
+                text: `Without knowing the basic fundamentals of information technology, it’s very hard to find your best field of interest. Once you have selected a field in the cybersecurity domain, then it’s up to you whether you want to take a certification course or go for self-study (a Long process).`
+            },
+
+            {
+                type: 'p',
+                text: `We will discuss both paths here; just stick with us.`
+            },
+            {
+                type: 'h3',
+                text: `Certification Path`
+            },
+            {
+                type: 'p',
+                text: `Let’s start with some certification courses that are appropriate for a beginner level candidate if you decide to take them. I’ve listed the best cybersecurity certifications for beginners below:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `CEH(Certified Ethical Hacker, conducted by ec - council)`,
+                    `CCNA(Cisco Certified Network Associate)`,
+                    `CHFI(Computer Hacking Forensic Investigator, conducted by ec - council)`,
+                    `Comptia Security +`,
+                    `SSCP(Systems Security Certified Practitioner, conducted by ISC2)`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `Let’s see most popular beginner level certification in little bit details.`
+            },
+            {
+                type: 'h3',
+                text: `CEH (Certified Ethical Hacker, provided by ec-council)`
+            },
+            {
+                type: 'p',
+                text: `CEH certification is popular all over the world, and it’s most popular certification because of the simplicity of this course. There is no prerequisites for taking this certification exam or enrolling in this course. Anyone, whether a high school graduate, a diploma holder, or a graduate, can enrol in this course and become certified. `
+            },
+            {
+                type: 'p',
+                text: `In India, most of the companies are looking for CEH-certified candidates who have better skills and knowledge. CEH certification consists of both a theoretical and practical exam. It totally depends on the candidates whether they want to take the theoretical exam or practical exam.`
+            },
+            {
+                type: 'h3',
+                text: `CCNA (Cisco Certified Network Associate)`
+            },
+            {
+                type: 'p',
+                text: `Cisco’s most valuable certification, and most of the candidates choose this certification. This certification covers the fundamental concept of networking, IP connectivity, security fundamentals, automation and programming. Because this is an entry-level certification, there are no prerequisites for enrolling in this course.`
+            },
+            {
+                type: 'p',
+                text: `After clearing the certification, candidates can join as network engineers, network security analysts, system engineers, network analysts, and many more. `
+            },
+            {
+                type: 'h3',
+                text: `CHFI (Computer Hacking Forensic Investigator)`
+            },
+            {
+                type: 'p',
+                text: `CHFI is a forensic investigator course, and this course provide the details of data acquisition and duplication, Windows forensics, Linux and Mac forensics, IoT forensics, malware forensics, network forensics, and many more. `
+            },
+            {
+                type: 'p',
+                text: `It is possible to successfully conduct a computer forensic investigation that results in the prosecution of offenders by taking CHFI, a thorough course that covers major forensic investigation scenarios and gives students hands-on experience with various forensic investigation techniques.`
+            },
+            {
+                type: 'p',
+                text: `Once the candidates clear the certification, they can join as IT security specialists, security engineers, security forensic investigators, and many more.`
+            },
+            {
+                type: 'h3',
+                text: `Self-Study Path`
+            },
+            {
+                type: 'p',
+                text: `Now let’s talk about the self-study path. If someone cannot afford the certification fees or for any other reason, what steps must they take to develop the skills and knowledge required to enter the cybersecurity domain without difficulty?`
+            },
+            {
+                type: 'p',
+                text: `Choose any one field in the cybersecurity domain and try to figure out what are the syllabus and topics are that you need to learn in order to master that specific field. There are plenty of online portals where fundamental and advanced levels of knowledge are provided to you. `
+            },
+            {
+                type: 'p',
+                text: `For instance, if you choose web application penetration testing, then lots of online portals are available to gain knowledge, such as Portswigger academy, Hack the Box Academy, Mozilla mdn web docs, and many more. These free resources does not provide any certification but they can help  build the skills and knowledge that you require.`
+            },
+            {
+                type: 'p',
+                text: `A major problem in self-study is clearing doubts. Once you have started learning, there is a good chance that you will have many doubts, so the easiest way to clear those doubts is to join online community groups like discord groups, wilders security forums, cybersecurity insiders, and so on.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion`
+            },
+            {
+                type: 'p',
+                text: `We’ve mostly seen different paths of cybersecurity as a newcomer in this blog; also check out the certification path and the self-study path. It is possible to achieve the best results if you choose one dedicated path and organise your study wisely. `
+            },
+            {
+                type: 'p',
+                text: `Once you have choose the area of interest, it is easy to develop the required skills. The only things required is dedication, which is easy to achieve with self-discipline. It is entirely up to you whether to pursue certification or self-study. To master all of those skills, both paths necessitate a lot of hard work and practice.`
+            },
+            {
+                type: 'p',
+                text: `Keep learning and keep exploring!`
+            },
+
+        ]
+    },
+    {
+        seo: {
+            title: "How to turn your Firewall concepts from zero to hero",
+            description: 'A firewall is one such solution that prevents unauthorised access to our computer systems and data. Now a days, protecting our sensitive data from unauthorised and unwanted sources is a major concern.  ',
+            og_img: '/assets/images/blog/14.webp',
+        },
+        slug: 'how-to-turn-your-firewall-concepts-from-zero-to-hero',
+        category: {
+            title: "Computer Networks",
+            slug: 'computer-networks'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/14.webp',
+            },
+            {
+                type: 'h1',
+                text: `How to turn your Firewall concepts from zero to hero`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `A firewall is one such solution that prevents unauthorised access to our computer systems and data. Now a days, protecting our sensitive data from unauthorised and unwanted sources is a major concern.   `
+            },
+            {
+                type: 'p',
+                text: `A firewall is one such solution that prevents unauthorised access to our computer systems and data. Now a days, protecting our sensitive data from unauthorised and unwanted sources is a major concern.  `
+            },
+            {
+                type: 'p',
+                text: `We will discuss in this article the fundamentals of firewalls, such as their necessity, uses, drawbacks, and different types. Firewalls are mostly used by system administrators, system engineers, network engineers, and network administrators because they have to handle the configuration, troubleshooting, and monitoring of firewalls.`
+            },
+            {
+                type: 'h3',
+                text: `What exactly is Firewall?`
+            },
+            {
+                type: 'p',
+                text: `A firewall is a computer system or network component that allows authorised communications while preventing unauthorised access. Firewalls are still widely used and have had a significant effect on current security practises. `
+            },
+            {
+                type: 'p',
+                text: `Software, hardware, or a hybrid of the two can be used to implement firewalls. Unauthorized internet users are frequently prevented from accessing private networks linked to the internet by firewalls, particularly intranets. Every message entering or leaving the intranet must travel through the firewall, which inspects each one and rejects any that do not adhere to established security requirements.`
+            },
+            {
+                type: 'h4',
+                text: `Firewall working`
+            },
+            {
+                type: 'p',
+                text: `A firewall system analyses network traffic using pre-established rules. Following that, it filters the traffic to stop any of that traffic from originating from unreliable or illegal sources. Only inbound traffic that has been set to accept is allowed. `
+            },
+            {
+                type: 'p',
+                text: `Firewalls utilise the following three methods to control traffic entering and exiting a network:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Packet filtering`,
+                    `Proxy services`,
+                    `Stateful packet inspection`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Packet filtering`
+            },
+            {
+                type: 'p',
+                text: `Packet filtering is one of the important services provided by firewalls. Packets are small data chunks that are inspected as they pass through the network using user-defined packet filtering rules.`
+            },
+            {
+                type: 'p',
+                text: `Packets are permitted or denied based on a wide range of criteria:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Source address`,
+                    `Source port`,
+                    `Destination address`,
+                    `Destination port`,
+                    `Protocols(IP, TCP, ICMP, etc.)`,
+
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Proxy services`
+            },
+            {
+                type: 'p',
+                text: `A proxy server basically works as a middle-man for communication between devices. A Proxy server intercepts each message coming into and going out of the network. The true network addresses are effectively masked by the proxy server.`
+            },
+            {
+                type: 'p',
+                text: `Proxy servers have long been used to store a local copy of the requested external data. This enhanced performance in circumstances with inadequate bandwidth by enabling clients to request data through the proxy rather than the real external source.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Source address`,
+                    `Source port`,
+                    `Destination address`,
+                    `Destination port`,
+                    `Protocols(IP, TCP, ICMP, etc.)`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Stateful packet inspection`
+            },
+            {
+                type: 'p',
+                text: `For the duration of the session, a “stateful” firewall stores key characteristics of each connection in a trusted information database. Monitoring TCP or UDP sessions between devices allows stateful packet inspection to provide services beyond simple packet filtering.`
+            },
+            {
+                type: 'p',
+                text: `Stateful inspection allows for the tracking of connections coming from a trusted network. A state session table that stores this session information enables temporary firewall openings for return traffic that would otherwise be blocked.`
+            },
+            {
+                type: 'p',
+                text: `To stop Denial of Service (DoS) attacks, connections from the untrusted network to the trusted network are carefully watched.`
+            },
+            {
+                type: 'h3',
+                text: `Firewall types`
+            },
+            {
+                type: 'p',
+                text: `Firewalls are of two types:`
+            },
+            {
+                type: 'list',
+                items: [
+                    ` 	Software firewalls – For home users, software firewalls are the most common type of network protection.They typically come as standalone programmers or a component of comprehensive anti - virus protection software. A software firewall can guard against trojan or worm applications in addition security for both inbound and outbound traffic`,
+                    `Hardware firewalls – Every machine on a network can be protected by hardware firewalls, which are incorporated into networking equipment like routers and need minimal configuration to function.
+They check a packet’s header using packet filtering techniques to ascertain its source and destination.`
+
+                ]
+            },
+
+            {
+                type: 'h3',
+                text: `Uses of firewall`
+            },
+            {
+                type: 'p',
+                text: `The client-server concept, which forms the basis for network security in modern computing, originated from firewalls. To examine traffic and reduce dangers, the majority of devices rely on firewalls or technologies that are quite similar to them.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Prevents the delivery of malicious content as well as unauthorised remote access.`,
+                    `A firewall can filter traffic and notify the user of intrusions on a single home network.`,
+                    `At home networks, static IP addresses are used; they are particularly helpful for always - on connections like cable modems and digital subscriber line(DSL) connections.`,
+                    `Network address translation(NAT), a sort of firewall, efficiently protects systems from people who are outside the connection to which they belong.`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Drawbacks of firewall`
+            },
+            {
+                type: 'p',
+                text: `Everyone thinks that firewalls are powerful enough to protect our computer systems or networks from online threats. However, “firewall is not very powerful”. Therefore, it’s crucial to employ additional defence mechanisms to assist in safeguarding the network and computer data. Cyber threats are dynamic in nature, a firewall should not be the only component considered while securing the home network.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Firewalls are unable to stop the distribution of software or files that are compromised with viruses.`,
+                    `Black hat hackers using modems cannot be stopped by firewalls from dialling into or out of an internal network.`,
+                    `Firewalls cannot protect already hacked systems.`,
+                    `Inaccurately setup security policies will not be secured by firewalls.`,
+                    `Firewalls are unable to defend against social engineering and other non - technical security concerns.`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Certifications availables for firewall`
+            },
+            {
+                type: 'p',
+                text: `Certifications play an important role for those who are already working as professional network engineers or with similar designations in networking domains. Several certifications are available on the market, but only a few provide the necessary skills and knowledge.`
+            },
+            {
+                type: 'p',
+                text: `The Palo Alto and Fortinet Fortigate certifications are highly recommended for qualified Cisco engineers or professional network engineers. Both the certifications do not require any experience or certifications, but they recommend having basic knowledge of networking and cyber threats.`
+            },
+            {
+                type: 'p',
+                text: `Core firewall principles like routing, VPN, user authentication, and firewall policies are covered by these certifications. Students will get knowledge about web filters and efficient application control to secure their users. `
+            },
+            {
+                type: 'h3',
+                text: `Conclusion`
+            },
+            {
+                type: 'p',
+                text: `Firewalls are an essential part of network security; anyone interested in learning about the setup and administration of firewalls, or those who are newbies in network security and want to advance their skill set, can choose this route.`
+            },
+            {
+                type: 'p',
+                text: `So in this blog, we have provided an overview of firewall use, types, functions, and limitations. At Networkers Home, we provide both certifications and training for highly qualified Cisco engineers or individuals who want to learn and excel as professionals in firewall.`
+            },
+            {
+                type: 'p',
+                text: `Keep learning, keep exploring!`
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "How to make your Ethical hacking look amazing in 6 months",
+            description: 'Ethical hacking is the common path that the majority of the candidates are taking. If you have an interest in web application security, then ethical hacking is an excellent first step to take. ',
+            og_img: '/assets/images/blog/15.webp',
+        },
+        slug: 'how-to-make-your-ethical-hacking-look-amazing-in-6-months',
+        category: {
+            title: "Placement Program",
+            slug: 'placement-program'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/15.webp'
+            },
+            {
+                type: 'h1',
+                text: `How to make your Ethical hacking look amazing in 6 months`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `Ethical hacking is the common path that the majority of the candidates are taking. If you have an interest in web application security, then ethical hacking is an excellent first step to take. `
+            },
+            {
+                type: 'p',
+                text: `Data security is the more crucial than ever in today’s world of growing connectivity. Ethical hacking, as the term implies, is all about leveraging your knowledge to strengthen security protocols and defend organisations against potential online dangers. It is a type of security testing that is designed to find loopholes in computer systems, aid businesses in strengthening their security, and stop data breaches.`
+            },
+            {
+                type: 'p',
+                text: `In this article, we will learn how someone can brush up on their skills in 6 months so that they will be better at penetration testing or bug bounty hunting.`
+            },
+            {
+                type: 'p',
+                text: `Most common certification to start their journey as ethical hackers, i.e., CEH v11 (Certified Ethical Hacker Certification) and majorly certification are provided by offensive security. Most of the top companies in India consider the CEH certification, so it’s highly recommended by security experts to get started with the certification. After gaining more experience, you can consider OSCP certification.`
+            },
+            {
+                type: 'p',
+                text: `Candidates are taking an interest in web application penetration testing or bug bounty hunting after completing their ethical hacking course. Furthermore, these are the best cyber security subdomains to begin their journey. So to master ethical hacking, we need to have a basic understanding of all the concepts used in penetration testing.`
+            },
+            {
+                type: 'p',
+                text: `First, lets see what are the certifications are available for ethical hacker as beginner or professional level. After that we will see what are topics you need to master for ehtical hacking.`
+            },
+            {
+                type: 'h3',
+                text: `Certifications for Ethical hacking:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `CEH v11(Certified Ethical Hacker) – Beginner level certification`,
+                    `OSCP(Offensive Security Certified Professional) – Advanced level certification`,
+                    `OSCE(Offensive Security Certified Expert) – Expert level certification`,
+                    `OSWE(Offensive Security Web Expert)`,
+                    `OSWP(Offensive Security Wireless Professional)`,
+                    `OSEE(Offensive Security Exploitation Expert)`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `There aren’t always levels in the Offensive Security certification process. As long as you finish the necessary course before taking any of the certification exams, you are free to take each one separately. Having said that, the OSCP could be thought of as the “entry-level” exam and the OSEE as the most difficult.`
+            },
+            {
+                type: 'p',
+                text: `Now, let’s look at the fundamentals skills and knowledge needed to become the best ethical hacker in six months. The following are some essential steps you must perform:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Research and Resources`,
+                    `Linux and Windows fundamentals`,
+                    `Web application basics`,
+                    `Basics of client and server`,
+                    `Basics of networking`,
+                    `Ethical hacking tools`,
+                    `Programming`,
+                    `Practice, and lots of practice`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Research and Resources:`
+            },
+            {
+                type: 'p',
+                text: `When it comes to research and the resources needed to  become acquainted with all of the terms used in the ethical hacking learning journey, interest is your best friend. If you don’t want to spend time learning new things, it’s difficult to get started in any field.`
+            },
+            {
+                type: 'p',
+                text: `If you want to find out about good resources for ethical hacking, read articles from Medium, Quora, and other cyber security blogs. Most experienced white hat hackers write articles describing common vulnerabilities and recommend books that will teach you specific topics in depth. `
+            },
+            {
+                type: 'h2',
+                text: `Linux and Windows Fundamentals:`
+            },
+            {
+                type: 'p',
+                text: `Linux is a very essential skills to master before entering ethical hacking. To master the linux fundamentals, you must be familiar with the environment, have a good command of the linux directory structure, basic linux terminal commands, the ability to manage files and folders permissions, manage linux users and groups, and the ability to manage and monitor linux services and processes. `
+            },
+            {
+                type: 'p',
+                text: `Candidates can master Linux fundamentals by taking free courses of linux fundamentals. There are numerous free linux fundamentals courses available on Udemy, Youtube, Coursera, and other sites.`
+            },
+            {
+                type: 'p',
+                text: `Windows basics are also important to master because most organisations rely on the Windows operating system on a daily basis. So to master the basics of Windows fundamentals, you need to learn about groups and policies, active directory, the basics of PowerShell, Windows services, and vulnerabilities.`
+            },
+            {
+                type: 'h3',
+                text: `Web Application basics:`
+            },
+            {
+                type: 'p',
+                text: `Web applications have lots of features to learn; to understand the basics of web applications, which include URL comprehension, how HTTP request and response work, the roles of client and server, catching services and cookies, web app technology, and web app vulnerabilities.`
+            },
+            {
+                type: 'p',
+                text: `Various programming languages are used to create a simple web application or website. A web application consists of two functionalities, i.e., server-side functionality and client-side functionality. `
+            },
+            {
+                type: 'p',
+                text: `Client-side functionality consists of several programming languages such as HTML, hyperlinks, forms, CSS, Javascript, VBscript, DOM, Ajax, JSON, same-origin policy, HTML5, Web 2.0, state and sessions.`
+            },
+            {
+                type: 'p',
+                text: `Server-side functionality consists of several scripting languages (PHP, Vbscript, and Perl), web application platforms (ASP.net and Java), web servers (Apache, IIS, and Netscape Enterprise), databases (Ms-SQL, Oracle, and My-SQL), and other back-end elements, including filesystems, SOAP-based web services, and directory services.`
+            },
+            {
+                type: 'h3',
+                text: `Basics of Client and Server:`
+            },
+            {
+                type: 'p',
+                text: `As we have mentioned above, what are the functionalities of client-side and server-side application? You might learn which languages are used on both side of functionalities.`
+            },
+            {
+                type: 'p',
+                text: `You also need to learn and understand what client and server are, what types of servers are used, how passwords are stored in servers, how client and server works, how they interact with each other. `
+            },
+            {
+                type: 'h3',
+                text: `Basics of Networking:`
+            },
+            {
+                type: 'p',
+                text: `The concept of networking is critical in the journey of ethical hacking. Candidates who ignore this part are not able to understand the basics of web application penetration testing. Most of the tools and reconnaissance concepts are linked with networking concepts. `
+            },
+            {
+                type: 'p',
+                text: `Security experts recommend that you understand networking concepts such as protocol services and port numbers, TCP 3-way handshake, TCP headers and UDP headers, Secure Socket layer (SSL), OSI layers, network topologies, the TCP/IP protocol, subnetting, tunneling, network service vulnerabilities, and so on.`
+            },
+            {
+                type: 'h3',
+                text: `Ethical hacking tools:`
+            },
+            {
+                type: 'p',
+                text: `Tools are most important part of ethical hacking to do reconnaissance or find vulnerabilities in computer systems, web applications, and networks. These tools will help to do active and passive reconnaissance as per your requirements.`
+            },
+            {
+                type: 'p',
+                text: `There are lots of several open-source and commercial tools available in the market that are widely used to prevent unauthorized access to a computer system. `
+            },
+            {
+                type: 'p',
+                text: `Most of the highly used tools are listed below:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Nmap`,
+                    `Metasploit`,
+                    `Burpsuite or OWASP ZAP`,
+                    `Wappalyzer`,
+                    `Maltego`,
+                    `Dirbuster`,
+                    `Nuclei`,
+                    `Httpx`,
+                    `Assetfinder`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `Practice each and every tool one-by-one and try to master them all. There are also lots of other tools are available. Each tools is used for a particular purpose, like subdomain enumeration; tools such as subfinder, assetfinder, httpx, sublist3r, amass, etc. `
+            },
+            {
+                type: 'h3',
+                text: `Programming skills:`
+            },
+            {
+                type: 'p',
+                text: `An in-depth knowledge of how computer systems operate and how to take advantage of weaknesses is necessary for ethical hacking. Finding and exploiting these vulnerabilities would be impossible without solid programming skills.`
+            },
+            {
+                type: 'p',
+                text: `Candidates should have a basic understanding of programming languages and be able to read and identify errors in source code while performing source code analysis. You don’t have to master each and every programming languages; just master any of the programming languages. `
+            },
+            {
+                type: 'p',
+                text: `Python is a popular programming language; most tools are written in either Python or Go. Python is also a scripting language. When you become experienced in ethical hacking or web application penetration testing, you have to build your own tools because you cannot rely on other’s.`
+            },
+            {
+                type: 'h3',
+                text: `Practice, and lots of Practice:`
+            },
+            {
+                type: 'p',
+                text: `Practice will help you sharpen your skills; without practice, no one can become an ethical hacker. Most of the candidates are now unsure where they can practice, even though there are numerous online options. The following online reaources are highly recommended online for practising linux, networking, windows enumeration, web application hacking concepts, and so on:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `bWAPP(Buggy web application)`,
+                    `OverTheWire`,
+                    `PicoCTF`,
+                    `Hack this site`,
+                    `Try hack me`,
+                    `Hack the box`,
+                    `Vulnhub`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `OverTheWire will help you practise linux commands, bWAPP is being developed to practise all the web application vulnerabilities, the PicoCTF website provides capture the flag challenges, and Vulnhub has lots of options like CTF, “boot to root” types of machines, and many more.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion:`
+            },
+            {
+                type: 'p',
+                text: `The discipline of ethical hacking is demanding and profitable, and experts in it can contribute to global safety. To enrol in an ethical hacking institutes and learn how to become an ethical hacker, you must possess excellent technical abilities and a thorough knowledge of computer networks and systems. If you have the necessary knowledge and expertise, you should have no trouble getting employment as the job prospects for ethical hackers is favourable.`
+            },
+            {
+                type: 'p',
+                text: `While ethical hackers play a crucial role in the modern digital world, it’s important to keep in mind that they are not impenetrable. Just spend time mastering each and every topic mentioned above and keep your concepts clear.`
+            },
+            {
+                type: 'p',
+                text: `Keep learning and start exploring.`
+            },
+        ]
     }
 ]
-let temp =
-{
+let temp = {
     seo: {
-        title: "Networking Course in India",
-        description: 'In this blog we will get to know about the role of networking in IT domains and what types of courses are available in India for the networking domain.',
-        og_img: '/assets/images/blog/9.jpg',
+        title: "",
+        description: '',
+        og_img: '/assets/images/blog/9.webp',
     },
-    slug: 'networking-course-in-india',
+    slug: '',
     category: {
-        title: "Placement Program",
-        slug: 'placement-program'
+        title: "",
+        slug: ''
     },
     content: [
         {
             type: 'img',
-            src: '/assets/images/blog/9.jpg'
+            src: '/assets/images/blog/9.webp'
         },
         {
             type: 'h1',
-            text: `Networking Course in India`
+            text: ``
         },
         {
             type: 'p',
             isDesc: true,
-            text: `In this blog we will get to know about the role of networking in IT domains and what types of courses are available in India for the networking domain. Networking is a part of Information technology and is widely used in every organisation. All the Networks related certifications are provided in our organization, and networking domain is booming in the IT industry. `
+
+            text: ``
+        },
+        {
+            type: 'p',
+            text: ``
+        },
+        {
+            type: 'p',
+            text: ``
+        },
+        {
+            type: 'p',
+            text: ``
+        },
+        {
+            type: 'p',
+            text: ``
+        },
+        {
+            type: 'p',
+            text: ``
+        },
+        {
+            type: 'p',
+            text: ``
+        },
+        {
+            type: 'p',
+            text: ``
+        },
+        {
+            type: 'p',
+            text: ``
         },
     ]
 }

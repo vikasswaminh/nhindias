@@ -30,9 +30,9 @@ const NavDrawer = ({ open, setOpen }) => {
                                 className='flex flex-col border-b border-gray-200 '>
                                 <li
                                     onClick={() => { showSubmenu === route.label ? setShowSubmenu('') : setShowSubmenu(route.label) }}
-                                    className='flex  items-center justify-between w-full  cursor-pointer px-4  py-4 '>
+                                    className='flex  items-center justify-between w-full pr-4 cursor-pointer'>
                                     <Link href={route.slug}>
-                                        <a className='text-lg  hover:text-themeColor  font-semibold text-lightBlack hover:text-violet hover:underline'>
+                                        <a className='text-lg block w-full px-4  py-4  hover:text-themeColor  font-semibold text-lightBlack hover:text-violet hover:underline'>
                                             {route.label}
                                         </a>
                                     </Link>
@@ -40,7 +40,7 @@ const NavDrawer = ({ open, setOpen }) => {
                                         {route.submenu && <HiOutlineChevronDoubleRight />}
                                     </div>
                                 </li>
-                                {showSubmenu === route.label &&
+                                {showSubmenu === route.label && route.submenu &&
                                     <div className="pl-8 pb-4 flex flex-col w-full h-fit bg-white">
                                         {route?.submenu?.map((route, i) => (
                                             <Link key={i} href={route.slug}>
