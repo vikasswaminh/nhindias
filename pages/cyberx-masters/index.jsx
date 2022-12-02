@@ -12,7 +12,8 @@ import Seo from '../../components/common/Seo'
 
 const descList = [
     'CCNA - 200 - 301',
-    'CEH(Certified ethical hacker)',
+    'Certified Cybersecurity Technician',
+     'CEH(Certified ethical hacker)',
     'Linux Fundamentals and Core',
     'Fortigate Firewall',
     'Python Scripting',
