@@ -25,7 +25,7 @@ const index = () => {
     return (
         <Layout>
             <Seo
-                title="CCNA Course Online, Training in Bangalore india. Learn CCNA Official course from Senior instructors"
+                title="CCNA Course | CCNA Training by Top Cisco Instructors. 100% Placement Networking course programs"
                 desc="CCNA Course training in Bangalore. Know CCNA Certification Course Duration, scope, job options. Networkershome."
             />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
