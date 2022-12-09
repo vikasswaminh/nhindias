@@ -48,7 +48,7 @@ const index = () => {
                             CCIE Enterprise Training program
                         </div>
                         <p className="text-base lg:text-lg">
-                            CCIE Enterprise  is a Cisco certification for network engineers who have demonstrated their skills in enterprise networking solutions. Our CCIE Enterprise integrated is 6 month training course that covers multiple Cisco IT Certifications for fresher engineers. We also offer not CCIE Enterprise rack rentals as we have highest number of CCIE Enterprise pods available for exam prep.
+                            Our CCIE Enterprise integrated is 6 month training course that covers multiple Cisco IT Certifications for fresher engineers. We also offer not CCIE Enterprise rack rentals as we have highest number of CCIE Enterprise pods available for exam prep.
                         </p>
                         <p className="text-base lg:text-lg">
                             CCIE Enterprise training is  100% placement program which means we ensure 100% placement for each candidate opting for this program. Learn modern technologies like Cisco DNA Center, SDWAN and Automation technologies like ansible and python etc. Modules included
