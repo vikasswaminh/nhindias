@@ -26,8 +26,8 @@ const index = () => {
     return (
         <Layout>
             <Seo
-                title={'PALO ALTO Firewall Course | NetworkersHome'}
-                desc={`Palo Alto Networks is a prominent name in the IT industry, and its services are acknowledged around the globe. Learn about the latest tools and features of the Palo Alto Firewall and how to execute them as a security expert. Register now!`}
+                title={'Palo alto networks training'}
+                desc={`Palo alto Firewall Training by Industry experts. Learn Palo Alto firewall products from working professionals who have years of expertise`}
                 keywords={'Palo Alto Firewall, Palo Alto Networks'}
             />
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
