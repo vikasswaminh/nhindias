@@ -6,7 +6,6 @@ import CoursesGrid from '../../components/Pages/courses/CoursesGrid'
 import ContactusTestimonial from '../../components/Testimonials/ContactusTestimonial'
 import ArticlesAndCourses from '../../components/Testimonials/ArticlesAndCourses'
 import { coursePageGridData } from '../../components/dummyData'
-import Head from 'next/head'
 import Seo from '../../components/common/Seo'
 
 const index = () => {

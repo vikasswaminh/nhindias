@@ -392,6 +392,10 @@ export const categories = [
     {
         title: "Cloud Computing",
         slug: 'cloud-computing'
+    },
+    {
+        title: "Amazon Web Services",
+        slug: 'aws'
     }
 ]
 
@@ -3270,182 +3274,7 @@ So for the CCNP certification, there are two exam modules: the core exam and the
             },
         ]
     },
-    {
-        seo: {
-            title: "The most innovative things happening with cloud computing",
-            description: 'Cloud computing is rapidly advancing, and new technologies are being added to the cloud every year. This is the technology that allows data and programmes to be stored over the Internet without the need for a physical hard drive.',
-            og_img: '/assets/images/blog/12.webp',
-        },
-        slug: 'most-innovative-things-happening-with-cloud-computing',
-        category: {
-            title: "Cloud Computing",
-            slug: 'cloud-computing'
-        },
-        content: [
-            {
-                type: 'img',
-                src: '/assets/images/blog/12.webp'
-            },
-            {
-                type: 'h1',
-                text: `The most innovative things happening with cloud computing`
-            },
-            {
-                type: 'p',
-                isDesc: true,
-                text: `Cloud computing is rapidly advancing, and new technologies are being added to the cloud every year. This is the technology that allows data and programmes to be stored over the Internet without the need for a physical hard drive. `
-            },
-            {
-                type: 'p',
-                text: `Cloud computing is the delivery of computer services over the Internet (“The cloud”), including storages, databases, servers, networking, software, analytics. It aims to provide rapid innovation, flexible resources, and scale economies. Most of the time, you only pay for the cloud services that you actually use. This reduces operational costs, improves infrastructure management, and enables you to scale as your business’s needs change.`
-            },
-            {
-                type: 'p',
-                text: `Before we look at the new cloud computing technologies, let’s look at why cloud computing is important for any organization.`
-            },
-            {
-                type: 'h3',
-                text: `Why cloud computing is important for any organization?
-`
-            },
-            {
-                type: 'p',
-                text: `Cloud computing has numerous advantages for a business or organization; the cloud market is expected to be worth $550 billion by 2023. At below we have mentioned the popular key advantages of cloud in business. `
-            },
-            {
-                type: 'list',
-                items: [
-                    `Minimum Cost`,
-                    `Increased storage`,
-                    `Highly Automated`,
-                    `Flexibility`,
-                    `More mobility`,
-                    `Data security and recovery`,
 
-                ]
-            },
-            {
-                type: 'p',
-                text: `These are the reasons why your business or organization should consider to adapt cloud computing. Data backups and communications tools are only a couple of the IT services and applications that businesses can access through the cloud.`
-            },
-            {
-                type: 'p',
-                text: `Every technology comes with some risk of security, but the advantages of the cloud may be worth the difficulties. You may reduce risks and take advantage of the advantages that cloud-based IT services can offer if take the correct actions and collaborate with the right partners.`
-            },
-            {
-                type: 'h3',
-                text: `What are the new cloud computing technologies are comes in last couple of years?`
-            },
-            {
-                type: 'p',
-                text: `One significant advancement in the process that has fundamentally altered how business operate is cloud computing. And throughout the years, we have seen a number of new technologies emerge that are supported by cloud computing.`
-            },
-            {
-                type: 'p',
-                text: `The development of technology has been centred on cloud computing options and efficient cloud technology use. These innovations are altering the entire computing industry in the process, not just the cloud comuting environment.`
-            },
-            {
-                type: 'h3',
-                text: `Here are 5 cutting-edge cloud computing technologies:`
-            },
-            {
-                type: 'h4',
-                text: `1. Cloud-Native Applications`
-            },
-            {
-                type: 'p',
-                text: `Cloud native technology helps organizations to create and deploy scalable applications on public, private, and hybrid clouds. The term “cloud native” describes the idea of creating and executing programmes that make use of the distributed computing capabilities provided by the cloud delivery model. Apps that are cloud native are created to take advantages of the size, elasticity, robustness, and customization the cloud offers.`
-            },
-            {
-                type: 'p',
-                text: `Modern application development is made possible by cloud native services, which utilise tools like Kubernetes, Docker, serverless functions, APIs, and kafka. These tools and services are made available by market-leading cloud providers so that developers can create apps more quickly and reduce operational responsibilities. `
-            },
-            {
-                type: 'p',
-                text: `Cloud native services, which offer a complete, standards-based platform, can be used to build, deploy, and mange cloud native applications like microservices and serverless operations.`
-            },
-            {
-                type: 'h4',
-                text: `2. Grid Computing`
-            },
-            {
-                type: 'p',
-                text: `Grid computing is used by organisations to perform heavy task that are difficult to handle on a single computer. To complete complicated tasks, several computers on a network communicate under a common protocol and operate as a single virtual supercomputer.`
-            },
-            {
-                type: 'p',
-                text: `To solve a complex task, organisations use specialised software on every computer. These software programmes are connected to the grid network and help to cordinates with each other and manage all the tasks.`
-            },
-            {
-                type: 'p',
-                text: `Each computing task is divided into manageable pieces in grid computing and distributed among computing nodes for quick completion. A difficult task is completed in less time since each fragment is processed in parallel. Grid computing examples such as Weather modeling applications, Data-oriented applications, Commercial applications, and many more. `
-            },
-            {
-                type: 'h4',
-                text: `3. Utility Computing`
-            },
-            {
-                type: 'p',
-                text: `Utility computing is important to business models and provides a special service provider for customers who want to pay for IT services on a per-usage basis. The shared pool utility is utilised in business utility computing. With this strategy, the business may serve a large number of people while avoiding needless redundancy by centralising its processing power and resources.`
-            },
-            {
-                type: 'p',
-                text: `As a result of the massive amounts of data being distributed over numerous servers or backend systems, utility computing helps eliminate data redundancy. However, the client has 24/7 access to the information from any location.`
-            },
-            {
-                type: 'p',
-                text: `The cost of utility computing depends on how the organisation uses it and the services it requests. Instead of offering a set rate, the business bills the customer according to the services they use. The client should expect to pay more as they use the services more frequently. Few businesses choose to package their services at a discount.`
-            },
-            {
-                type: 'h4',
-                text: `4. Integrated Blockchain Technology`
-            },
-            {
-                type: 'p',
-                text: `Blockchains are increasingly acknowledged as the “fifth evolution” of cloud computing and the Internet’s missing trust layer. This is one of the reasons why there is so much interest in this subject. `
-            },
-            {
-                type: 'p',
-                text: `As a peer-to-peer system, a blockchain does not have a central organisation controlling the flow of data. Blockchains have the potential to increase data trust. It’s nearly impossible to remove or modify data after it has been added to a blockchain database. This power has never before been possible.
-`
-            },
-            {
-                type: 'p',
-                text: `Perfect recordkeeping is a fascinating new capability made possible by blockchains. They are useful for establishing a precise timeline of who did what and when. Numerous sectors of the economy and regulatory organisations invest numerous hours in analysing this issue. Records that are kept using blockchain technology will lessen some of the burdens associated with trying to understand the past.
-`
-            },
-            {
-                type: 'h4',
-                text: `5. Containers`
-            },
-            {
-                type: 'p',
-                text: `Software management and deployment in the cloud frequently use containers. Applications are separated from the actual environment in which they are running using containers. A containers runs all the dependencies associated with a software component in isolation and bundles them all.`
-            },
-            {
-                type: 'p',
-                text: `Using containers to run an instance of an application is a frequent pattern in the cloud. A single microservice or a backend application like a database or middleware component can serve as this. Multiple apps can operate on the same cloud VM thanks to containers, which also prevent issues with one container from impacting other containers or the VM as a whole.`
-            },
-            {
-                type: 'p',
-                text: `Running containers on upper edge of compute resources, that are technically virtual computers, is the most typical situation in the cloud. With the advent of the “container instances” model, cloud providers are now enabling the direct execution of containers on their servers without the use of virtual machines as a middleman.`
-            },
-            {
-                type: 'h3',
-                text: `Conclusion`
-            },
-            {
-                type: 'p',
-                text: `We have seen in this blog the important technologies that are involving every year and assisting organisations in reducing heavy tasks and managing complex tasks in a simple manner.`
-            },
-            {
-                type: 'p',
-                text: `There are also other technologies that were developed through cloud computing technology, such as DevOps, multi-cloud to omni-cloud, quantum computing, service-oriented architecture, artificial intelligence, and many more. The future of cloud computing for businesses and the importance of cloud computing service providers are both highlighted by these exciting new technologies.
-`
-            },
-
-        ]
-    },
     {
         seo: {
             title: "Cybersecurity? It’s Easy, If You Do It Smartly",
@@ -4096,8 +3925,1084 @@ They check a packet’s header using packet filtering techniques to ascertain it
                 text: `Keep learning and start exploring.`
             },
         ]
-    }
+    },
+    {
+        seo: {
+            title: "Understand levels of AWS certification for professionals",
+            description: 'Big giant organisations are moving their software environments into the AWS (Amazon Web Services) cloud, and the count is still going on. This is the big reason cloud certifications are becoming vital skills in the IT domains',
+            og_img: '/assets/images/blog/18.webp',
+        },
+        slug: 'understand-levels-of-AWS-certification-for-professionals',
+        category: {
+            title: "AWS",
+            slug: 'aws'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/18.webp'
+            },
+            {
+                type: 'h1',
+                text: `Understand levels of AWS certification for professionals`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+
+                text: `Big giant organisations are moving their software environments into the AWS (Amazon Web Services) cloud, and the count is still going on. This is the big reason cloud certifications are becoming vital skills in the IT domains, and mostly all organizations, whether they are small businesses or large corporations, need people like cloud engineers, cloud administrators, cloud security, and many more.`
+            },
+            {
+                type: 'p',
+                text: `Anyone who wants to take certification has a big reason for doing so. It helps to add value to their resume and gives them chance to get a better salary, and anyone who wants to expand their knowledge should consider getting certified. `
+            },
+            {
+                type: 'p',
+                text: `Likewise, AWS certification helps them enhance their knowledge and develop a good understanding of the cloud services offered by AWS.`
+            },
+            {
+                type: 'p',
+                text: `This blog provides a brief understanding of all levels of AWS certification, who can take the certification according to the level, and after completing the certification, what kind of job are available for them.`
+            },
+            {
+                type: 'h3',
+                text: `AWS Certifications of Various Types`
+            },
+            {
+                type: 'p',
+                text: `The AWS cloud service offers three levels of certification based on the required experience.`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Foundation`,
+                    `Associate`,
+                    `Professional`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Foundation Level`
+            },
+            {
+                type: 'p',
+                text: `An AWS cloud practitioner is the foundation level certification. This certification is not mandatory; it’s an optional foundational-level certificate. This is a basic-level certification that anyone can take, whether they are newcomers to industry or starting their journey in the cloud domain.`
+            },
+            {
+                type: 'p',
+                text: `The AWS cloud practitioner certificate provides basic knowledge such as:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `AWS core services`,
+                    `Basic AWS architecture`,
+                    `Basics of compliance functions`,
+                    `Basics of security`,
+                    `Cloud computing infrastructure fundamentals`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `Jobs after completing AWS cloud practitioner certification:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Cloud sys Administrator`,
+                    `Cloud engineer`,
+                    `Cloud developer`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `The exam cost is $100, and the duration of the exam is 90 minutes with 65 multiple-choice questions.`
+            },
+            {
+                type: 'h3',
+                text: `Associate Level`
+            },
+            {
+                type: 'p',
+                text: `The associate level consists of three different certifications. At the associate level, each certification covers broad concepts of cloud computing. Those who wants to take associate level certification they can choose any certification of AWS associate. So let’s check out what the three different AWS associate level certifications are:
+`
+            },
+            {
+                type: 'list',
+                items: [
+                    `AWS Certified Developer`,
+                    `AWS Certified Solutions Architect`,
+                    `AWS Certified SysOps Administrator`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `AWS Certified Developer`
+            },
+            {
+                type: 'p',
+                text: `This certification mainly provides a basic understanding of AWS core services and the architectural concept of best practices. This certification provides benefits such as:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Teach about how to develop, deploy and design AWS cloud solutions.`,
+                    `Implementation of the correct architecture for development`,
+                    `Help to understand the various tools used in AWS, which can be used to develop databases, messaging, workflows, and manage notification.`,
+                    `Which AWS services are appropriate to use based on the application environment.`,
+                    `Write code to improve performance and increase application utilization.`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `After clearing the AWS Certified Developer Associate exam, there are numerous job opportunities available to start a career in the cloud computing domain, such as cloud developer, cloud architecture, cloud devops engineer, cloud network engineer, cloud data architect, and many more.x`
+            },
+            {
+                type: 'p',
+                text: `The exam cost is $150, and the duration of the exam is 130 minutes, with 65 questions of multiple choice.`
+            },
+            {
+                type: 'h4',
+                text: `AWS Certified Solutions Architect`
+            },
+            {
+                type: 'p',
+                text: `This is an advanced-level certification for professionals with decent knowledge and experience in cloud computing and its features. The benefits of AWS Certified Solutions Architect Associate certification among others:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Understanding best architectural practises and cost - effective architectural design`,
+                    `Provides a better implementation of necessary security protocols.`,
+                    `Utilising a range of AWS tools and services`,
+                    `Design and deploy fault - free AWS systems with security and scalability.`,
+                    `Identify and estimate AWS costs with perfect control methods.`,
+                    `Choose an appropriate AWS service based on database design and security.`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `After successfully completing this certification you will be ready to enter in cloud computing domain as professional AWS associate. There are same job opportunities available after clearing this certification such as cloud architecture, cloud devops engineer, cloud data architect, etc.`
+            },
+            {
+                type: 'p',
+                text: `The exam cost is $150, and the duration of the exam is 130 minutes, with 65 questions of multiple choice.`
+            },
+            {
+                type: 'h4',
+                text: `AWS Certified SysOps Administrator`
+            },
+
+
+            {
+                type: 'p',
+                text: `This certification is also an associate-level certification, and those who having experience working as system administrators, working experience in AWS services, strong IT experience, and an understanding of cloud services are eligible to take this certification exam. `
+            },
+            {
+                type: 'p',
+                text: `A certified SysOps administrator also has benefits related to the administrator level, so let’s see what the outcomes are after taking this AWS certification, such as:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Provides a hands - on experience in managing, deploying, and operating workloads on AWS.`,
+                    `Familiar with security controls and compliance.`,
+                    `Provides a brief understanding of command - line interface use in AWS and the AWS management console.`,
+                    `A clear concept of AWS networking  and architectured framework`,
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `Those interested in taking the AWS Associate SysOps Administrator exam should be aware that it costs $150 and lasts 180 minutes. The exam will be multiple-choice or have an exam lab.`
+            },
+            {
+                type: 'h3',
+                text: `Professional Level`
+            },
+            {
+                type: 'p',
+                text: `AWS professional-level certification provides AWS Certified Solution Architects. This is an expert-level certification of the same associate level, and only those who have had previous working experience in AWS and also cleared the AWS Solution Architect – Associate exam can take this exam.`
+            },
+            {
+                type: 'p',
+                text: `This exam is $300 and lasts 180 minutes with 75 multiple-choice questions.`
+            },
+            {
+                type: 'p',
+                text: `There are numerous advantages to taking this certification exam, and it also improves skills and knowledge. Let’s look at some of the outcomes of taking this professional exam, such as:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Provides a hands - on experience in monitoring, migration, and deployment of AWS services.`,
+                    `Helps to implement real - world architecture solutions.`,
+                    `Use of AWS tools and services.`,
+                    `Implementation of cost - effective protocols and security.`,
+                    `Provides a clear concepts of an architectural framework`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Wrapping up!`
+            },
+            {
+                type: 'p',
+                text: `Certification, from the fundamental to the professional level, can help anyone advance in their career. Each certification requires dedicated study and proper guidance to be cleared, which is why once cleared, they have a lot of value.`
+            },
+            {
+                type: 'p',
+                text: `So according to their experience level, a person can choose any AWS certification and try to clear it.`
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "Best Roadmap for B.Tech, BCA or Graduates",
+            description: 'In today’s world, mostly everyone wants to work for top MNCs or start their career in IT domains. The main reason they wants to work in the IT industry is that it is so vast . There are different job domains available to start a person’s career as a beginner. ',
+            og_img: '/assets/images/blog/19.webp',
+        },
+        slug: 'best-roadmap-for-b-tech-BCA-or-graduates',
+        category: {
+            title: "Placement Program",
+            slug: 'placement-program'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/19.webp'
+            },
+            {
+                type: 'h1',
+                text: `Best Roadmap for B.Tech, BCA or Graduates`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `In today’s world, mostly everyone wants to work for top MNCs or start their career in IT domains. The main reason they wants to work in the IT industry is that it is so vast . There are different job domains available to start a person’s career as a beginner. 
+`
+            },
+            {
+                type: 'p',
+                text: `Those who have completed their bachelor’s or master’s degree can easily join the IT industry if they have the required skills and knowledge. But if they don’t have the required skills and knowledge, then they can take different course as per their interest, and after that, they can join the industry.`
+            },
+            {
+                type: 'p',
+                text: `The candidates having bachelor’s or master degree such as BCA, B.E., B.Tech., B.Sc., MCA, M.Tech., and M.Sc. can easily take different online course to upskill their knowledge. Most of them have doubts about which course is best for them to get a better job. `
+            },
+            {
+                type: 'p',
+                text: `This blog is a proper guide or roadmap of the best online courses available for beginners to get a better job after graduation. Candidates who do not have a background in computer science or information technology can also enrol in these courses and begin their career in the IT field.`
+            },
+            {
+                type: 'p',
+                text: `Without wasting time, let’s us begin with various courses that a graduate can take.`
+            },
+            {
+                type: 'h3',
+                text: `Courses after Students Graduation`
+            },
+            {
+                type: 'h4',
+                text: `1. CCNA – CISCO Certified Network Associate (200-301)
+`
+            },
+            {
+                type: 'p',
+                text: `The most popular course for beginning a career in IT is the CCNA. There are various job opportunities available after completing the CCNA. This course provides a deep understanding of the networking fundamentals used in an organisation.`
+            },
+            {
+                type: 'p',
+                text: `Let’s see what major topics are covered in the CCNA course:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Fundamentals of networking`,
+                    `Routing and subnetting`,
+                    `Switching technologies`,
+                    `IP services and connectivity`,
+                    `Network automation`,
+                    `Security in Network`,
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `After learning and successfully completing the certification exam, candidates can apply for different entry-level jobs in the IT domain, such as:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Network engineer`,
+                    `Network administrator`,
+                    `System administrator`,
+                    `System engineer`,
+                    `Technical network support engineer`,
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `Candidates can get an annual salary package of Rs. 3.5 LPA to Rs. 7 LPA as per their knowledge and skills.`
+            },
+            {
+                type: 'h4',
+                text: `2. CEH – Certified Ethical hacker v11`
+            },
+            {
+                type: 'p',
+                text: `Cyber security is a very popular field in the IT industry, and those who want to build their careers in cyber security can take the CEH course. After they clear the certification, they will be officially called “ethical hackers.” The certification is valid for three years.`
+            },
+            {
+                type: 'p',
+                text: `This CEH course provides a vast knowledge of cybersecurity, and lots of career opportunities are available after clearing the certification exam. Let’s see what topics are covered in the CEH course:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Introduction to Ethical hacking`,
+                    `Information gathering and Reconnaissance tactics`,
+                    `Networking concepts`,
+                    `Cryptographic technologies`,
+                    `Web application testing`,
+                    `Testing methodologies`,
+                    `Malware analysis`,
+                    `Cloud computing networking`,
+                    `Phases of hacking`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `CEH certification is a valuable course for cyber security, and after clearing the certification, various job options are available. As per their interests, candidates can choose any one domain to start a career in cyber security. The following are the job opportunities for CEH certified individuals:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Security engineer`,
+                    `Penetration testing`,
+                    `Malware analyst`,
+                    `Network security engineer`,
+                    `Vulnerability analyst`,
+                    `SoC analyst`,
+
+                ]
+
+            },
+            {
+                type: 'p',
+                text: `Initially, CEH-certified candidates can easily get annual salary package of Rs. 4 LPA to Rs. 6 LPA as per their skills and knowledge.`
+            },
+            {
+                type: 'h3',
+                text: `3. Cloud Computing Course`
+            },
+            {
+                type: 'p',
+                text: `Cloud computing is one of the best domains in the IT industry. Most organisations need a cloud engineer to maintain their cloud infrastructure. There are several cloud service providers that offer beginner-level certification to understand cloud computing services if you want to get into the cloud domain.`
+            },
+            {
+                type: 'p',
+                text: `The most valuable cloud service providers are AWS, Azure, and Google. They all provide an initial level of certification to understand and implement services in organisations.`
+            },
+            {
+                type: 'p',
+                text: `Let’s see what beginner-level certifications are available from different cloud services:`
+            },
+            {
+                type: 'p',
+                items: [
+                    `AWS – AWS Certified Cloud Practitioner(CLF - C01)`,
+                    `Azure – Microsoft Azure Fundamental(AZ - 900)`,
+                    `Google – Google Cloud Digital Leader`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `Choose any of the mentioned beginner-level certifications and develop the skills and knowledge required to enter into cloud computing domain. The following are the job opportunities for cloud computing:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Cloud system admin`,
+                    `Cloud engineer`,
+                    `Cloud developer`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `The initial salary after getting certified in cloud computing starts at Rs. 3.5 LPA to Rs. 4 LPA.`
+            },
+            {
+                type: 'h3',
+                text: `4. Web Development Course`
+            },
+            {
+                type: 'p',
+                text: `A web development course consists of both front-end and back-end development. Candidates who have an interest in front-end development need to learn the fundamentals of HTML, CSS, and JavaScript (Jquery and Angular.js). `
+            },
+            {
+                type: 'p',
+                text: `Those who have interest in back-end development need to learn PHP, Java, SQL, Python and Node.js. Some candidates having interest in learning both front-end and back-end, they are known as “Full-stack engineers.”`
+            },
+            {
+                type: 'p',
+                text: `All the three niche of web development have scope in the IT industry, but only you need to develop those skills and knowledge.`
+            },
+            {
+                type: 'p',
+                text: `Also, there is one more domain available in web development, i.e., UI/UX designer. They basically design the user interface of an application or product. The plus point is that only you have to master HTML, CSS, and also creativity in designing.`
+            },
+            {
+                type: 'p',
+                text: `The initial salary of a web developer or web designer starts at Rs. 3.5 LPA.`
+            },
+            {
+                type: 'h3',
+                text: `5. Data Engineer Course`
+            },
+            {
+                type: 'p',
+                text: `Data engineering is one of the most demanding jobs of the past few years. Data engineers works under the data scientist, and their main responsibilities are to collect data, manage it, and convert it into an understandable form for data scientists.`
+            },
+            {
+                type: 'p',
+                text: `Lets see what topics are covered in Data Engineer course:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Introduction to Data Engineering`,
+                    `Python programming concepts`,
+                    `Database understanding such as SQL, No SQL, Mongodb, etc`,
+                    `Data warehousing such as HIVE, Apache spark, Kafka, Hadoop, etc`,
+                    `Machine learning`,
+
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `There are various job options are available for beginner Data engineering such as Data Architect, Database Administrator, and Data Engineer.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion`
+            },
+            {
+                type: 'p',
+                text: `All the courses mentioned above are beginner-friendly, and whatever course candidates choose, they will get knowledge from the basics to advanced. If someone is interested in taking networking, ethical hacking, or cloud computing courses, they can contact Networkers Home. Here we guide candidates from the basic to advance, so they can easily attend the interview without any hesitation.`
+            },
+            {
+                type: 'p',
+                text: `Those who have completed their graduation and master’s in computer science or any other specialisation and who want to upskill their knowledge then they can choose any one course and start their journey. There are unlimited job opportunities are available in market, only the organisations need skills and knowledge.`
+            },
+            {
+                type: 'p',
+                text: `Keep Learning and keep exploring!`
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "The Top Beginner Level Networking Jobs – How to achieve them in 2023",
+            description: 'Computer networking is a hot domain to start a career in the IT industry. Since the last 15 years, networking has been an essential skill for every organisation. To build a network infrastructure in an organisation, there is always a need of network engineer, administrator and system engineer. ',
+            og_img: '/assets/images/blog/16.webp',
+        },
+        slug: 'the-top-beginner-level-networking-jobs–how-to-achieve-them-in-2023',
+        category: {
+            title: "Placement Program",
+            slug: 'placement-program'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/16.webp'
+            },
+            {
+                type: 'h1',
+                text: `The Top Beginner Level Networking Jobs – How to achieve them in 2023`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `Computer networking is a hot domain to start a career in the IT industry. Since the last 15 years, networking has been an essential skill for every organisation. To build a network infrastructure in an organisation, there is always a need of network engineer, administrator and system engineer. `
+            },
+            {
+                type: 'p',
+                text: `These people build, manage, operate, and design the network infrastructure, and if any issue arise, they can troubleshoot and diagnose them with the help of their skills and knowledge.`
+            },
+            {
+                type: 'p',
+                text: `That is why candidates must develop those skills so that they can confidently join organisations. To build these skills, they can take a certification course, which will make them ready for industry.`
+            },
+            {
+                type: 'p',
+                text: `So in this blog, we will discuss about three best certifications in networking that will really help build the desired skills, and after that, we will take a look at the top networking jobs for beginners.
+`
+            },
+            {
+                type: 'p',
+                text: `Let’s get started with three different certification courses in networking.`
+            },
+            {
+                type: 'h2',
+                text: `Certification Courses in Networking`
+            },
+            {
+                type: 'h3',
+                text: `1. CCNA – Cisco Certified Network Associate`
+            },
+            {
+                type: 'p',
+                text: `The CCNA programme is the most well-liked way to start a career in IT. Most of the organisation preferred CCNA certification in resumes, and if candidates mentioned it in their resumes, they got priority. `
+            },
+            {
+                type: 'p',
+                text: `This certification provides an overview of networking concepts and technology used in infrastructure. Those who want to learn advanced knowledge in routing and switching will choose the next certification on the list.
+`
+            },
+            {
+                type: 'h3',
+                text: `2. CCNP -  Cisco Certified Network Professional`
+            },
+            {
+                type: 'p',
+                text: `The CCNP certification is an advanced certification of the CCNA. This certification provides an overview of SD-WAN, advanced routing and switching, Cisco Encor and Enarsi modules, and many more. 
+`
+            },
+            {
+                type: 'p',
+                text: `There are no pre-requisites of enrolling in this certification, but it’s really important to understand the basic concepts of networking taught in the CCNA certification. That is why most professionals recommend completing the CCNA certification first, followed by the CCNP. 
+`
+            },
+            {
+                type: 'h3',
+                text: `3. CCIE Enterprise Certification`
+            },
+            {
+                type: 'p',
+                text: `The CCIE Enterprise certification is an advanced-level course that is mainly for freshmen engineers. This certification covers all the topics of CCNA, CCNP, SDWAN, firewall concepts, and Python automation. `
+            },
+            {
+                type: 'p',
+                text: `Again, there are no pre-requisites of enrolling in this certification, except that candidates should have completed their graduation.
+                `
+            },
+            {
+                type: 'p',
+                text: `Now let’s see what the five top networking jobs are for graduates.`
+            },
+            {
+                type: 'h3',
+                text: `Networking jobs for beginners`
+            },
+            {
+                type: 'p',
+                text: `Note: After clearing the CCNA certification, you will have entry-level career options, but if your aim is to enter a better position, it is necessary to level up your knowledge by taking the CCNP certification. `
+            },
+            {
+                type: 'p',
+                text: `Still, if someone wants to enter into a job after clearing the CCNA, then the below mentioned entry-level career options are available:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Technical Support Engineer`,
+                    `Junior System Engineer`,
+                    `Network Engineer`,
+                    `Network associate`,
+                    `Network analyst`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `All the above-mentioned career options have salary packages starting from Rs. 2.5 to Rs 4 LPA. The initial salary packages is entirely dependent on location and skills. `
+            },
+            {
+                type: 'p',
+                text: `Now let’s see what career options are available after clearing both the CCNA and CCNP certification.`
+            },
+            {
+                type: 'h3',
+                text: `Career options after CCNP or CCIE certified`
+            },
+            {
+                type: 'p',
+                text: `As we have discussed earlier, CCNP and CCIE certifications provide an advanced level of skills and knowledge. Accordingly, it also provide a broad level of career options, and those who are already working as junior network engineers or associates can up-skill their career after CCNP or CCIE certification.`
+            },
+            {
+                type: 'h4',
+                text: `Senior Network Engineer`
+            },
+            {
+                type: 'p',
+                text: `A senior Network Engineer’s primary job role is to configure, troubleshoot, and maintain software, routers, servers and different network devices. Designing and deploying of network infrastructure, and monitoring network performance.`
+            },
+            {
+                type: 'p',
+                text: `Salary estimates for a Senior Network Engineer range from Rs. 7 LPA to Rs. 16 LPA, depending on experience.`
+            },
+            {
+                type: 'h4',
+                text: `Infrastructure Network Engineer`
+            },
+            {
+                type: 'p',
+                text: `The following are the roles and responsibilities of an Infrastructure Network Engineer:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `New network infrastructure involves the design and implementation of servers, routers, firewall, switches, hubs, and other components.`,
+                    `Installing and configuring software and hardware. `,
+                    `Monitoring network activity and maintaining network security for suspicious activity.`,
+                    `Analysing and troubleshooting problems with existing devices.`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `An infrastructure network engineer should have a good command on networking skills, technical troubleshooting, communication, and project management skills.`
+            },
+            {
+                type: 'p',
+                text: `Salary estimates for infrastructure network engineer range from Rs. 4 LPA to Rs. 10 LPA, depending on job location and experience.`
+            },
+            {
+                type: 'h3',
+                text: `Network Specialist`
+            },
+            {
+                type: 'p',
+                text: `A network expert needs a broad variety of abilities. The most crucial requirements is that you have a solid foundation in networks. Additionally, you’ll need to be able to function well under pressure because when the network goes down, you’ll need to be capable of rapidly pinpoint the issue and create and put into place the best remedy.`
+            },
+            {
+                type: 'p',
+                text: `The salary estimation of network specialist in India range from Rs. 5 LPA to Rs. 9 LPA, depending on job location and experience.`
+            },
+            {
+                type: 'h4',
+                text: `Network Security Engineer`
+            },
+            {
+                type: 'p',
+                text: `The process of protecting a computer network infrastructure from network interruption is known as network security. The need for firms to adapt has become critical as security pressures become more sophisticated. The facilities need to be aware of the hazards that are present, and they should design strong safety measures to manage risk.`
+            },
+            {
+                type: 'p',
+                text: `The main roles and responsibilities of network engineer are:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Assure network integrity by providing advanced expertise in the development of network testing, validation, and integration plans for projects.`,
+                    `Design, implementation and evaluation of network firewall and IDS / IPS system.`,
+                    `Regular research, analyze, testing, and troubleshooting problems.`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `The salary estimation of network security engineer in India range from Rs. 6 LPA to Rs. 10 LPA as per experience and location.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion`
+            },
+            {
+                type: 'p',
+                text: `The opportunities for networking are never going to end. Both CCNP and CCIE certified professionals get numerous job offers from all over the world. With the best skills and knowledge, they will get excellent salaries and respectable designations.`
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "Cloud Vulnerability and Security Threat in Cloud Computing",
+            description: 'Cloud storage and cloud security are two of the newest innovations in the world of contemporary generations. Cloud services could prevent the potential benefits if there is insufficient and suitable security protection, which would eventually lead to greater costs and possible loss of the firm.',
+            og_img: '/assets/images/blog/17.webp',
+        },
+        slug: 'cloud-vulnerability-and-security-threat-in-cloud-computing',
+        category: {
+            title: "Cloud Computing",
+            slug: 'cloud-computing'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/17.webp'
+            },
+            {
+                type: 'h1',
+                text: `Cloud Vulnerability and Security Threat in Cloud Computing`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+
+                text: `Cloud storage and cloud security are two of the newest innovations in the world of contemporary generations. Cloud services could prevent the potential benefits if there is insufficient and suitable security protection, which would eventually lead to greater costs and possible loss of the firm.`
+            },
+            {
+                type: 'p',
+                text: `When a firm adopts cloud computing, it is crucial to comprehend all the dangers and security hazards associated with it. There is no doubt cloud computing provides lots of benefits to organizations but it’s also true that cloud is not fully protected from hackers.`
+            },
+            {
+                type: 'p',
+                text: `In this blog, we will see what are the five common challenges or vulnerabilities of cloud computing security and how we can mitigate those security issues.`
+            },
+            {
+                type: 'h2',
+                text: `Data Theft of Intellectual Property`
+            },
+            {
+                type: 'p',
+                text: `Most of the cloud security threats are done through file uploads to cloud-based file-sharing sites contain sensitive information, including IP. When these cloud service are breached, attackers gain access to the private data stored in them.`
+            },
+            {
+                type: 'p',
+                text: `They make attractive targets and typically sustain the most harm when their data is stolen. It is among the most hazardous vulnerabilities in cloud computing.`
+            },
+            {
+                type: 'h4',
+                text: `Mitigation of Data Theft or Breaches`
+            },
+            {
+                type: 'p',
+                text: `To prevent data breaches, we must implement regular countermeasures to protect cloud computing data, such as:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Regular security inspections`,
+                    `Secure servers that use  encryption`,
+                    `Plan for handling incidents`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Lost control over users action`
+            },
+            {
+                type: 'p',
+                text: `This type of vulnerability occurs when organisations lose control of their data assets and become exposed to security breaches and insider threats if they are unaware of how their staff are using cloud computing services.`
+            },
+            {
+                type: 'p',
+                text: `VPNs, firewalls, and other security measures are not necessary for employees to access the internal data stored on an organization’s cloud. They can easily and directly access private data stored in the cloud infrastructure. This may result from confidential information and intellectual property, which would clearly have negative effects on the company.`
+            },
+            {
+                type: 'h4',
+                text: `Mitigation of lost control over users actions`
+            },
+            {
+                type: 'p',
+                text: `We can prevent losing control over users’ actions by implementing security measures. The most valuable security measure is to provide training to employees so they can understand the common vulnerabilities, such as malware and phishing. When using cloud computing services, use this technology to protect any private data. Inform them of the consequences of malicious behaviour.`
+            },
+            {
+                type: 'p',
+                text: `Conduct regular server audits in the cloud architecture to find exploitable data security issues and promptly remedy them.`
+            },
+            {
+                type: 'h3',
+                text: `Insecure APIs`
+            },
+            {
+                type: 'p',
+                text: `Through the use of APIs, unconnected software products can interact and communicate without being aware of one another’s internal workings. APIs are typically necessary and frequently provide access to crucial corporate data. `
+            },
+            {
+                type: 'p',
+                text: `Businesses release a lot of public APIs to speed up the adoption of new technologies by enabling third-party developers and business partners to access their products and data. APIs are completely unsecured; anyone can access and misuse the data. That’s the reason APIs are major targets for hackers.`
+            },
+            {
+                type: 'p',
+                text: `Most of the organisations make public access to their APIs available so that third-party developers and business partners can use their software platforms. Because APIs are public access, attackers have discovered widespread methods to use insecure APIs for illegal purposes. `
+            },
+            {
+                type: 'p',
+                text: `When developers create APIs without providing proper authentication controls. While accessing open APIs, they can access enterprise data and systems.`
+            },
+            {
+                type: 'h4',
+                text: `Mitigation of Insecure APIs`
+            },
+            {
+                type: 'p',
+                text: `To prevent insecure APIs, we must follow a few steps to secure the APIs, such as:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Regularly run penetration tests that simulate outside attacks on your API endpoints and acquire a secure code review. `,
+                    `APIs should be secured, so to do that, developers need to create APIs with encryption, reliable access control, activity tracking, and authentication.`,
+                    `Data transmission should be encrypted using SSL / TLS.`,
+                    `Multi - factor authentication helps increase security measures.`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Misconfiguration of Cloud Storage`
+            },
+            {
+                type: 'p',
+                text: `This cloud computing vulnerability is most common in cloud services; it occurs when organisations fail to properly set up cloud storage, resulting in exposed data. Businesses still misconfigure cloud storage, which has cost several companies millions of dollars, despite the potentially serious effects.`
+            },
+            {
+                type: 'p',
+                text: `Some of the examples of misconfiguration include:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `AWS security group setup errors can be used by an attacker to gain access to your cloud servers and steal data because at the level of the source, destination, port, and protocol, AWS security groups offer control access.`,
+                    `Unsecure cloud storage buckets could potentially provide hackers access to your organization’s important data and allow them to download it.Initially, S3 buckets on AWS were enabled by default, which led to several data breaches.`
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Mitigation of misconfigured cloud storage`
+            },
+            {
+                type: 'p',
+                text: `To prevent the misconfiguration of cloud storage, the configurations need to be checked properly after setting up a cloud server. This may seem simple, but other activities, like putting data into the cloud without considering its security, might easily let it go unnoticed.`
+            },
+            {
+                type: 'p',
+                text: `Another main issue is that many organisations are moving to cloud computing without having proper guidance or understanding of how to secure their data.`
+            },
+            {
+                type: 'h3',
+                text: `Improper Access Management`
+            },
+            {
+                type: 'p',
+                text: `Access management provides authorization to individuals so they can perform the provided tasks. Stolen or lost credentials have been the most frequently employed weapon by attackers in breaches affecting web services.`
+            },
+            {
+                type: 'p',
+                text: `There are various other cloud-specific concerns that organisations face in addition to the general access control problems they encounter today, such as managing a scattered workforce and user password exhaustion:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Assigned inactive users`,
+                    `Multiple accounts for administrators`,
+                    `Improper provisioning and deprovisioning of users and services, such as when businesses fail to revoke the access rights of former employees.`,
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Mitigation of improper access management`
+            },
+            {
+                type: 'p',
+                text: `Improper access management in cloud computing can be prevented by developing a data governance framework for user accounts. The active directory should be in charge of provisioning, monitoring, and suspending access credentials from a central store; therefore, accounts for all users should be directly linked to these services.`
+            },
+            {
+                type: 'p',
+                text: `In order to spot strange behaviour or illegal modifications, organisations should make sure logging and event monitoring methods are in place in cloud environments. Access keys should be carefully handled and under strict supervision to prevent bad data handling or leakage.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion`
+            },
+            {
+                type: 'p',
+                text: `Most organisations and businesses are using cloud services, so data security is one of the key topics they should be concerned about. The IT processes that teams use to develop applications and deploy them in the cloud infrastructure must be well integrated into a company’s strong cloud security rules.`
+            },
+            {
+                type: 'p',
+                text: `Enterprises must continuously address the dangers and difficulties associated with cloud security while implementing the appropriate security technologies to facilitate operational work.`
+            },
+            {
+                type: 'p',
+                text: `In this blog, we have checked most of the common vulnerabilities of cloud computing. However, there are some other vulnerabilities present in cloud computing, such as contractual breaches with customers, unauthorized access, malicious insiders, and many more. All of these are vulnerabilities that attackers can exploit to gain authorization, access data or harms organizations, which is why cloud computing security is a major concern.`
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "The most innovative things happening with cloud computing",
+            description: 'Cloud computing is rapidly advancing, and new technologies are being added to the cloud every year. This is the technology that allows data and programmes to be stored over the Internet without the need for a physical hard drive.',
+            og_img: '/assets/images/blog/12.webp',
+        },
+        slug: 'most-innovative-things-happening-with-cloud-computing',
+        category: {
+            title: "Cloud Computing",
+            slug: 'cloud-computing'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/12.webp'
+            },
+            {
+                type: 'h1',
+                text: `The most innovative things happening with cloud computing`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `Cloud computing is rapidly advancing, and new technologies are being added to the cloud every year. This is the technology that allows data and programmes to be stored over the Internet without the need for a physical hard drive. `
+            },
+            {
+                type: 'p',
+                text: `Cloud computing is the delivery of computer services over the Internet (“The cloud”), including storages, databases, servers, networking, software, analytics. It aims to provide rapid innovation, flexible resources, and scale economies. Most of the time, you only pay for the cloud services that you actually use. This reduces operational costs, improves infrastructure management, and enables you to scale as your business’s needs change.`
+            },
+            {
+                type: 'p',
+                text: `Before we look at the new cloud computing technologies, let’s look at why cloud computing is important for any organization.`
+            },
+            {
+                type: 'h3',
+                text: `Why cloud computing is important for any organization?
+`
+            },
+            {
+                type: 'p',
+                text: `Cloud computing has numerous advantages for a business or organization; the cloud market is expected to be worth $550 billion by 2023. At below we have mentioned the popular key advantages of cloud in business. `
+            },
+            {
+                type: 'list',
+                items: [
+                    `Minimum Cost`,
+                    `Increased storage`,
+                    `Highly Automated`,
+                    `Flexibility`,
+                    `More mobility`,
+                    `Data security and recovery`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `These are the reasons why your business or organization should consider to adapt cloud computing. Data backups and communications tools are only a couple of the IT services and applications that businesses can access through the cloud.`
+            },
+            {
+                type: 'p',
+                text: `Every technology comes with some risk of security, but the advantages of the cloud may be worth the difficulties. You may reduce risks and take advantage of the advantages that cloud-based IT services can offer if take the correct actions and collaborate with the right partners.`
+            },
+            {
+                type: 'h3',
+                text: `What are the new cloud computing technologies are comes in last couple of years?`
+            },
+            {
+                type: 'p',
+                text: `One significant advancement in the process that has fundamentally altered how business operate is cloud computing. And throughout the years, we have seen a number of new technologies emerge that are supported by cloud computing.`
+            },
+            {
+                type: 'p',
+                text: `The development of technology has been centred on cloud computing options and efficient cloud technology use. These innovations are altering the entire computing industry in the process, not just the cloud comuting environment.`
+            },
+            {
+                type: 'h3',
+                text: `Here are 5 cutting-edge cloud computing technologies:`
+            },
+            {
+                type: 'h4',
+                text: `1. Cloud-Native Applications`
+            },
+            {
+                type: 'p',
+                text: `Cloud native technology helps organizations to create and deploy scalable applications on public, private, and hybrid clouds. The term “cloud native” describes the idea of creating and executing programmes that make use of the distributed computing capabilities provided by the cloud delivery model. Apps that are cloud native are created to take advantages of the size, elasticity, robustness, and customization the cloud offers.`
+            },
+            {
+                type: 'p',
+                text: `Modern application development is made possible by cloud native services, which utilise tools like Kubernetes, Docker, serverless functions, APIs, and kafka. These tools and services are made available by market-leading cloud providers so that developers can create apps more quickly and reduce operational responsibilities. `
+            },
+            {
+                type: 'p',
+                text: `Cloud native services, which offer a complete, standards-based platform, can be used to build, deploy, and mange cloud native applications like microservices and serverless operations.`
+            },
+            {
+                type: 'h4',
+                text: `2. Grid Computing`
+            },
+            {
+                type: 'p',
+                text: `Grid computing is used by organisations to perform heavy task that are difficult to handle on a single computer. To complete complicated tasks, several computers on a network communicate under a common protocol and operate as a single virtual supercomputer.`
+            },
+            {
+                type: 'p',
+                text: `To solve a complex task, organisations use specialised software on every computer. These software programmes are connected to the grid network and help to cordinates with each other and manage all the tasks.`
+            },
+            {
+                type: 'p',
+                text: `Each computing task is divided into manageable pieces in grid computing and distributed among computing nodes for quick completion. A difficult task is completed in less time since each fragment is processed in parallel. Grid computing examples such as Weather modeling applications, Data-oriented applications, Commercial applications, and many more. `
+            },
+            {
+                type: 'h4',
+                text: `3. Utility Computing`
+            },
+            {
+                type: 'p',
+                text: `Utility computing is important to business models and provides a special service provider for customers who want to pay for IT services on a per-usage basis. The shared pool utility is utilised in business utility computing. With this strategy, the business may serve a large number of people while avoiding needless redundancy by centralising its processing power and resources.`
+            },
+            {
+                type: 'p',
+                text: `As a result of the massive amounts of data being distributed over numerous servers or backend systems, utility computing helps eliminate data redundancy. However, the client has 24/7 access to the information from any location.`
+            },
+            {
+                type: 'p',
+                text: `The cost of utility computing depends on how the organisation uses it and the services it requests. Instead of offering a set rate, the business bills the customer according to the services they use. The client should expect to pay more as they use the services more frequently. Few businesses choose to package their services at a discount.`
+            },
+            {
+                type: 'h4',
+                text: `4. Integrated Blockchain Technology`
+            },
+            {
+                type: 'p',
+                text: `Blockchains are increasingly acknowledged as the “fifth evolution” of cloud computing and the Internet’s missing trust layer. This is one of the reasons why there is so much interest in this subject. `
+            },
+            {
+                type: 'p',
+                text: `As a peer-to-peer system, a blockchain does not have a central organisation controlling the flow of data. Blockchains have the potential to increase data trust. It’s nearly impossible to remove or modify data after it has been added to a blockchain database. This power has never before been possible.
+`
+            },
+            {
+                type: 'p',
+                text: `Perfect recordkeeping is a fascinating new capability made possible by blockchains. They are useful for establishing a precise timeline of who did what and when. Numerous sectors of the economy and regulatory organisations invest numerous hours in analysing this issue. Records that are kept using blockchain technology will lessen some of the burdens associated with trying to understand the past.
+`
+            },
+            {
+                type: 'h4',
+                text: `5. Containers`
+            },
+            {
+                type: 'p',
+                text: `Software management and deployment in the cloud frequently use containers. Applications are separated from the actual environment in which they are running using containers. A containers runs all the dependencies associated with a software component in isolation and bundles them all.`
+            },
+            {
+                type: 'p',
+                text: `Using containers to run an instance of an application is a frequent pattern in the cloud. A single microservice or a backend application like a database or middleware component can serve as this. Multiple apps can operate on the same cloud VM thanks to containers, which also prevent issues with one container from impacting other containers or the VM as a whole.`
+            },
+            {
+                type: 'p',
+                text: `Running containers on upper edge of compute resources, that are technically virtual computers, is the most typical situation in the cloud. With the advent of the “container instances” model, cloud providers are now enabling the direct execution of containers on their servers without the use of virtual machines as a middleman.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion`
+            },
+            {
+                type: 'p',
+                text: `We have seen in this blog the important technologies that are involving every year and assisting organisations in reducing heavy tasks and managing complex tasks in a simple manner.`
+            },
+            {
+                type: 'p',
+                text: `There are also other technologies that were developed through cloud computing technology, such as DevOps, multi-cloud to omni-cloud, quantum computing, service-oriented architecture, artificial intelligence, and many more. The future of cloud computing for businesses and the importance of cloud computing service providers are both highlighted by these exciting new technologies.
+`
+            },
+
+        ]
+    },
 ]
+
 let temp = {
     seo: {
         title: "",
