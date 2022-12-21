@@ -40,10 +40,10 @@ const index = () => {
                             ))}
                         </div>
                         <div className="text-xl font-semibold lg:text-2xl">
-                            CCNA Course description
+                            Certification course Info
                         </div>
                         <p className="text-base lg:text-lg">
-                            CCNA 200-301 Training in both online and classroom mode.  The CCNA certification is valid for three years.. Upon completing the course, you will receive a certificate of completion, ensuring you have the skills needed to become a CCNA and start your career in IT networking! We offer CCNA course in online and classroom format. Programs comes with lifetime video library access as well as free exam prep software. The market for IT professionals is booming, and the demand for Cisco Certified Networking Professionals is especially high.
+                            CCNA 200-301 Certification Course/ Training comes with lifetime video library access to training videos as well as free exam prep software. Hands on training with 100% placement. Cisco CCNA Certification Exam cost is saparate. Free 244 pages of Lab guide, Cisco Books, Videos and Lab access of real equipments.
                         </p>
                     </div>
                     <h2 className='text-2xl lg:text-4xl font-bold mb-4'>CCNA Course Topics </h2>
