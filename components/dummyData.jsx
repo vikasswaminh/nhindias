@@ -6291,8 +6291,8 @@ They check a packet’s header using packet filtering techniques to ascertain it
         },
         slug: 'find-out-now-what-should-you-do-to-grasp-linux-fundamentals-and-core-concepts',
         category: {
-            title: "",
-            slug: ''
+            title: "Computer Networks",
+            slug: 'computer-networks'
         },
         content: [
             {
