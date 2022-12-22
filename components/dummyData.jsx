@@ -5001,6 +5001,1504 @@ They check a packet’s header using packet filtering techniques to ascertain it
 
         ]
     },
+    {
+        seo: {
+            title: "Top IT jobs without knowledge of Coding",
+            description: 'Tech is a constantly expanding industry. In the upcoming years, IT employment will increase both domestically and internationally. The idea that coding is necessary for computer professions is a well-known urban legend. Without knowing how to code, there are many computer professionals you can choose from.',
+            og_img: '/assets/images/blog/20.webp',
+        },
+        slug: 'top-it-jobs-without-knowledge-of-coding',
+        category: {
+            title: "Placement Program",
+            slug: 'placement-program'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/20.webp'
+            },
+            {
+                type: 'h1',
+                text: `Top IT jobs without knowledge of Coding`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `Tech is a constantly expanding industry. In the upcoming years, IT employment will increase both domestically and internationally. The idea that coding is necessary for computer professions is a well-known urban legend. Without knowing how to code, there are many computer professionals you can choose from.`
+            },
+            {
+                type: 'p',
+                text: `You might have seen numerous articles in which people completed degrees in non-IT domains and then got jobs in the IT domain after a few months of training. Everyone is capable of doing so, so I’ve created this article to teach you about top IT jobs that don’t require coding knowledge. Individuals can start their careers in the IT industry by mastering the required skills.`
+            },
+            {
+                type: 'h2',
+                text: ` 10 Valuable tech careers that don’t require coding`
+            },
+            {
+                type: 'h3',
+                text: `1. Network Engineer`
+            },
+            {
+                type: 'p',
+                text: `A network engineer is a highly competent technical specialist with the ability to plan, design, and manage various types of networks to ensure smooth data, phone, and video connections, as well as wireless network services.`
+            },
+            {
+                type: 'p',
+                text: `They are in charge of establishing advanced network architectures and settings, resolving issues, and managing the security of all the network systems thanks to their networking knowledge.`
+            },
+            {
+                type: 'p',
+                text: `To develop networking skills, you must have a good command of networking devices, networking protocols, subnetting and routing, firewalls, and many more. You can grasp this skill through self-study, but it will take time to build those skills. Another way is through enrolling in a certification programme and obtaining the required skills.`
+            },
+            {
+                type: 'p',
+                text: `Most of the common beginner-level certifications available in the market are Comptia A+, Comptia N+, Juniper Network certification (JNCIA-Junos), CCNA (Cisco certification), and many more. All of these are beginner-level certifications with low costs.`
+            },
+            {
+                type: 'h4',
+                text: `Duties of a network engineer:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Identifying, analysing, and resolving network- and device-related hardware, software, and other problems.`,
+                    `Fixing faulty hardware network components wherever possible.`,
+                    `For virus protection, maintain, personalise, and monitor the device and email applications.`,
+                    `Monitoring network performance to see if adjustments are necessary. Meeting with network users to discuss fixing problems with the current networks.`,
+                    `Control network and computer system output via master consoles. Coordination of computer networks and access usage.`,
+                    `Plan, set up, and test networking hardware, computer hardware, and operating system hardware.`,
+                    `Command over the ability to deploy, maintain, and troubleshoot network infrastructure technologies such as wireless access points, firewalls, routers, switches, and controllers.`,
+                    `A thorough understanding of network infrastructure and hardware.`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `For a successful network engineer, a person must have these kinds of skills to get their first job. The average salary a network engineer will get in India is around INR 3.5 to 5 LPA for freshers.`
+            },
+            {
+                type: 'h3',
+                text: `2. Operations Manager`
+            },
+            {
+                type: 'p',
+                text: `Operations management is responsible for supervising high-level HR responsibilities like recruiting top personnel, enhancing organisational procedures, and working to boost quality, productivity, and efficiency.`
+            },
+            {
+                type: 'p',
+                text: `The basic roles and responsibilities of operations managers are to assist HR, promote an organisational culture that values excellence in performance and strong morale, control planning, reporting, auditing, and budgeting, and collaborate with senior stakeholders.`
+            },
+            {
+                type: 'p',
+                text: `To become an operations manager, they must have the necessary skills like Bachelor’s degree, and knowledge of management, operations, and leadership. Understanding of budgeting and general finance includes profit and loss, book value, and cash-flow management. `
+            },
+            {
+                type: 'p',
+                text: `The capacity to establish relationships and understanding among partners and employees. He should have strong financial management knowledge.`
+            },
+            {
+                type: 'p',
+                text: `You can begin your career as an operations manager; you can pursue an MBA in operations management and other certifications such as Advanaced Operations Management and Analytics (IIM Koshikode), Vskills Certified Operations Manager, Operations Management Certification by Wharton Online (Coursera), and many more.`
+            },
+            {
+                type: 'p',
+                text: `The average salary an operations manager with a minimum of 4 years of experience will get in India is around INR 4 to 7 LPA, depending on their skills and knowledge.`
+            },
+            {
+                type: 'h3',
+                text: `3. Information Architect`
+            },
+            {
+                type: 'p',
+                text: `To make information more understandable and user-friendly, information architects design and build user interfaces, visualisations, and layouts for the web, desktop, and mobile devices. The technology architecture of an organisation is designed, implemented, and interacted with by information architects using research and innovation. They usually collaborate with a group of designers to develop how users experience websites and apps.`
+            },
+            {
+                type: 'p',
+                text: `To be more successful in this role, they must possess key competencies such as team leadership experience, interpersonal skills when dealing with business and technology stakeholders, and data modelling knowledge.`
+            },
+            {
+                type: 'p',
+                text: `Anyone can begin their career as an information architect if they have the required skill sets like business process, user interface, architecture, data models, metadata, and information management. `
+            },
+            {
+                type: 'p',
+                text: `As an information architect, the initial salary is around INR 7 to 9 LPA, and with more than 5 years of experience, the salary is around INR 12 to 45 LPA, depending on their skills and knowledge. This IT job doesn’t require coding knowledge to get started.`
+            },
+            {
+                type: 'h3',
+                text: `4. Product Manager`
+            },
+            {
+                type: 'p',
+                text: `Product management is in charge of providing goods and services that satisfy customers and promote corporate expansion. It is critical to the company’s larger product development cycle, which includes the entire process of transforming a concept into a product that meets customer needs and then assessing the product’s marketability.`
+            },
+            {
+                type: 'p',
+                text: `Customer problems are resolved through the product manager’s attention to organising, creating, delivering, and refining solutions. Businesses succeed over the long term when their offerings are strong. Because of this, product management is becoming more and more influential and well-liked.`
+            },
+            {
+                type: 'p',
+                text: `Major roles and responsibilities of product managers include:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Establishing a distinct product vision and strategy that delivers special value in response to client needs.`,
+                    `Defining the product team’s deliverables and the implementation schedule.`,
+                    `Assuming a cross - functional leadership role, particularly between engineering teams, sales and marketing teams, and support teams.`,
+                    `Evaluating product performance.`,
+                    `Accountable for a product’s or product line’s strategy, roadmap, and feature definition.`,
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `As a fresher, a person can start a career as a product manager, and this job position doesn’t require coding knowledge to get started. `
+            },
+            {
+                type: 'p',
+                text: `So the skills required to start a career as a product manager are, i.e., writing technical requirements and specification, market research, strategic thinking, excellent negotiation skills, critical thinking and analytical skills, and great communication skills. `
+            },
+            {
+                type: 'h3',
+                text: `5. Business Analyst`
+            },
+            {
+                type: 'p',
+                text: `A business analyst works with different data sets, analyses the data, transforms the data, and creates stunning representations from the data. A business analyst also manages interteam communication. Business analysts are experts who are in charge of gathering requirements, solving issues, visualising data, and much more.`
+            },
+            {
+                type: 'p',
+                text: `By understanding business issues and offering solutions that will increase the firm’s value to its stakeholders, a business analyst facilitates change inside the organisations.`
+            },
+            {
+                type: 'p',
+                text: `From establishing the corporate architecture to developing the strategy, they are involved in every aspect of the business. Each phase of a project’s life cycle involves the involvement of business analysts. A business analyst studies and documents the operationsl process of a corporation.`
+            },
+            {
+                type: 'p',
+                text: `Skills are required for business analysts are as follows:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `A business analyst may use critical thinking to assess a range of options prior to selecting the desired answer.`,
+                    `A business analyst with great interpersonal and communication skills will feel more comfortable running meetings.`,
+                    `Business analysts struggle during every stage of a project.Early on in a project, negotiation techniques are used to decide what must be incorporated into the project’s vision.`,
+                    `Both directly and indirectly, a business analyst’s actions may have an impact on a company’s operations.Therefore, before making a decision, they should take everything into account.`,
+
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `As a beginner, the aforementioned skills are the fundamentals that are required to begin a career as a business analyst; however as your experience grows, you will need to learn coding languages such as Python and R. There are several libraries and packages available for data wrangling, data manipulation, data visualization, and analytics.`
+            },
+            {
+                type: 'p',
+                text: `The initial salary of a business analyst with less than 1 year of experience is INR 3-6 LPA, and with more than 3 years of experience, the average salary is INR 7-10 LPA.`
+            },
+            {
+                type: 'h3',
+                text: `6. Technical Writer`
+            },
+            {
+                type: 'p',
+                text: `Another excellent option for those looking for non-coding tech jobs is technical writing. A technical writer is a specialist who combines or converts difficult material into documents that are short, clear, and simple to grasp. `
+            },
+            {
+                type: 'p',
+                text: `A technical writer is needed to develop or update documentation for a product or service, such as technical manuals, user manuals, guides, white papers, etc., particularly in the IT industry.`
+            },
+            {
+                type: 'p',
+                text: `You may argue that technical writers frequently produce content for internal communication as well as writing for users, such as planning, design specifications, audits, etc., with the assistance of the appropriate teams.`
+            },
+            {
+                type: 'p',
+                text: `Skills required for technical writers are as follows:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Understanding and expertise with your product clearly`,
+                    `Comprehensive understanding of the market for your product`,
+                    `Basics of technical documentation`,
+                    `Controlling the communication channel`,
+                    `Knowledge of software tools for technical writing`,
+                    `Simple familiarity with graphic and web design`,
+                    `Research abilities`,
+
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `Being knowledgeable, clear, informative, and well-organized are all important traits to have in this profession. Many technical writers begin their careers as employees, but some begin as independent contractors.`
+            },
+            {
+                type: 'p',
+                text: `One of the best non-programming jobs for software engineers is technical writing, if they have a broad knowledge base and want a break from the challenging tasks. Without having to write a single line of code, it’s the best way to apply your knowledge of many technologies.`
+            },
+            {
+                type: 'p',
+                text: `A technical writer’s starting pay is often between INR 4-6 LPA, but it can be greater depending on your qualifications and experience.`
+            },
+            {
+                type: 'h3',
+                text: `7. System Administrator`
+            },
+            {
+                type: 'p',
+                text: `Every organisation need a system administrator, who is in charge of duties like setting up systems for employees, resolving software issues, setting up servers, backing up files, and a variety of other things. `
+            },
+            {
+                type: 'p',
+                text: `A system administrator is responsible for ensuring the systems are secure, work as they should, and operate within the company’s budget. Additionally, he is crucial in the development of an organization’s IT policy.`
+            },
+            {
+                type: 'p',
+                text: `Skills required for system admin are as follows:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Basic networking skills`,
+                    `Troubleshoots problems and fixes system errors as soon as possible.`,
+                    `Manage hardware and software upgrades.`,
+                    `Investigate new offerings, service protocols, and industry standards to aid in the development and `, `purchase of system software.`,
+                    `Install and configure LANs, WANs, network segments, and servers, including file servers, VPN `, `gateways, and intrusion detection systems.`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `Some of the people take certification course to get started as system administrator, and a few of them don’t do any certification they generally build skills through self learning. `
+            },
+            {
+                type: 'p',
+                text: `The entry-level certification that help get a job as a system administrator include, Microsoft certified solutions engineer (MCSE), Comptia Server+, Red Hat certified system administrator (RHCSA), Oracle linux system administrator (Oracle), and many more.`
+            },
+            {
+                type: 'p',
+                text: ` In India, the starting pay for a system administrator is roughly INR 4-5 LPA.`
+            },
+            {
+                type: 'h3',
+                text: `8. Cybersecurity`
+            },
+            {
+                type: 'p',
+                text: `Cybersecurity is a broad field with numerous positions. The majority of roles are classified as offensive or defensive. Offensive security deals with an aggressive strategy for defending against attacks on computer systems, networks, and people. `
+            },
+            {
+                type: 'p',
+                text: `Offensive security requires coding knowledge, but defensive security is the domain of cybersecurity, which doesn’t need much more coding knowledge. `
+            },
+            {
+                type: 'p',
+                text: `In defensive security job roles like Security engineers, Cybersecurity analysts, Security analyst, Threat research analysts, Security operation centres (SOC), IT Auditors, and many more.`
+            },
+            {
+                type: 'p',
+                text: `There are several certifications available to get into defensive security, but those certifications are for professionals with 3 to 5 years of experience in networking or cybersecurity.`
+            },
+            {
+                type: 'p',
+                text: `Certifications like Comptia CySA+, CISSP, CISM, GIAC Security Essentials certification (GSEC), System Security certified practicioner (SSCP), and many more.`
+            },
+            {
+                type: 'p',
+                text: `The basic responsibilities of cyber security analysts are to keep a lookout for attacks, intrusions, and strange, forbidden, or illegal activities. Similarly, threat research analysts also have similar responsibilities like knowledge of security operations, network monitoring, intrusion or detection analysis, and threat attribute assessment. So most of the defensive security job profiles have similar job responsibilities.`
+            },
+            {
+                type: 'h3',
+                text: `9. Software Quality Tester`
+            },
+            {
+                type: 'p',
+                text: `Software quality tester are individuals who manually test software applications to ensure that the quality meets everyone’s expectations. `
+            },
+            {
+                type: 'p',
+                text: `In small QA teams, a software testing function may also involve other tasks like test authoring, test planning, and test status reporting. When application faults are discovered and an implementation deviates from the given product specification, testers will raise bugs.`
+            },
+            {
+                type: 'p',
+                text: `Major responsibilities of software manual tester are as follows:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Review the project requirements, specifications, and design and user documentation.`,
+                    `Based on the needs of the product, create functional test cases and test specifications.`,
+                    `Sanity, smoke, functional, and regression testing should be carried out.`,
+                    `Report bugs and analyse mistakes.`,
+                    `Assistance with test documentation, requirement analysis, and test design.`,
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `After a few years of experience, individuals must learn programming languages in order to automate testing. The average yearly income for manual testing in India is INR 4.5 LPA, with salaries ranging from INR 1.4 LPA to 14.4 LPA.`
+            },
+            {
+                type: 'h3',
+                text: `10. Cloud engineer`
+            },
+            {
+                type: 'p',
+                text: `IT specialists known as “cloud engineers” are in charge of constructing and managing the cloud infrastructure for their company. They may perform more specialised tasks like developing programmes to use cutting-edge platform technology or designing solutions.`
+            },
+            {
+                type: 'p',
+                text: `A cloud engineer is in charge of a number of activities, including assessing a company’s cloud infrastructure and monitoring its capacity and scalability.`
+            },
+            {
+                type: 'p',
+                text: `Responsibilities of the cloud engineer:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Use best practises to build and maintain cloud-based solutions.`,
+                    `Make sure that information storage and processing operations are carried out effectively and in compliance with the company’s security policies and industry best practises for cloud security.`,
+                    `Identify, analyse, and resolve infrastructure flaws and issues with application deployment.`,
+                    `Regularly review present systems, then propose upgrades.`,
+                    `Engage with clients, provide cloud support, and offer guidance depending on their requirements.`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `There are several certifications available for cloud engineers; some of the certifications don’t require experience, like the AWS Certified Cloud Practitioner, the Microsoft Certified Azure Fundamentals, and the Google Cloud Platform (GCP) Certificate. `
+            },
+            {
+                type: 'p',
+                text: `These beginner-level certification don’t require coding knowledge, but if you want to pursue professional or associate level certifications, you’ll need to know how to code. `
+            },
+            {
+                type: 'p',
+                text: `Similarly, there are other certifications that are also available for experienced candidates, like AWS certified solutions architect associate, Google professional cloud architect, AWS certified developer associate, Microsoft Certified Azure administrator associate, and many more.`
+            },
+            {
+                type: 'p',
+                text: `Virtualization is also a part of cloud computing, so candidates can build their careers as virtualization engineers. Several certifications are available for virtualization, like VMware Certified Technical Associate (VCTA) and VMware Certified Professional (VCP). `
+            },
+            {
+                type: 'p',
+                text: `With less than one year of experience to seven years of experience, the average yearly income for a cloud engineer in India is INR 5.4 LPA.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion:`
+            },
+            {
+                type: 'p',
+                text: `In this blog, we have seen all the beginner and professional levels of IT jobs and their relevant certifications without having knowledge of coding. Few of the IT job positions don’t need certification to get in, but someone who has a relevant certificate will help them get a better job and salary.`
+            },
+            {
+                type: 'p',
+                text: `At Networkers Home, we provide certification for the networking domain, the cloud computing domain, and the cyber security domain and guide individual candidates to build their skills and knowledge according to their interests.`
+            },
+            {
+                type: 'p',
+                text: `Depending on your area of interest, you can sign up for any one of these courses. We are always open to guide you.`
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "Welcome to Asia’s Biggest Cisco Labs",
+            description: 'One of the best platforms for online training institutes is Networkers Home. We have always been renowned for providing top-notch Cisco Certification training. We pledge to provide the best service while utilising the biggest Cisco laboratories in Asia.',
+            og_img: '/assets/images/blog/21.webp',
+        },
+        slug: 'welcome-to-asia-biggest-cisco-labs',
+        category: {
+            title: "Cisco",
+            slug: 'cisco'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/21.webp'
+            },
+            {
+                type: 'h1',
+                text: "Welcome to Asia’s Biggest Cisco Labs",
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `One of the best platforms for online training institutes is Networkers Home. We have always been renowned for providing top-notch Cisco Certification training. We pledge to provide the best service while utilising the biggest Cisco laboratories in Asia.`
+            },
+            {
+                type: 'p',
+                text: `Networkers Home provides us with access to the largest Cisco laboratories in Asia. The list of these Cisco laboratories is as follows:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `A CCNA lab`,
+                    `A CCNP lab`,
+                    `Labs for Cisco SD - WAN`,
+                    `Labs for MPLS, OSPF, BGP, and EIGRP`,
+                    `Fortigate firewall lab`,
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `With us, you can access the largest Cisco laboratories. In addition to having the most recent lab technologies, our labs are also up-to-date with current industry requirements.`
+            },
+            {
+                type: 'p',
+                text: `It makes it easier for students to get their certification without any bother in the modern world where everyone wants to learn via the Internet. You will have unrestricted access to Cisco labs as part of the online training, and our highly qualified instructors will provide you with the necessary support.`
+            },
+            {
+                type: 'p',
+                text: `We offer both theoretical and practical knowledge for every subject so that students will grasp how the material is applied in the real world. So, with us, you will get proper guidance and can complete certifications from home without any hassle.`
+            },
+            {
+                type: 'p',
+                text: `Let’s examine each lab for the courses one by one that we have mentioned above.`
+            },
+            {
+                type: 'h3',
+                text: `Cisco CCNA Practie Lab:`
+            },
+            {
+                type: 'p',
+                text: `At Networkers Home, we are having a virtual lab simulation for CCNA. In the CCNA lab it consists of heavy lab equipment, but in the virtual lab everything is present in online labs. Labs have all the equipment needed virtually. `
+            },
+            {
+                type: 'p',
+                text: `There are numerous virtual lab simulators and emulators for networking that can be used to gain hands-on experience with routing and switching. All of these tools are used to test networking technologies before deploying them in the real world.`
+            },
+            {
+                type: 'p',
+                text: `A Few of the common virtual lab simulators include:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Cisco packet tracer`,
+                    `Boson NetSim(Network Simulator)`,
+                    `GNS3`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `Cisco Packet Tracer simulates network toplogies consisting of Cisco switches, firewalls, routers, and many more. The Packet Tracer is a fantastic simulator for anyone working for an entry-level Cisco certification, such as the CCNA or CCNP. It was initially created as teching tool for Cisco’s Networking Academy (better known as NetAcad).`
+            },
+            {
+                type: 'img',
+                src: '/assets/images/blog/21.1.png'
+            },
+            {
+                type: 'p',
+                text: `Boson NetSim (Network Simulator) is recognised for its rigorous practise examinations and coursework for Cisco certification exams. Another important Boson product is NetSim, an application that simulates Cisco network switches and routers.`
+            },
+            {
+                type: 'p',
+                text: `GNS3 Graphical Network Simulator-3 is a network software emulator that emulates the functions of virtual and real devices, which helps to practise complex networks. A simulator is designed to simulate an environment with all of the software configurations and variables that will be present in the actual production environment for an app.`
+            },
+            {
+                type: 'p',
+                text: `In the CCNA lab, we will learn configuration and troubleshooting of  interswitch, LLDP, routing, and subnetting exercises. The CCNA 200-301 labs will teach you about Cisco Packet Tracer software, and you may quickly become comfortable with the Cisco iOS version 15 router and switch commands in the CCNA test with the help of these labs.`
+            },
+            {
+                type: 'p',
+                text: `Our CCNA labs include the following features:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Candidates for the CCNA certification can analyse configuration and troubleshoot problems in a real - world setting using the Cisco network simulator software.`,
+                    `To obtain practical expertise, use structured laboratories designed by our top - tier network engineers with over 10 years of industry experience.`,
+                    `The biggest virtual labs are those for the CCNA.`,
+                    `Until the end of your course, our labs are available all the time.`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `You can also have access to our special training. Enroll today to receive all these advantages.`
+            },
+            {
+                type: 'h3',
+                text: `Cisco CCNP Practical lab:`
+            },
+            {
+                type: 'p',
+                text: `The CCNP (Cisco Certified Network Professional) labs are equipped with most recent GNS3 technology in our labs. The CCNP lab exercises include the following:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Multicast address / IGMP / PIM and Layer 2 switches`,
+                    `Layer 3 MPLS(Mulprotocol Label Switching) `,
+                    `GRE tunnel / GRE practise`,
+                    `Console Security / VTY Security, Password Encryption`,
+                    `QoS(Quality of Service)`,
+                    `Implementation of NAT`,
+                    `Optimizing OSPF, BGP, and EIGRP`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `Here at Networkers Home, we provide both CCNP ENCOR and ENARSI configuration labs. These labs are easily accessible virtually from your house.`
+            },
+            {
+                type: 'h3',
+                text: ` Labs for Cisco SD-WAN:`
+            },
+            {
+                type: 'p',
+                text: `The Cisco SD-WAN course gives students the abilities and information required to set up, manage, configure, and troubleshoot Cisco SD-WAN solutions. `
+            },
+            {
+                type: 'p',
+                text: `In this course, we will covers the installation of Cisco SD-WAN in single-site and multi-site deployments, initial configuration, ongoing management, and troubleshooting of typical issues.`
+            },
+            {
+                type: 'p',
+                text: `We provide benefits to candidates that are mentioned below:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Internet - based lab access for every student for a month, with unlimited SD - WAN lab access.`,
+                    `It provides complete, end - to - end coverage of every CCNP Enterprise IT Certification need.`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `The Cisco SD-WAN labs contain a tonne of practical sessions. The topics covered in SD-WAN labs are:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Dashboard and tools for vManage`,
+                    `Configuration of OMP, OSPF, BGP`,
+                    `Multi - Topology using Route filtering `,
+                    `Zero - touch provisioning lab`,
+                    `Configuration and Verification of VRRP, VPN`,
+                    `Control policy lab`,
+                    `Control policy - Firewall `,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Labs for MPLS, OSPF, BGP, and EIGRP:`
+            },
+            {
+                type: 'p',
+                text: `We even have the finest laboratory in Asia for practising routing protocols. We will talk about each of these labs to learn more about their features. Let’s start by discussing each of them individually.`
+            },
+            {
+                type: 'h4',
+                text: `MPLS Lab:`
+            },
+            {
+                type: 'p',
+                text: `MPLS stands for Multi Protocol Label Switching. It is an IP packet routing method that uses labels to route IP packets along paths rather than looking at routers’ sophisticated routing tables. This function aids in speeding up IP packet discovery. `
+            },
+            {
+                type: 'p',
+                text: `MPLS utilises a router as a forwarding device and a layer 3 service, or Internet Protocol. Because MPLS functions somewhat like a VPN, the traffic of various clients is kept apart from one another.`
+            },
+            {
+                type: 'p',
+                text: `Additionally, we teach our students how to set up MPLS labs. The Cisco Packet Tracer is frequently used to configure MPLS. Our package includes various of a network simulators for beginners. Of course, as technology improves, we will also improve our lab exercises.`
+            },
+            {
+                type: 'p',
+                text: `We at Networkers Home do our best to give you access to cutting-edge labs. In a virtual setting, our labs are intended to be the biggest in Asia.`
+            },
+            {
+                type: 'h3',
+                text: `OSPF Lab:`
+            },
+            {
+                type: 'p',
+                text: `OSPF stands for Open Shortest Path First is a link-state routing protocol based on the Shortest Path First (SPF) algorithm that was created for IP networks. As one of the Interior Gateway Protocols (IGP), or the protocol that tries to move the packet within a huge autonomous system or routing domain, OSPF is designed by the Internet Engineering Task Force (IETF).`
+            },
+            {
+                type: 'p',
+                text: `OSPF utilises the multicast addresses 224.0.0.5 and 224.0.0.6 for routine communication and updating the designated router (DR) and backup designated router, respectively (BDR).`
+            },
+            {
+                type: 'p',
+                text: `We show our students how to set up OSPF on any Cisco device in our OSPF module. To simulate the OSPF virtual labs, we use the Cisco Packet Tracer. The OSPF setting is really easy and straightforward. However, RIP and EIGRP settings are difficult to configure and become a little hassle to configure. `
+            },
+            {
+                type: 'p',
+                text: `But the only OSPF configuration we ever test is on Cisco hardware. It is crucial to configure OSPF since understanding it is crucial. On your laptop or PC, you can remotely visit our largest OSPF laboratories at your leisure.`
+            },
+            {
+                type: 'h3',
+                text: `BGP Lab:`
+            },
+            {
+                type: 'p',
+                text: `BGP stands for Border Gateway Protocol (BGP), and it deals with the concepts of internal BGP (IBGP) and external BGP (EBGP). `
+            },
+            {
+                type: 'p',
+                text: `Our candidates are taught how to setup BGP labs in Cisco Packet Tracer in this section. The most challenging routing protocol to learn is BGP. So, our goal here is to make it as simple to master as possible.`
+            },
+            {
+                type: 'p',
+                text: `The BGP lab will teach you how to configure BGP, troubleshoot or resolve BGP issues, modification of BGP, communities, the origin of BGP, and much more. You will be most effective at configuring BGP once you have access to all of these BGP components. The largest BGP labs you will ever work with are here at our facility.`
+            },
+            {
+                type: 'h3',
+                text: `EIGRP Lab:`
+            },
+            {
+                type: 'p',
+                text: `EIGRP stands for Enhanced Interior Gateway Routing Protocol. Compared to older network protocols like Interior Gateway Routing Protocol (IGRP) or Broader Gateway Protocol, Enhanced Interior Gateway Routing Protocol (EIGRP) allows routers to communicate information more quickly (BGP).`
+            },
+            {
+                type: 'p',
+                text: `In this EIGRP lab you will learn the following:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Good understanding of the EIGRP concept`,
+                    `Implementing EIGRP`,
+                    `Learn how to optimise EIGRP`,
+                    `Learn how to troubleshoot EIGRP`,
+                    `Understand the EIGRP design.`,
+                    `Learn how to scale, limit queries, and improve the convergence of EIGRP.`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `You are going to be productive configuring EIGRP once you have access to all of these EIGRP components. You can work with the largest lab ever at our center.`
+            },
+            {
+                type: 'h3',
+                text: `FortiGate Firewall Lab:`
+            },
+            {
+                type: 'p',
+                text: `Networks are protected from internet attacks by Fortinet’s very advanced security firewall, FortiGate. Global corporations entrust FortiGate with safeguarding their infrastructure and networks. Understanding how to install, configure, administer, and troubleshoot FortiGate network firewalls is crucial to preventing cyberattacks.`
+            },
+            {
+                type: 'p',
+                text: `The fundamentals of firewall usage, including routing, VPNs, user authentication, and firewall policies, will be covered. Students will gain knowledge about web filters and efficient application control to secure their users.`
+            },
+            {
+                type: 'p',
+                text: `Networkers Home can guide you in succeeding in a variety of network protection courses and offers Advanced Level Certifications for highly qualified Cisco engineers. One of our best-improved training modules is our FortiGate Firewall course, which leaves out all the essential equipment a network security expert should be familiar with.`
+            },
+            {
+                type: 'p',
+                text: `Anyone interested in learning about the setup and administration of the FortiGate Firewall, or those who are new to network security and want to advance their skill set, can enrol in this course. To take this course, students must have at least CCNP certification. Additionally, it is advised to have a solid understanding of routing ideas, firewall fundamentals, and network and security protocols.`
+            },
+            {
+                type: 'p',
+                text: `What you will learn in the FortiGate Firewall lab is as follows:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Configuration and verification of VLAN, DNS, DNS Server, Static & Default Route, Dynamic Protocol RIP, Dynamic Protocol OSPF, DHCP server.`,
+                    `Recognize the Policy, Source, Interface NAT`,
+                    `Learn the concept of High Availability(HA) Active - Passive, Active - Active lab`,
+                    `Learn the concept of Site - to - Site IPSec Route - Based VPNs, Policy - Based VPNs.`,
+                    `Learn how to implement remote access SSL VPN web portal, remote access IPSec VPN`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `You may learn how to set up a FortiGate firewall from scratch with the helps of our FortiGate Firewall course.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion: `
+            },
+            {
+                type: 'p',
+                text: `It is essential to have solid practical experience using networking ideas. Everything is made possible by the largest virtual networking laboratory we have. The ability to access our lab from any location while taking any course is its most notable feature.`
+            },
+            {
+                type: 'p',
+                text: `You have unlimited access to these labs until the end of your course. The largest and best labs in Asia are those of ours. Since we give our learners the most intelligent training available, they are successful wherever they go.`
+            },
+        ]
+    },
+    {
+        seo: {
+            title: "Why Networking Devices is the only skill you really need",
+            description: 'According to each person’s area of interest, networking offers a large ocean of prospects that can lead to finally landing the dream jobs. A wide variety of gadgets are used in networking to start and aid effective fieldwork. ',
+            og_img: '/assets/images/blog/22.webp',
+        },
+        slug: 'why-networking-devices-is-the-only-skill-you-really-need',
+        category: {
+            title: "Computer Networks",
+            slug: 'computer-networks'
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/22.webp'
+            },
+            {
+                type: 'h1',
+                text: "Why Networking Devices is the only skill you really need",
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: "According to each person’s area of interest, networking offers a large ocean of prospects that can lead to finally landing the dream jobs. A wide variety of gadgets are used in networking to start and aid effective fieldwork. In the field of networking, there are many different gadgets that all strive toward making this happen. Let’s now examine each of these gadgets closely to discover how they function and what purpose they serve.",
+            },
+            {
+                type: 'p',
+                text: `In  networking, lots of devices are used to implement the networking topologies in organizations. Most of the important devices, such as hubs, switches, routers, bridges, gatways, and many more, will be discussed in this blog.`
+            },
+            {
+                type: 'p',
+                text: `Networking skills will help students in most of the courses and also help them get started in IT domains. If a person starts their career in the developer domain, cyber security domain, or cloud computing domain, then students should have good command of the networking domain.`
+            },
+            {
+                type: 'h2',
+                text: `The Top Network Hardware Devices for Networking`
+            },
+            {
+                type: 'h3',
+                text: `1. Hub`
+            },
+            {
+                type: 'p',
+                text: `A hub is a kind of networking device that connects several networking nodes by way of the physical layer. They are frequently used to connect computer in a LAN.`
+            },
+            {
+                type: 'p',
+                text: `A hub contains a lot of ports. In order to connect to the network, a computer is connected into one of these ports. Data frames are broadcast to all ports when they arrive at a port, regardless of whether they are destined there or not.`
+            },
+            {
+                type: 'p',
+                text: `It is a network device that lacks intelligence and broadcasts messages to all ports. It broadcasts messages basically. Half-duplex transmission is the mode. There is no software connected to them; they are passive devices. When multiple computers send data to the same port at once, collisions may happen during setup of the transmission.`
+            },
+            {
+                type: 'h4',
+                text: `Types of Hubs:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Passive Hub`,
+                    `Active Hub`,
+                    `Intelligent Hub`,
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Advantages of Hub:`
+            },
+
+            {
+                type: 'list',
+                items: [
+                    `Due to its low cost, anyone can utilise it.`,
+                    `It is simple to link a wide range of media types.`,
+                    `The performance of the network is unaffected by the deployment of a hub.`,
+                    `It can also increase the network’s overall distance.`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Disadvantages of Hub:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `It excludes components like collision detection.`,
+                    `It cannot be separated into segment and is unable to operate in full-duplex mode.`,
+                    `It has no mechanism; therefore, it can be used to reduce network traffic.`,
+                    `As it sends packets to every connected segment, it is unable to filter the data.`,
+                    `As it sends packets to every connected segment, it is unable to filter the data.`,
+                    `Also, it cannot join different network designs such as a ring, token, ethernet, and others.`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `2. Switches`
+            },
+            {
+                type: 'p',
+                text: `In the OSI model, switches are networking components that operate at layer 2, or the data link layer. They establish connections between networked devices and employ packet switching to transmit, receive, either forward data packets or frames over the network.`
+            },
+            {
+                type: 'p',
+                text: `Every data frames that enters one of the ports of a network switch is evaluated for its destination address, any necessary checks are performed, and the frame is then sent to the proper device. Broadcast, multicast, and unicast communications are all made possible.`
+            },
+            {
+                type: 'h4',
+                text: `Types of Switches:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Unmanaged Switch`,
+                    `Managed Switch`,
+                    `LAN Switch`,
+                    `PoE Switch`,
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Advantages of Switching:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `The network’s bandwidth is increased by the switch.`,
+                    `By lowering network traffic, it improves the network’s overall performance.`,
+                    `As the switch builds the collision domain for each connection, there will be fewer frame collisions.`,
+                    `The devices that have been addressed receive information, which minimises the stress on individual PCs.`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Disadvantages of Switching:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Network bridges are less expensive than switches.`,
+                    `Switches are unable to quickly identify network connectivity problems.`,
+                    `Multicast packet handling requires proper switch design and configuration.`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `3. Router`
+            },
+            {
+                type: 'p',
+                text: `The layer 3, or network layer, of the OSI model is where routers operate as networking devices. Receiving, analysing, and transmitting data packets between the connected computer networks is their responsibility.`
+            },
+            {
+                type: 'p',
+                text: `Upon receiving a data packet, the router examines the destination address, check its routing databases to determine the best route, and then sends the packet along that same route. A routing table is present in routers and is periodically updated in response to network changes. `
+            },
+            {
+                type: 'p',
+                text: `It makes use of a routing protocol and checks the table to transmit data packets. In comparison to switches, hubs, bridges, and other networking equipment, routers are more expensive.`
+            },
+            {
+                type: 'h4',
+                text: `Types of Routers: `
+            },
+            {
+                type: 'list',
+                items: [
+                    `Wireless Router`,
+                    `Broadband Router`,
+                    `Core Router`,
+                    `Edge Router`,
+                    `Brouters`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Advantages of Routers: `
+            },
+            {
+                type: 'list',
+                items: [
+                    `Routers incorporate bundle filtering, which includes parcel separation and bundle exchanging. Routers use a number of separation rules to channel an organisation.`,
+                    `Using a single IP address and a selection of UDP ports, NAT enables routers to share an association.`,
+                    `Using dynamic routing algorithms, it may select the most advantageous route over the internetwork.`,
+                    `By establishing collision domains and broadcast domains, it can minimise network traffic.`,
+                    `Enabling the feedback loop will make redundant pathways available.`,
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Disadvantages of Routers:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `A router costs more than a bridge or a repeater.`,
+                    `Not all network protocols are routable, and only those that are work with routers.`,
+                    `As a result of the need to examine data transmitted from the physical to the network layer, the router is slower than a bridge or repeater.`,
+                ]
+            },
+
+            {
+                type: 'h3',
+                text: `4. Bridges`
+            },
+            {
+                type: 'p',
+                text: `When two subnetworks that use different protocols need to be connected, bridges are used. It combines two LANs to create an extended LAN. All packets are accepted by a bridge, which then amplifies and transmits them to the other side. The bridges are clever devices that only permit specific packets from them to flow. A bridge only allows packets from one network node to another to pass through.`
+            },
+
+            {
+                type: 'h4',
+                text: `Types of Bridges:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Source Routing Bridges`,
+                    `Transparent Bridges`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Advantages of Bridges:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `It supports the expansion of the physical network.`,
+                    `With minimal segmentation, it lowers network traffic.`,
+                    `It establishes distinct collision domains. As fewer nodes share a collision domain, the available bandwidth for individuals nodes grows.`,
+                    `There are fewer collisions.`,
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Disadvantages of Bridges:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `It takes longer than repeaters because of filtering.`,
+                    `Broadcasts are not filtered by it.`,
+                    `In comparison, it costs more than repeaters.`,
+                ]
+            },
+
+            {
+                type: 'h3',
+                text: `5. Repeater`
+            },
+            {
+                type: 'p',
+                text: `In the process of amplifying or regenerate a signals coming before retransmitting it, repeaters are network devices that operate at the physical layer of the OSI model.`
+            },
+            {
+                type: 'p',
+                text: `Depending on the technology or the channel’s characteristics, an electrical signal delivered across a channel weakens. The signal is amplified by repeaters before being retransmitted. Even signals that have been distorted by transmission loss can be recreated by digital repeaters. Therefore, repeaters are frequently used to connect two LANs and create a big single LAN.`
+            },
+            {
+                type: 'h4',
+                text: `Types of Repeater:`
+            },
+            {
+                type: 'p',
+                text: `There are many different types of repeaters available, and each one serves a specific purpose in networking. Similarly to how different types of signals regenerate using different repeaters, different types of networks and LAN domains use different repeaters.`
+            },
+            {
+                type: 'p',
+                text: `For signals to regenerate, two types of repeaters are used:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Analog Repeaters`,
+                    `Digital Repeaters`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `For the different types of networks that they connect, two types of repeaters are used:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Wired Repeaters`,
+                    `Wireless Repeaters`,
+                ]
+            },
+
+            {
+                type: 'p',
+                text: `For different LANs domains, they use two types of repeaters:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Local Repeaters`,
+                    `Remote Repeaters`,
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Advantages of Repeaters:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Repeaters may easily increase the length or coverage area of networks and are easy to deploy.`,
+                    `They are reasonably less costly.`,
+                    `Repeaters don’t need any extra processing. If performance declines, that is the only situation in which they need to be looked into.`,
+                    `Signals can be connected via a variety of cables`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Disadvantages of Repeaters:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Repeaters are unable to link diverse networks.`,
+                    `They cannot differentiate between signal and noise.`,
+                    `They are unable to lessen network congestion or traffic.`,
+                    `The number of repeaters that can be placed on the majority of networks is limited.`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `6. Modem`
+            },
+            {
+                type: 'p',
+                text: `The digital data streams are transformed into analogue data signals via a modem. The signal between your phone connection and your computer is modulated and demodulated by the modem. Modulation and demodulation are hence abbreviated as “modem”.`
+            },
+            {
+                type: 'p',
+                text: `When you try to upload data from your home computer to the internet, the modem receives the digital signal and converts it into an analogue signal that the phone network can use.`
+            },
+            {
+                type: 'p',
+                text: `In a similar way, when computers request data from the internet, the modem receives the analogue data transmission over the phone and transforms it into a digital signal that the computer can use.`
+            },
+            {
+                type: 'h4',
+                text: `Advantages of Modem:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Your system’s connection to the internet, or “world wide web” depends heavily on your modem.`,
+                    `Fax transmission and reception are both possible with modern modems.`,
+                    `As the number of services offered by the modem increases, so does its price.`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `7. Gateway`
+            },
+            {
+                type: 'p',
+                text: `A gateway is a telecommunications network mode that joins two networks using various transmission protocols. A gateway acts as a network’s entry and exit points because all data must travel through it or connect with it before being forwarded.`
+            },
+            {
+                type: 'p',
+                text: `A gateway is frequently described as being made up of a modem and a router. Regardless of whether data is transferred internally or outside, the gateway manages all network traffic. It is implemented at the network’s edge. When a network wants to communicate with another, the data packet is sent to the gateway, where it is then routed via the most efficient path to the desired location.`
+            },
+            {
+                type: 'h4',
+                text: `Types of gateway:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Unidirectional Gateways`,
+                    `Bidirectional Gateways`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Advantages of Gateway:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Gateway offers improved connectivity to many networks, and it also aids in network scaling by connecting several computers and other systems.`,
+                    `The gateway can intercept all information from computers and other systems, allowing your network to be more flexible.`,
+                    `Another important capability of a gateway is filtering which it can carry out by analysing each data packet as it passes through the gateway.`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Disadvantages of Gateway:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Network gateways require extra time to translate the information; hence, they cannot send information instantly.It accesses older cached information that has not been cleared.As a result, it can take longer to produce an accurate result.`,
+                    `Over the network that connects them, every computer uses a unique protocol.Every computer has to conduct its own troubleshooting whenever a problem arises.`,
+                    `By default, gateways are set up on the router.Installing them is becoming increasingly challenging for network administrators.As a result, its cost can go up.`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `8. Wireless LAN Controller`
+            },
+            {
+                type: 'p',
+                text: `A Wireless LAN Controller (WLC) is a centrally located network device that the network administrator or network operations centre uses in conjunction with the Lightweight Access Point Protocol (LWAPP).`
+            },
+            {
+                type: 'p',
+                text: `These network access points, often known as “fat” access points, are controlled, run, and configured separately. The WLC manages the wireless access point settings automatically.`
+            },
+            {
+                type: 'h4',
+                text: `Advantages of Wireless LAN Controller:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `With the use of a wireless controller, all the access points can be configured at once.`,
+                    `Client service cannot be offered by access points that are not linked to the wireless controller.`,
+                    `To stop malicious access points from being on the network, WLC can authenticate access points.`,
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Disadvantages of Wireless LAN Controller:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `The data transfer rate drops as there are more connected devices.`,
+                    `Communication may be hindered by rain or thunder.`,
+                    `Because of its low security, it allows attackers to view the transmitted data.`,
+                    `In comparison to employing fibre optics, the environment may potentially harm signals.`,
+
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `9. Access Point`
+            },
+            {
+                type: 'p',
+                text: `The Wireless Local Area Network (WLAN), which is frequently used in large offices and structures with enlarged business, is created by a Wireless Access Point (WAP).`
+            },
+            {
+                type: 'p',
+                text: `The wired networks are linked to the wireless client by a wireless AP. Mobile users may access the network more easily, which boosts productivity and lower infrastructure costs.`
+            },
+            {
+                type: 'p',
+                text: `A wireless access point (WAP) is a piece of hardware or a set-up LAN node that facilitates Bluetooth or Wi-Fi communication between wired networks and wirelessly enabled devices. Devices can connect to the internet or a network more easily thanks to WAPs’ radio transmitters and antennae.`
+            },
+
+
+            {
+                type: 'h4',
+                text: `Advantages of Access Point:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Access is increased, so more user can able to connect.`,
+                    `Transmission range is increased, access point can provide up to 100 - 300 metres of coverage.`,
+                    `It provides versatile networking.`,
+                    `It gives permission to connect multiple access points.`,
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Disadvantages of Access Point:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `High price`,
+                    `Not suitable to use alone for personal use.`,
+                    `Terrible stability`,
+                ]
+            },
+            {
+                type: 'h3',
+                text: `10. Load Balancer`
+            },
+            {
+                type: 'p',
+                text: `A load balancer serves as the “traffic police” at the front of all servers, distributing client requests across all servers equipped to handle them in a way that maximises speed and capacity utilisation and makes sure that no server is overworked, which can result in performance degradation.`
+            },
+            {
+                type: 'p',
+                text: `The load balancer routes traffic to the active servers in case one server goes offline. The load balancer initiates requests to a new server when it is added to the server group.`
+            },
+
+            {
+                type: 'h4',
+                text: `Advantages of a Load balancer:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Can evenly distribute the work to the primary service server.`,
+                    `Minimize service interruptions.`,
+                    `Access to services is made faster because it can route requests to servers that want quick responses.`,
+
+                ]
+            },
+            {
+                type: 'h4',
+                text: `Disadvantages of a Load balancer:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Increases the price when two or more servers are needed.`,
+                    `All of the virtual systems on the host server cannot be used if it has a problem.`,
+                    `A virus attack or a hacker will attempt to consolidation of all data onto a single server.`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Conclusion:`
+            },
+            {
+                type: 'p',
+                text: `We discussed the most commonly used networking devices in any organisation in this blog. Also, lots of other devices are used in networking. If a candidate takes a CCNA or CCNP course, they will learn in depth. In this course, every networking device that is used is described, like the routing tables of routers, how classful addresses work, subnetting, and many more.`
+            },
+            {
+                type: 'p',
+                text: `These abilities are useful in any IT field, whether the candidate is a developer, cloud engineer, or a cyber security analyst. Without a basic understanding of networking, candidates will not be able to understand any concept in depth. `
+            },
+            {
+                type: 'p',
+                text: `If a candidate wants to get a better salary, then they must have a basic understanding of networks. Best of luck!`
+            },
+
+        ]
+    },
+    {
+        seo: {
+            title: "Find out now, what should you do to grasp Linux fundamentals and core concepts",
+            description: 'Linus Torvalds created the linux operating systme as a research project at first. Computers all throughout the world utilise linux, an open source, free operating system. It’s particularly well-liked for use in servers.',
+            og_img: '/assets/images/blog/23.png',
+        },
+        slug: 'find-out-now-what-should-you-do-to-grasp-linux-fundamentals-and-core-concepts',
+        category: {
+            title: "",
+            slug: ''
+        },
+        content: [
+            {
+                type: 'img',
+                src: '/assets/images/blog/23.png'
+            },
+            {
+                type: 'h1',
+                text: `Find out now, what should you do to grasp Linux fundamentals and core concepts`
+            },
+            {
+                type: 'p',
+                isDesc: true,
+                text: `Linus Torvalds created the linux operating systme as a research project at first. Computers all throughout the world utilise linux, an open source, free operating system. It’s particularly well-liked for use in servers.`
+            },
+            {
+                type: 'p',
+                text: `Linux is supported by a wide range of hardware platforms, including Intel, AMD, Mac, Sun, Dec, Alpha. Linux is an important skill for Developer, Cyber security, Cloud computing, Networks engineer, etc.`
+            },
+            {
+                type: 'p',
+                text: `For developers that require a dependable, stable platform with open source code, linux is a suitable option. However, linux file systems differ in structure from those available on Windows or MacOS, begineers to linux may find it challenging to get started. Additionally, whereas the majority of personal computers use graphical user interfaces, linux-based operating systems mainly rely on using the command line interface.`
+            },
+            {
+                type: 'p',
+                text: `In this blog, we will see all the fundamental concepts of Linux and what skills and knowledge are required to master it. The following topics will be discussed in this blog:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Linux distribution system`,
+                    `Linux Command line`,
+                    `Filesystem or file operations`,
+                    `Various types of text editor`,
+                    `Shell scripting`,
+
+                ]
+            },
+            {
+                type: 'h3',
+                text: `Linux distributions system`
+            },
+            {
+                type: 'p',
+                text: `Linux is different from any other operating system; each part of Linux is developed by different organizations. Various sections of linux include the kernel, shell tools, X server, system environment, graphical applications, and so on.`
+            },
+            {
+                type: 'p',
+                text: `The popular linux distributions are Red hat enterprise, Debian, SUSE, Arch linux, and many more. Ubuntu, Linux mint, Raspbian, Kali, Backtrack all are debian based linux operating system. Red hat based linux operating systems such as, CentOS, Fedora core, Oracle linux, CERN, etc are mostly used.`
+            },
+            {
+                type: 'p',
+                text: `SUSE is a worldwide open-source software firm with headquaters in Germany that creates and markets linux products to corporate clients. SuSE was founded in 1992, they have build lots of linux products and operating system such as, SUSE linux enterprise server, openSUSE, SUSE linux enterprise desktop.`
+            },
+            {
+                type: 'p',
+                text: `Arch linux is an independently developed linux distribution, the Arch linux project was initiated by Judd Vinet in march 2002. Using Arch linux different types of linux operating systems are build such as BlackArch, Chakra, Arch linux 32, Arch linux ARM, etc.`
+            },
+            {
+                type: 'h3',
+                text: `Linux Command line`
+            },
+            {
+                type: 'p',
+                text: `A command line is an interface that accepts lines of text and transforms them into instructions for your computer. We can execute both simple and complex jobs through its terminal. We can perform some simple operations like adding, removing, and moving files. Additionally, we are capable of performing complex jobs including administrative chore (such as user management and package installation), networking operations (such as ssh connections), security tasks, etc.`
+            },
+            {
+                type: 'p',
+                text: `Let’s check out 10 mostly used linux commands in our day-to-day life:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `pwd – Command used to print current working directory`,
+                    `mkdir – This command used to create directories in linux`,
+                    `touch – Its create blank files`,
+                    `echo – Print the text, that provided in command`,
+                    `cat – It help to show the file contents`,
+                    `man – Provides an access to manual pages or use of all commands`,
+                    `ls – The directories will all be listed by this command`,
+                    `cp – Use to copying files`,
+                    `mv – To move files from one directory to other directories`,
+                    `rm – To remove / delete the files or directories`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `There are lots of other commands are also available such as less, whoami, tar, uname, In, grep, head, diff, cmp, sort, export, zip, unzip, ssh, service, traceroute, ifconfig, iwconfig, iptables, wget, and many more.`
+            },
+            {
+                type: 'p',
+                text: `The linux file system is a group of data and/or files that are kept on a computer’s hard drive or storage. Your computer depends on this file system to identify the position and location of files in your storage; if it weren’t there, the files would act as though they were invisible, which would obviously result in a lot of issues.`
+            },
+            {
+                type: 'p',
+                text: `In fact, there are a variety of file systems available for linux; the base of every linux file system is known as root and also denoted as a slash (/). `
+            },
+            {
+                type: 'p',
+                text: `The root directory contains of several file system such as: `
+            },
+            {
+                type: 'list',
+                items: [
+                    `bin – command binaries`,
+                    `boot – It show the static files of boot loader`,
+                    `dev – device files`,
+                    `etc – host - specific system config`,
+                    `lib – Essential shared libraries`,
+                    `mnt – Mount point for mounting temp filesystem`,
+                    `opt – Add - on application software`,
+                    `sbin – Essential system binaries`,
+                    `tmp – Temporary files`,
+                    `usr – Secondary hierarch`,
+                    `var – variable data`,
+                ]
+            },
+            {
+                type: 'p',
+                text: `There are different types of linux file system are available, if you want to check what type of file system is mounted into your linux distro then you can use df -T command in terminal. Let’s check different types of file system are use in linux. `
+            },
+            {
+                type: 'list',
+                items: [
+                    `Ext – Extended file system`,
+                    `Ext2 – Second extended file system, it helps to contains data upto 2 TB`,
+                    `Ext3 – Third extended file system, journaling file system records in a separate log`,
+                    `Ext4 – Fouth extended system, extension of the ext3 file system.Default file system for most of the linux OS such as Red hat enterprise.`,
+                    `Xfs – External file system`,
+                    `Jfs – Journaling file system`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `There are other file system are also available such as Btrfs, vfat, tmpfs. `
+            },
+            {
+                type: 'h3',
+                text: `Types of text editor`
+            },
+            {
+                type: 'p',
+                text: `A built-in text editor is included with every linux distribution. However, some editors include extra functions or a user-friendly interface. An application created for coding and editing in HTML, CSS, Javascript, PHP, and many other programming languages is referred to as a text editor, known as code editor.`
+            },
+            {
+                type: 'p',
+                text: `The majority of editors have options for search and replace, easy navigation, syntax highlighting, and other features.`
+            },
+            {
+                type: 'p',
+                text: `Let’s see different types of text editor available for linux user:`
+            },
+            {
+                type: 'list',
+                items: [
+                    `Vi editor – Vi editor is regarded as one of Linux’s most basic editors.Command mode and insert mode are Vi two default modes.`,
+                    `Gedit – The GNOME desktop environment includes the text editor Gedit.The simplicity of the design makes gedit a wonderful editor for newcomers.Gedit is a strong tool despite having a straightforward interface.`,
+                    `Emacs – The most capable editor available for linux is called emacs.The X - Windows version comes with a wide variety of menus and panels for setting preferences. `,
+                    `Nano editor – Nano comes with pre - loaded on most of linux os.For newbies, Nano is a great lightweight editor.For rapid setup changes, learning Nano is worthwhile because it is much simpler to use than Vi / Vim.`,
+
+                ]
+            },
+            {
+                type: 'p',
+                text: `Lots of other editors are also present for linux user such as; Atom, Visual studio code, Notepadqq, Brackets, Bluefish, gVim, Neovim, Pico, Lime, Kate, and many more.`
+            },
+            {
+                type: 'h3',
+                text: `Shell Scripting`
+            },
+            {
+                type: 'p',
+                text: `Shell scripting help to implement the process automation in linux. Nothing is more annoying than having to repeatedly type out lengthy commands. Shell scripts are straight forward text files that compile a list of shell commands into a useful “tool” that you can use rather than repeatedly putting them all in by hand.`
+            },
+            {
+                type: 'p',
+                text: `The GNU Bourne-Again shell is the standard shell for many linux distribution (bash). The startup script used by the shell when it is first launched may be found in the .bashrc or .bash profile file and allows you to modify how the shell behaves.`
+            },
+            {
+                type: 'p',
+                text: `A file containing a succession of the commands is called a bash script. The bash programme reads and processes these. The computer programme runs line by line.`
+            },
+            {
+                type: 'h3',
+                text: `Conclusion`
+            },
+            {
+                type: 'p',
+                text: `Linux is a very important skill for those who are working or want to work in the cloud computing, networking, or cyber security domains. Because linux is mostly used in servers, anyone who wants to gain a thorough understanding of linux fundamentals and core concepts must master the skills listed above.`
+            },
+            {
+                type: 'p',
+                text: `The most important part of linux skills is shell scripting; if anyone wants to master shell scripting, then learn all the topics inside the bash shell. It will help to automate daily tasks.`
+            },
+            {
+                type: 'p',
+                text: `There are also some other skills one need to master, such as networking interface and configuration in Linux, the Boot Process in Linux, Native Linux Compilers, Software and Services, etc. When someone is taking a course like CCNA, CCNP, CEH, AWS or Azure, then they have to learn these concepts before learning their actual course. Furthermore, because linux is a lighter operating system than Windows or Mac, most professionals prefer to use Linux distributions.`
+            },
+            {
+                type: 'p',
+                text: `Keep learning and keep exploring!`
+            },
+        ]
+    }
 ]
 
 let temp = {
