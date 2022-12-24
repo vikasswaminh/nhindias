@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <Layout>
       <Seo
-        title="Best CCNA Course in Bangalore, india |CCNA Training. 100% Placement CCNA Certification course programs"
-        desc="Best CCNA Course in online and classroom format . CCNA Certification information, CCNA Full form, CCNA exam cost"
+        title="Best CCIE,CCNP and CCNA Training in india |CCIE course with 100% Placement CCNA Certification course programs"
+        desc="CCIE Training in online and classroom in India .India best CCIE Training school"
         og_img='https://www.networkershome.com/assets/images/logo.png'
         keywords="Networkers Home, networkershome, CCIE, CNCP"
       />
